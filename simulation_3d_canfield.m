@@ -1,1 +1,1 @@
-smimport('CanfieldAssembly.xml');
+smimport('CanfieldAssemblyV1.xml');
