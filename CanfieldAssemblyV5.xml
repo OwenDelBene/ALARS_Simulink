@@ -1,0 +1,1470 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="02/07/25||09:32:37" using="Simscape Multibody Link Version 7.4" from="SolidWorks 32.2.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="FixedCanfieldAssemblyV3" uid="FixedCanfieldAssemblyV3" version="430">
+<AssemblyFile name="FixedCanfieldAssemblyV3.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="Base Plate-1" uid="Base Plate-1" entityUid="Base Plate*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0.0050000000000000001 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Canfield Lower Arm Boss -003-1" uid="Canfield Lower Arm Boss -003-1" entityUid="Canfield Lower Arm Boss -003*:*Default">
+<Transform>
+<Rotation>0.49999999999999573 -2.0643824552481995e-15 0.86602540378444093 -0.34136397023995479 0.91903619067079567 0.19708658010967725 -0.79590868811819071 -0.39417316021935461 0.45951809533539317</Rotation>
+<Translation>0 0.25311349260041938 0.37931939264724057</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor Lever -001-1" uid="Motor Lever -001-1" entityUid="Motor Lever -001*:*Default">
+<Transform>
+<Rotation>1 -1.0202099445447073e-16 -1.1298244169147523e-16 1.0414676373816726e-16 0.99981990797939169 0.018977660764204041 1.1102597463167408e-16 -0.018977660764204041 0.99981990797939169</Rotation>
+<Translation>-0.0049250000000000092 0.028658757404543884 0.22041212895156334</Translation>
+</Transform>
+</Instance>
+<Instance name="Lever Arm -002-1" uid="Lever Arm -002-1" entityUid="Lever Arm -002*:*Default">
+<Transform>
+<Rotation>1 2.2301294932245497e-16 0 -2.1461766889850242e-16 0.99305198114688842 -0.11767651736961049 0 0.11767651736961049 0.99305198114688842</Rotation>
+<Translation>2.5000000000000408e-05 0.013981246203708025 0.21867284597893263</Translation>
+</Transform>
+</Instance>
+<Instance name="stepper motor nema 14-4" uid="stepper motor nema 14-4" entityUid="stepper motor nema 14*:*Default">
+<Transform>
+<Rotation>0 -0.86602540378443615 -0.50000000000000411 0.99999999999999989 0 -1.687190071659525e-16 1.9102822455816504e-16 -0.50000000000000422 0.86602540378443604</Rotation>
+<Translation>-0.10038926105543353 0.010000000000000009 -0.11120069931769347</Translation>
+</Transform>
+</Instance>
+<Instance name="Canfield Lower Arm -002-1" uid="Canfield Lower Arm -002-1" entityUid="Canfield Lower Arm -002*:*Default">
+<Transform>
+<Rotation>0.49999999999999678 0 0.86602540378444059 -0.34136397023995535 0.91903619067079589 0.19708658010967597 -0.79590868811819004 -0.39417316021935433 0.459518095335395</Rotation>
+<Translation>9.3573633612132235e-16 0.2241731385356899 0.31184338098396103</Translation>
+</Transform>
+</Instance>
+<Instance name="Canfield Lower Arm Crossbar -005-1" uid="Canfield Lower Arm Crossbar -005-1" entityUid="Canfield Lower Arm Crossbar -005*:*Default">
+<Transform>
+<Rotation>0.4999999999999995 1.1896644548692761e-16 0.86602540378443882 -0.34136397023995407 0.919036190670796 0.19708658010967653 -0.79590868811818871 -0.39417316021935361 0.45951809533539761</Rotation>
+<Translation>5.4523136648028224e-16 0.22417313853568982 0.31184338098396125</Translation>
+</Transform>
+</Instance>
+<Instance name="Canfield base -001-1" uid="Canfield base -001-1" entityUid="Canfield base -001*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0.16012000000000004 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Canfield Upper Arm Boss -004-1" uid="Canfield Upper Arm Boss -004-1" entityUid="Canfield Upper Arm Boss -004*:*Default">
+<Transform>
+<Rotation>-0.50000000000000355 -2.6356948397529102e-15 -0.86602540378443649 0.43504297701163114 -0.86466764956473874 -0.25117217988672114 -0.74882415035364192 -0.50234435977344272 0.43233382478237359</Rotation>
+<Translation>0 0.25311349260018712 0.37931939264739556</Translation>
+</Transform>
+</Instance>
+<Instance name="stepper motor nema 14-1" uid="stepper motor nema 14-1" entityUid="stepper motor nema 14*:*Default">
+<Transform>
+<Rotation>0 0 1 1 1.4791005877435141e-16 1.0416659176269374e-16 -1.2051351668573094e-16 0.99999999999999989 1.1102230246251565e-16</Rotation>
+<Translation>-0.046108000000000017 0.0099999999999999915 0.14254000000000022</Translation>
+</Transform>
+</Instance>
+<Instance name="Canfield Lower Arm -002-2" uid="Canfield Lower Arm -002-2" entityUid="Canfield Lower Arm -002*:*Default">
+<Transform>
+<Rotation>0.49999999999999634 3.4934893105492973e-16 0.86602540378444048 0.43504297701163186 0.86466764956473907 -0.25117217988671975 -0.74882415035364647 0.50234435977344261 0.43233382478236626</Rotation>
+<Translation>-2.2798817896948737e-15 0.29744769432390961 0.30300849305439742</Translation>
+</Transform>
+</Instance>
+<Instance name="Canfield top -007-1" uid="Canfield top -007-1" entityUid="Canfield top -007*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-3.1883080262526629e-15 0.37907865278714742 2.9857944678328586e-15</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor Lever -001-4" uid="Motor Lever -001-4" entityUid="Motor Lever -001*:*Default">
+<Transform>
+<Rotation>-0.500000000000003 0.016435136326202863 -0.86586943951957107 -2.7842311789427754e-15 0.99981990797939146 0.018977660764204485 0.86602540378443693 0.0094888303821047109 -0.49990995398969867</Rotation>
+<Translation>-0.18842000297426509 0.028658757404543801 -0.11447123958942065</Translation>
+</Transform>
+</Instance>
+<Instance name="Lever Arm -002-4" uid="Lever Arm -002-4" entityUid="Lever Arm -002*:*Default">
+<Transform>
+<Rotation>-0.500000000000003 -0.10191085347097939 -0.86000824295166722 -7.7417456126327444e-16 0.9930519811468862 -0.11767651736962867 0.86602540378443693 -0.058838258684813974 -0.49652599057344632</Rotation>
+<Translation>-0.18938873973559719 0.013981246203704611 -0.10931477235437269</Translation>
+</Transform>
+</Instance>
+<Instance name="Canfield Lower Arm Crossbar -005-4" uid="Canfield Lower Arm Crossbar -005-4" entityUid="Canfield Lower Arm Crossbar -005*:*Default">
+<Transform>
+<Rotation>0.43927714300308673 0.34136397023997073 -0.83096704595131221 -0.34136397023997184 0.91903619067078723 0.19708658010968688 0.83096704595131166 0.19708658010968882 0.5202409523322995</Rotation>
+<Translation>-0.27006428993413367 0.22417313853570012 -0.15592169049197652</Translation>
+</Transform>
+</Instance>
+<Instance name="Canfield Lower Arm -002-7" uid="Canfield Lower Arm -002-7" entityUid="Canfield Lower Arm -002*:*Default">
+<Transform>
+<Rotation>0.439277143003097 0.34136397023998444 -0.83096704595130089 -0.34136397023998355 0.91903619067078179 0.19708658010969207 0.83096704595130144 0.19708658010969035 0.52024095233231515</Rotation>
+<Translation>-0.27006428993413373 0.22417313853570081 -0.15592169049197468</Translation>
+</Transform>
+</Instance>
+<Instance name="Canfield Lower Arm Boss -003-4" uid="Canfield Lower Arm Boss -003-4" entityUid="Canfield Lower Arm Boss -003*:*Default">
+<Transform>
+<Rotation>0.93927714300308573 -0.34136397023998566 0.035058357833118191 -0.34136397023998299 -0.91903619067078168 0.1970865801096934 -0.035058357833143816 -0.19708658010968885 -0.97975904766769584</Rotation>
+<Translation>-0.32850023018058866 0.25311349260043264 -0.18965969632361274</Translation>
+</Transform>
+</Instance>
+<Instance name="Canfield Upper Arm Boss -004-4" uid="Canfield Upper Arm Boss -004-4" entityUid="Canfield Upper Arm Boss -004*:*Default">
+<Transform>
+<Rotation>0.39850073717355744 -0.43504297701164935 -0.80742477706902993 0.43504297701164557 0.86466764956472886 -0.25117217988673018 0.80742477706903193 -0.25117217988672369 0.53383308760882853</Rotation>
+<Translation>-0.3285002301807356 0.25311349260017862 -0.18965969632369722</Translation>
+</Transform>
+</Instance>
+<Instance name="Canfield Lower Arm -002-8" uid="Canfield Lower Arm -002-8" entityUid="Canfield Lower Arm -002*:*Default">
+<Transform>
+<Rotation>0.3985007371735565 -0.4350429770116479 -0.80742477706903126 0.43504297701164657 0.86466764956472897 -0.25117217988672835 0.80742477706903193 -0.25117217988672602 0.53383308760882753</Rotation>
+<Translation>-0.26241305254755753 0.29744769432390261 -0.15150424652719671</Translation>
+</Transform>
+</Instance>
+<Instance name="Canfield Lower Arm Boss -003-5" uid="Canfield Lower Arm Boss -003-5" entityUid="Canfield Lower Arm Boss -003*:*Default">
+<Transform>
+<Rotation>-0.43927714300310611 0.34136397023991438 0.83096704595132498 -0.34136397023990628 -0.9190361906708171 0.19708658010966043 0.83096704595132831 -0.19708658010964653 0.52024095233228873</Rotation>
+<Translation>0.32850023018060054 0.25311349260040389 -0.18965969632362742</Translation>
+</Transform>
+</Instance>
+<Instance name="Canfield Lower Arm -002-10" uid="Canfield Lower Arm -002-10" entityUid="Canfield Lower Arm -002*:*Default">
+<Transform>
+<Rotation>-0.8985007371735525 0.43504297701163386 -0.058600626715399166 0.43504297701163414 0.86466764956473685 -0.25117217988672291 -0.058600626715396738 -0.25117217988672347 -0.96616691239118413</Rotation>
+<Translation>0.26241305254755098 0.297447694323905 -0.1515042465271989</Translation>
+</Transform>
+</Instance>
+<Instance name="Lever Arm -002-6" uid="Lever Arm -002-6" entityUid="Lever Arm -002*:*Default">
+<Transform>
+<Rotation>-0.49999999999999062 0.10191085347102423 0.86000824295166889 -4.0462425077159021e-16 0.99305198114687998 -0.1176765173696802 -0.86602540378444404 -0.058838258684839342 -0.49652599057343061</Rotation>
+<Translation>0.18936373973559942 0.01398124620369063 -0.10935807362455958</Translation>
+</Transform>
+</Instance>
+<Instance name="Top plate-2" uid="Top plate-2" entityUid="Top plate*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.30000000000000321 0.36407865278714741 0.30000000000000371</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor Lever -001-6" uid="Motor Lever -001-6" entityUid="Motor Lever -001*:*Default">
+<Transform>
+<Rotation>-0.49999999999999228 -0.016435136325964717 0.86586943951958173 -2.1076890233118206e-15 0.99981990797939668 0.018977660763926523 -0.86602540378444326 0.0094888303819613152 -0.49990995398969068</Rotation>
+<Translation>0.19334500297427198 0.028658757404490032 -0.10594088936214525</Translation>
+</Transform>
+</Instance>
+<Instance name="Canfield Lower Arm -002-9" uid="Canfield Lower Arm -002-9" entityUid="Canfield Lower Arm -002*:*Default">
+<Transform>
+<Rotation>-0.93927714300311305 -0.34136397023991044 -0.035058357833125761 -0.34136397023991238 0.91903619067081721 0.19708658010965008 -0.035058357833105944 0.19708658010965363 -0.97975904766770439</Rotation>
+<Translation>0.27006428993414433 0.22417313853567819 -0.15592169049198612</Translation>
+</Transform>
+</Instance>
+<Instance name="stepper motor nema 14-6" uid="stepper motor nema 14-6" entityUid="stepper motor nema 14*:*Default">
+<Transform>
+<Rotation>0 0.86602540378444359 -0.49999999999999128 0.99999999999999989 0 0 0 -0.49999999999999134 -0.86602540378444348</Rotation>
+<Translation>0.14649726105543431 0.010000000000000004 -0.03133930068230581</Translation>
+</Transform>
+</Instance>
+<Instance name="Canfield Lower Arm Crossbar -005-5" uid="Canfield Lower Arm Crossbar -005-5" entityUid="Canfield Lower Arm Crossbar -005*:*Default">
+<Transform>
+<Rotation>-0.93927714300311771 -0.34136397023989928 -0.035058357833102571 -0.34136397023989723 0.91903619067082443 0.19708658010964236 -0.035058357833122236 0.19708658010963886 -0.97975904766770661</Rotation>
+<Translation>0.27006428993414644 0.22417313853567708 -0.15592169049198451</Translation>
+</Transform>
+</Instance>
+<Instance name="Canfield Upper Arm Boss -004-5" uid="Canfield Upper Arm Boss -004-5" entityUid="Canfield Upper Arm Boss -004*:*Default">
+<Transform>
+<Rotation>-0.89850073717355528 0.43504297701162808 -0.058600626715403649 0.43504297701162908 0.86466764956473696 -0.25117217988673113 -0.058600626715394961 -0.25117217988673324 -0.9661669123911818</Rotation>
+<Translation>0.32850023018072827 0.2531134926001824 -0.18965969632370172</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Coincident name="Coincident3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base Plate-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FixedCanfieldAssemblyV3</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident84">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base Plate-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FixedCanfieldAssemblyV3</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident86">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base Plate-1</Uid>
+</InstancePath>
+<Position>0 -0.0050000000000000001 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FixedCanfieldAssemblyV3</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Distance name="Distance2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Canfield base -001-1</Uid>
+</InstancePath>
+<Position>-0.19343099098075983 -0.015000000000000013 -0.2100000000000001</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base Plate-1</Uid>
+</InstancePath>
+<Position>0 0.0050000000000000001 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Coincident name="Coincident8">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Canfield base -001-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FixedCanfieldAssemblyV3</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident85">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Canfield base -001-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FixedCanfieldAssemblyV3</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident9">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base Plate-1</Uid>
+</InstancePath>
+<Position>0 0.0050000000000000001 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>stepper motor nema 14-1</Uid>
+</InstancePath>
+<Position>0 0 0.038607999999999996</Position>
+<Axis>-1 0 -1.4596632159430774e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident10">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Base Plate-1</Uid>
+</InstancePath>
+<Position>-0.0074999999999999997 0.0050000000000000001 0.14000000000000015</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>stepper motor nema 14-1</Uid>
+</InstancePath>
+<Position>0 0.032459999999999989 0.038608000000000003</Position>
+<Axis>0 -0.99999999999999989 -1.6653345369377348e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident12">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Base Plate-1</Uid>
+</InstancePath>
+<Position>-0.059999999999999998 0.0050000000000000001 0.17500000000000016</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>stepper motor nema 14-1</Uid>
+</InstancePath>
+<Position>0 0.032459999999999989 0.038608000000000003</Position>
+<Axis>-1.0103461117219814e-16 -1.6653345369377348e-16 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Motor Lever -001-1</Uid>
+</InstancePath>
+<Position>0.0098499999999999994 -1.2826938658078851e-05 -0.060383246917813632</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>stepper motor nema 14-1</Uid>
+</InstancePath>
+<Position>0.017499999999999988 0.017500000000000016 0.053308000000000001</Position>
+<Axis>-1.4596632159430774e-16 -1.6653345369377348e-16 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Motor Lever -001-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>stepper motor nema 14-1</Uid>
+</InstancePath>
+<Position>0 0 0.038607999999999996</Position>
+<Axis>1.4596632159430774e-16 1.6653345369377348e-16 1</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Lever Arm -002-1</Uid>
+</InstancePath>
+<Position>-0.015000000000000005 0.01478020433914861 0</Position>
+<Axis>1 3.7369054952554342e-16 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Motor Lever -001-1</Uid>
+</InstancePath>
+<Position>0.0098499999999999994 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Lever Arm -002-1</Uid>
+</InstancePath>
+<Position>-0.0050000000000000001 0 -0.01583654249810762</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Motor Lever -001-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric3">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Canfield Lower Arm Crossbar -005-1</Uid>
+</InstancePath>
+<Position>0.087258619507546598 -0.020000000000000073 -0.028439477163309357</Position>
+<Axis>-0.50000000000000033 0 -0.86602540378443837</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Lever Arm -002-1</Uid>
+</InstancePath>
+<Position>0.095186696067957863 0.15751358780924835 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric4">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Canfield base -001-1</Uid>
+</InstancePath>
+<Position>-0.12 0 0.16250000000000012</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Canfield Lower Arm -002-1</Uid>
+</InstancePath>
+<Position>0.084030398304193954 0 -0.17945508075688843</Position>
+<Axis>0.49999999999999706 0 0.86602540378444048</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance6">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Canfield base -001-1</Uid>
+</InstancePath>
+<Position>-0.059999999999999998 0.024999999999999994 0.17500000000000016</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Canfield Lower Arm -002-1</Uid>
+</InstancePath>
+<Position>0.11472431864335453 0.025000000000000008 -0.14129165124598891</Position>
+<Axis>0.49999999999999994 0 0.86602540378443882</Axis>
+</ConstraintGeometry>
+</Distance>
+<Coincident name="Coincident19">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Canfield Lower Arm -002-1</Uid>
+</InstancePath>
+<Position>0.075767416258002623 -0.1750000000000001 -0.11426524558246123</Position>
+<Axis>0.76625026601139901 0 0.64254223973016777</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Canfield Lower Arm Crossbar -005-1</Uid>
+</InstancePath>
+<Position>0.064534656160505965 0.0080000000000000349 -0.10086985321671799</Position>
+<Axis>-0.76625026601139923 0 -0.64254223973016733</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident24">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>Canfield Lower Arm -002-1</Uid>
+</InstancePath>
+<Position>0.053260897613261859 0.0079999999999999932 -0.087425569009968007</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>Canfield Lower Arm Crossbar -005-1</Uid>
+</InstancePath>
+<Position>0.053260897613261859 0.008000000000000021 -0.087425569009967979</Position>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric5">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Canfield Lower Arm -002-1</Uid>
+</InstancePath>
+<Position>0.013915848393329489 0 -0.0080343188158908119</Position>
+<Axis>-0.86602540378443826 0 0.50000000000000133</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Canfield Lower Arm Boss -003-1</Uid>
+</InstancePath>
+<Position>0.077499786479383936 0 -0.04474452258601086</Position>
+<Axis>-0.86602540378443837 0 0.5</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident25">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Canfield Lower Arm -002-1</Uid>
+</InstancePath>
+<Position>0.013915848393329489 0 -0.0080343188158908119</Position>
+<Axis>-0.86602540378443826 1.1102230246251565e-16 0.50000000000000089</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Canfield Lower Arm Boss -003-1</Uid>
+</InstancePath>
+<Position>0.077499786479383936 0 -0.04474452258601086</Position>
+<Axis>0.8660254037844386 0 -0.50000000000000011</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric7">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Canfield Lower Arm Boss -003-1</Uid>
+</InstancePath>
+<Position>-0.024999999999999911 0 -0.043301270189221808</Position>
+<Axis>0.50000000000000033 0 0.86602540378443837</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Canfield Upper Arm Boss -004-1</Uid>
+</InstancePath>
+<Position>0.011749999999999983 0 0.020351596988934295</Position>
+<Axis>-0.50000000000000033 0 -0.86602540378443837</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance7">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Canfield Upper Arm Boss -004-1</Uid>
+</InstancePath>
+<Position>0.006750000000000006 0 0.011691342951089922</Position>
+<Axis>-0.50000000000000044 0 -0.86602540378443837</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Canfield Lower Arm Boss -003-1</Uid>
+</InstancePath>
+<Position>-0.0064999999999999503 0 -0.011258330249197618</Position>
+<Axis>-0.50000000000000022 0 -0.86602540378443837</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric8">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Canfield Upper Arm Boss -004-1</Uid>
+</InstancePath>
+<Position>0.090346576045100963 0 -0.052161620000000103</Position>
+<Axis>-0.86602540378443849 0 0.50000000000000044</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Canfield Lower Arm -002-2</Uid>
+</InstancePath>
+<Position>0.013915848393329489 0 -0.0080343188158908396</Position>
+<Axis>-0.86602540378443826 0 0.50000000000000111</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident27">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Canfield Upper Arm Boss -004-1</Uid>
+</InstancePath>
+<Position>0.090346576045100935 0 -0.052161620000000034</Position>
+<Axis>0.86602540378443837 0 -0.50000000000000022</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Canfield Lower Arm -002-2</Uid>
+</InstancePath>
+<Position>0.013915848393329489 0 -0.0080343188158908396</Position>
+<Axis>-0.86602540378443837 0 0.50000000000000089</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric26">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Canfield Lower Arm -002-2</Uid>
+</InstancePath>
+<Position>0.084030398304193982 0 -0.17945508075688832</Position>
+<Axis>0.49999999999999711 0 0.86602540378444037</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Canfield top -007-1</Uid>
+</InstancePath>
+<Position>-0.12 0 0.16250000000000012</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance19">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Canfield top -007-1</Uid>
+</InstancePath>
+<Position>-0.059999999999999998 0.025000000000000022 0.17500000000000016</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Canfield Lower Arm -002-2</Uid>
+</InstancePath>
+<Position>0.11472431864335453 0.025000000000000022 -0.14129165124598883</Position>
+<Axis>0.49999999999999994 0 0.86602540378443871</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric27">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>stepper motor nema 14-4</Uid>
+</InstancePath>
+<Position>0.017499999999999967 0.017500000000000043 0.053307999999999973</Position>
+<Axis>0 0 -0.99999999999999978</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Motor Lever -001-4</Uid>
+</InstancePath>
+<Position>0.0098499999999999976 -1.2826938658078851e-05 -0.060383246917813632</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance20">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Motor Lever -001-4</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>stepper motor nema 14-4</Uid>
+</InstancePath>
+<Position>0 0 0.03860799999999999</Position>
+<Axis>0 0 0.99999999999999978</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric28">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Motor Lever -001-4</Uid>
+</InstancePath>
+<Position>0.0098499999999999976 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Lever Arm -002-4</Uid>
+</InstancePath>
+<Position>-0.014999999999999999 0.014780204339148603 0</Position>
+<Axis>0.99999999999999978 3.8857805861880479e-16 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance21">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Lever Arm -002-4</Uid>
+</InstancePath>
+<Position>-0.0049999999999999767 0 -0.01583654249810762</Position>
+<Axis>0.99999999999999978 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Motor Lever -001-4</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Coincident name="Coincident47">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base Plate-1</Uid>
+</InstancePath>
+<Position>0 0.0050000000000000001 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>stepper motor nema 14-4</Uid>
+</InstancePath>
+<Position>0 0 0.03860799999999999</Position>
+<Axis>-0.99999999999999989 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident48">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Base Plate-1</Uid>
+</InstancePath>
+<Position>-0.11749355652982121 0.0050000000000000001 -0.076495190528383925</Position>
+<Axis>-0.86602540378443615 0 -0.50000000000000422</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>stepper motor nema 14-4</Uid>
+</InstancePath>
+<Position>0 0.032459999999999989 0.038607999999999983</Position>
+<Axis>1.0146277015238688e-16 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident49">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Base Plate-1</Uid>
+</InstancePath>
+<Position>-0.12155444566227691 0.0050000000000000001 -0.13946152422706637</Position>
+<Axis>-0.50000000000000011 0 0.8660254037844386</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>stepper motor nema 14-4</Uid>
+</InstancePath>
+<Position>0 0.032459999999999989 0.038607999999999983</Position>
+<Axis>0 0 -0.99999999999999978</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident50">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Canfield Lower Arm Crossbar -005-4</Uid>
+</InstancePath>
+<Position>0.064534656160505965 0.0079999999999999932 -0.100869853216718</Position>
+<Axis>-0.76625026601139912 0 -0.64254223973016766</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Canfield Lower Arm -002-7</Uid>
+</InstancePath>
+<Position>0.075767416258002651 -0.17500000000000007 -0.11426524558246125</Position>
+<Axis>0.76625026601139901 0 0.64254223973016766</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident51">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>Canfield Lower Arm Crossbar -005-4</Uid>
+</InstancePath>
+<Position>0.053260897613261859 0.0079999999999999655 -0.087425569009967966</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>Canfield Lower Arm -002-7</Uid>
+</InstancePath>
+<Position>0.053260897613261859 0.0080000000000000071 -0.087425569009967979</Position>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric29">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Canfield Lower Arm -002-7</Uid>
+</InstancePath>
+<Position>0.013915848393329544 0 -0.0080343188158908951</Position>
+<Axis>-0.86602540378443815 0 0.50000000000000078</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Canfield Lower Arm Boss -003-4</Uid>
+</InstancePath>
+<Position>0.077499786479383992 0 -0.044744522586010887</Position>
+<Axis>-0.8660254037844386 0 0.50000000000000011</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident52">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Canfield Lower Arm -002-7</Uid>
+</InstancePath>
+<Position>0.013915848393329544 0 -0.0080343188158908951</Position>
+<Axis>-0.86602540378443815 1.3877787807814457e-16 0.50000000000000044</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Canfield Lower Arm Boss -003-4</Uid>
+</InstancePath>
+<Position>0.077499786479383992 0 -0.044744522586010887</Position>
+<Axis>0.86602540378443871 0 -0.50000000000000011</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric30">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Canfield Lower Arm Boss -003-4</Uid>
+</InstancePath>
+<Position>-0.024999999999999967 0 -0.043301270189221808</Position>
+<Axis>0.50000000000000033 0 0.86602540378443837</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Canfield Upper Arm Boss -004-4</Uid>
+</InstancePath>
+<Position>0.011749999999999983 0 0.020351596988934295</Position>
+<Axis>-0.50000000000000022 0 -0.86602540378443837</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance22">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Canfield Upper Arm Boss -004-4</Uid>
+</InstancePath>
+<Position>0.0067499999999999782 0 0.011691342951089978</Position>
+<Axis>-0.50000000000000033 0 -0.86602540378443837</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Canfield Lower Arm Boss -003-4</Uid>
+</InstancePath>
+<Position>-0.0064999999999998948 0 -0.01125833024919759</Position>
+<Axis>-0.50000000000000033 0 -0.86602540378443849</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric31">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Canfield Upper Arm Boss -004-4</Uid>
+</InstancePath>
+<Position>0.090346576045100935 0 -0.052161620000000061</Position>
+<Axis>-0.86602540378443837 0 0.50000000000000044</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Canfield Lower Arm -002-8</Uid>
+</InstancePath>
+<Position>0.013915848393329502 0 -0.0080343188158908396</Position>
+<Axis>-0.86602540378443815 0 0.50000000000000111</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident53">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Canfield Upper Arm Boss -004-4</Uid>
+</InstancePath>
+<Position>0.090346576045100935 0 -0.052161619999999992</Position>
+<Axis>0.86602540378443837 0 -0.50000000000000033</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Canfield Lower Arm -002-8</Uid>
+</InstancePath>
+<Position>0.013915848393329475 0 -0.0080343188158908535</Position>
+<Axis>-0.86602540378443826 0 0.50000000000000089</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric32">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Lever Arm -002-4</Uid>
+</InstancePath>
+<Position>0.095186696067957849 0.15751358780924829 0</Position>
+<Axis>-0.99999999999999978 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Canfield Lower Arm Crossbar -005-4</Uid>
+</InstancePath>
+<Position>0.087258619507546598 -0.020000000000000059 -0.028439477163309329</Position>
+<Axis>-0.50000000000000033 0 -0.8660254037844386</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric33">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Canfield base -001-1</Uid>
+</InstancePath>
+<Position>-0.080729128114973098 0 -0.18517304845413196</Position>
+<Axis>-0.49999999999999195 0 0.86602540378444326</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Canfield Lower Arm -002-7</Uid>
+</InstancePath>
+<Position>0.084030398304193954 0 -0.17945508075688835</Position>
+<Axis>0.49999999999999711 0 0.86602540378444026</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance23">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Canfield base -001-1</Uid>
+</InstancePath>
+<Position>-0.12155444566227691 0.024999999999999994 -0.13946152422706637</Position>
+<Axis>0.4999999999999995 0 -0.86602540378443893</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Canfield Lower Arm -002-7</Uid>
+</InstancePath>
+<Position>0.11472431864335458 0.024999999999999981 -0.14129165124598886</Position>
+<Axis>0.5 0 0.86602540378443849</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric34">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Canfield top -007-1</Uid>
+</InstancePath>
+<Position>-0.080729128114973098 0 -0.18517304845413196</Position>
+<Axis>-0.49999999999999195 0 0.86602540378444326</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Canfield Lower Arm -002-8</Uid>
+</InstancePath>
+<Position>0.084030398304193912 0 -0.17945508075688837</Position>
+<Axis>0.49999999999999711 0 0.86602540378444037</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance24">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Canfield top -007-1</Uid>
+</InstancePath>
+<Position>-0.12155444566227691 0.025000000000000022 -0.13946152422706637</Position>
+<Axis>0.4999999999999995 0 -0.86602540378443893</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Canfield Lower Arm -002-8</Uid>
+</InstancePath>
+<Position>0.11472431864335451 0.024999999999999911 -0.14129165124598883</Position>
+<Axis>0.49999999999999989 0 0.8660254037844386</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric37">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>stepper motor nema 14-6</Uid>
+</InstancePath>
+<Position>0.01749999999999997 0.017499999999999988 0.053307999999999987</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Motor Lever -001-6</Uid>
+</InstancePath>
+<Position>0.0098499999999999976 -1.2826938658075382e-05 -0.060383246917813577</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance27">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Motor Lever -001-6</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>stepper motor nema 14-6</Uid>
+</InstancePath>
+<Position>0 0 0.038607999999999976</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric38">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Motor Lever -001-6</Uid>
+</InstancePath>
+<Position>0.0098500000000000115 0 0</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Lever Arm -002-6</Uid>
+</InstancePath>
+<Position>-0.015000000000000013 0.014780204339148589 0</Position>
+<Axis>1.0000000000000002 3.7470027081099033e-16 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance28">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Lever Arm -002-6</Uid>
+</InstancePath>
+<Position>-0.0050000000000000044 0 -0.01583654249810762</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Motor Lever -001-6</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Coincident name="Coincident57">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base Plate-1</Uid>
+</InstancePath>
+<Position>0 0.0050000000000000001 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>stepper motor nema 14-6</Uid>
+</InstancePath>
+<Position>0 0 0.038607999999999976</Position>
+<Axis>-0.99999999999999989 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident58">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Base Plate-1</Uid>
+</InstancePath>
+<Position>0.12499355652982212 0.0050000000000000001 -0.063504809471615631</Position>
+<Axis>0.86602540378444359 0 -0.49999999999999151</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>stepper motor nema 14-6</Uid>
+</InstancePath>
+<Position>0 0.032459999999999989 0.038607999999999983</Position>
+<Axis>1.0146277015238688e-16 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident59">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Base Plate-1</Uid>
+</InstancePath>
+<Position>0.18155444566227683 0.0050000000000000001 -0.0355384757729338</Position>
+<Axis>-0.50000000000000033 0 -0.8660254037844386</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>stepper motor nema 14-6</Uid>
+</InstancePath>
+<Position>0 0.032459999999999989 0.038607999999999983</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident64">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Canfield Lower Arm -002-9</Uid>
+</InstancePath>
+<Position>0.075767416258002651 -0.17500000000000007 -0.11426524558246122</Position>
+<Axis>0.76625026601139923 1.1102230246251565e-16 0.64254223973016777</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Canfield Lower Arm Crossbar -005-5</Uid>
+</InstancePath>
+<Position>0.064534656160505965 0.0080000000000000071 -0.10086985321671796</Position>
+<Axis>-0.76625026601139934 -1.1102230246251565e-16 -0.64254223973016733</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident65">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>Canfield Lower Arm -002-9</Uid>
+</InstancePath>
+<Position>0.053260897613261915 0.0080000000000000487 -0.087425569009968007</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>Canfield Lower Arm Crossbar -005-5</Uid>
+</InstancePath>
+<Position>0.053260897613261915 0.0079999999999999932 -0.087425569009967966</Position>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric39">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Canfield Lower Arm -002-9</Uid>
+</InstancePath>
+<Position>0.013915848393329544 0 -0.0080343188158908396</Position>
+<Axis>-0.86602540378443826 -1.1102230246251565e-16 0.50000000000000111</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Canfield Lower Arm Boss -003-5</Uid>
+</InstancePath>
+<Position>0.077499786479383992 0 -0.04474452258601086</Position>
+<Axis>-0.86602540378443871 0 0.50000000000000022</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident66">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Canfield Lower Arm -002-9</Uid>
+</InstancePath>
+<Position>0.013915848393329544 0 -0.0080343188158908396</Position>
+<Axis>-0.86602540378443849 -1.6653345369377348e-16 0.50000000000000078</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Canfield Lower Arm Boss -003-5</Uid>
+</InstancePath>
+<Position>0.077499786479383992 0 -0.04474452258601086</Position>
+<Axis>0.8660254037844386 -1.3877787807814457e-16 -0.50000000000000011</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric40">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Canfield Lower Arm Boss -003-5</Uid>
+</InstancePath>
+<Position>-0.024999999999999911 0 -0.043301270189221835</Position>
+<Axis>0.50000000000000033 0 0.86602540378443849</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Canfield Upper Arm Boss -004-5</Uid>
+</InstancePath>
+<Position>0.011750000000000038 0 0.020351596988934323</Position>
+<Axis>-0.50000000000000044 0 -0.8660254037844386</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance29">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Canfield Upper Arm Boss -004-5</Uid>
+</InstancePath>
+<Position>0.0067500000000000338 0 0.011691342951089895</Position>
+<Axis>-0.50000000000000033 0 -0.86602540378443849</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Canfield Lower Arm Boss -003-5</Uid>
+</InstancePath>
+<Position>-0.0064999999999999503 0 -0.011258330249197535</Position>
+<Axis>-0.50000000000000022 0 -0.86602540378443837</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric41">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Canfield Upper Arm Boss -004-5</Uid>
+</InstancePath>
+<Position>0.090346576045101018 0 -0.052161620000000117</Position>
+<Axis>-0.86602540378443849 2.3592239273284576e-16 0.50000000000000056</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Canfield Lower Arm -002-10</Uid>
+</InstancePath>
+<Position>0.01391584839332953 0 -0.0080343188158908119</Position>
+<Axis>-0.86602540378443804 0 0.50000000000000111</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident67">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Canfield Upper Arm Boss -004-5</Uid>
+</InstancePath>
+<Position>0.090346576045100963 0 -0.052161620000000061</Position>
+<Axis>0.8660254037844386 -2.0816681711721685e-16 -0.50000000000000044</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Canfield Lower Arm -002-10</Uid>
+</InstancePath>
+<Position>0.01391584839332953 0 -0.0080343188158908119</Position>
+<Axis>-0.86602540378443826 0 0.50000000000000089</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric42">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Lever Arm -002-6</Uid>
+</InstancePath>
+<Position>0.095186696067957849 0.15751358780924829 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Canfield Lower Arm Crossbar -005-5</Uid>
+</InstancePath>
+<Position>0.087258619507546598 -0.020000000000000087 -0.028439477163309329</Position>
+<Axis>-0.50000000000000044 0 -0.86602540378443849</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric43">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Canfield base -001-1</Uid>
+</InstancePath>
+<Position>0.20072912811497151 0 0.022673048454131595</Position>
+<Axis>-0.50000000000000411 0 -0.86602540378443627</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Canfield Lower Arm -002-9</Uid>
+</InstancePath>
+<Position>0.084030398304194037 0 -0.17945508075688837</Position>
+<Axis>0.49999999999999722 0 0.86602540378444037</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance30">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Canfield base -001-1</Uid>
+</InstancePath>
+<Position>0.18155444566227683 0.024999999999999994 -0.0355384757729338</Position>
+<Axis>0.4999999999999995 0 0.86602540378443893</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Canfield Lower Arm -002-9</Uid>
+</InstancePath>
+<Position>0.11472431864335461 0.025000000000000022 -0.14129165124598889</Position>
+<Axis>0.50000000000000011 0 0.86602540378443849</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric44">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Canfield top -007-1</Uid>
+</InstancePath>
+<Position>0.20072912811497151 0 0.022673048454131595</Position>
+<Axis>-0.50000000000000411 0 -0.86602540378443627</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Canfield Lower Arm -002-10</Uid>
+</InstancePath>
+<Position>0.084030398304193954 0 -0.17945508075688837</Position>
+<Axis>0.499999999999997 0 0.86602540378444037</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance31">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Canfield top -007-1</Uid>
+</InstancePath>
+<Position>0.18155444566227683 0.025000000000000022 -0.0355384757729338</Position>
+<Axis>0.4999999999999995 0 0.86602540378443893</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Canfield Lower Arm -002-10</Uid>
+</InstancePath>
+<Position>0.11472431864335453 0.024999999999999967 -0.14129165124598886</Position>
+<Axis>0.49999999999999978 0 0.86602540378443871</Axis>
+</ConstraintGeometry>
+</Distance>
+<Coincident name="Coincident69">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Canfield top -007-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Top plate-2</Uid>
+</InstancePath>
+<Position>0.30000000000000004 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident82">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Canfield top -007-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Top plate-2</Uid>
+</InstancePath>
+<Position>0 0 -0.30000000000000071</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident83">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Canfield top -007-1</Uid>
+</InstancePath>
+<Position>-0.19343099098075983 0.015000000000000013 -0.2100000000000001</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Top plate-2</Uid>
+</InstancePath>
+<Position>0 0.029999999999999971 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="Base Plate" uid="Base Plate*:*Default" version="357">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Base Plate.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>2.3049167311961885</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>0.016002443850027838 0.031966472421202409 0.016002443850027834 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Base Plate_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Canfield Lower Arm -002" uid="Canfield Lower Arm -002*:*Default" version="418">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Canfield Lower Arm -002.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.72390039241666937</Mass>
+<CenterOfMass>0.051441855140087443 5.5530633702664748e-09 -0.029701075083414356</CenterOfMass>
+<Inertia>0.001889517103963938 0.0040307313127308595 0.002284197424003149 -2.1727051597420185e-11 0.00034190590042587008 -5.8730965221735555e-10</Inertia>
+</MassProperties>
+<GeometryFile name="Canfield Lower Arm -002_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Canfield Lower Arm Boss -003" uid="Canfield Lower Arm Boss -003*:*Default" version="394">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Canfield Lower Arm Boss -003.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.15285208410387982</Mass>
+<CenterOfMass>0.037186099679190544 3.1266067782664765e-08 -0.021469383683376839</CenterOfMass>
+<Inertia>5.118132006762347e-05 0.00016563109143884333 0.00012743446482546561 1.6548822349833494e-10 6.6037326166494981e-05 1.9920741532910605e-10</Inertia>
+</MassProperties>
+<GeometryFile name="Canfield Lower Arm Boss -003_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Canfield Lower Arm Crossbar -005" uid="Canfield Lower Arm Crossbar -005*:*Default" version="254">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Canfield Lower Arm Crossbar -005.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.14785150104851302</Mass>
+<CenterOfMass>0.078271119294537631 -0.0019378000353030731 -0.045191275608737744</CenterOfMass>
+<Inertia>9.2169192352262256e-05 0.00012009758027289675 4.3491342240823938e-05 7.3266033544525986e-08 -4.2156483357348607e-05 -1.3264017709809868e-07</Inertia>
+</MassProperties>
+<GeometryFile name="Canfield Lower Arm Crossbar -005_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Canfield Upper Arm Boss -004" uid="Canfield Upper Arm Boss -004*:*Default" version="512">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Canfield Upper Arm Boss -004.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.18568082316271817</Mass>
+<CenterOfMass>0.044537782068805667 -0.00033905744946844318 -0.025713919853680954</CenterOfMass>
+<Inertia>8.6123639346377044e-05 0.00024596796861749598 0.00017665450790405274 1.6937067272576297e-07 7.8402534461286831e-05 -2.9283825906364008e-07</Inertia>
+</MassProperties>
+<GeometryFile name="Canfield Upper Arm Boss -004_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Canfield base -001" uid="Canfield base -001*:*Default" version="319">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Canfield base -001.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>2.7152711140698087</Mass>
+<CenterOfMass>-3.5838362313373656e-09 -1.8501199752103111e-08 -8.6836598068355542e-08</CenterOfMass>
+<Inertia>0.012827761360142591 0.025272990139620845 0.012827755314232204 8.0370494295492211e-10 -1.702776594991094e-09 1.9042797478565544e-08</Inertia>
+</MassProperties>
+<GeometryFile name="Canfield base -001_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Canfield top -007" uid="Canfield top -007*:*Default" version="400">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Canfield top -007.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>2.9586551760709656</Mass>
+<CenterOfMass>8.04322211452742e-09 -0.0026035802536744242 -1.0666758368152321e-07</CenterOfMass>
+<Inertia>0.021931071337948371 0.043283418487242445 0.021931119742799442 3.2715570393812605e-10 -5.8314498843024282e-10 9.1842174608290205e-09</Inertia>
+</MassProperties>
+<GeometryFile name="Canfield top -007_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Lever Arm -002" uid="Lever Arm -002*:*Default" version="320">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Lever Arm -002.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.131605217631723</Mass>
+<CenterOfMass>2.1663432867878781e-05 0.086948247528298508 1.7310156119865665e-08</CenterOfMass>
+<Inertia>0.00035670794204316944 1.0681649850101431e-05 0.00035616884606305568 -1.8935589285470142e-10 -1.58408648974257e-11 -1.8025298747693286e-07</Inertia>
+</MassProperties>
+<GeometryFile name="Lever Arm -002_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Motor Lever -001" uid="Motor Lever -001*:*Default" version="261">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Motor Lever -001.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.044954426938737822</Mass>
+<CenterOfMass>0.0049249999999999997 -0.0027280063434502962 -0.029934582330167332</CenterOfMass>
+<Inertia>3.3174082403644459e-05 3.1182368088652827e-05 2.7303710228466402e-06 -7.8734311022418608e-07 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Motor Lever -001_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Top plate" uid="Top plate*:*Default" version="339">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Top plate.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>8.5175436716103707</Mass>
+<CenterOfMass>0.30000000027273221 0.039999999978107423 -0.29999999970964886</CenterOfMass>
+<Inertia>0.25223565327310921 0.50391108870045376 0.25223565334386577 -4.3724429775769027e-11 5.2936959534808294e-10 -4.2158797220931718e-11</Inertia>
+</MassProperties>
+<GeometryFile name="Top plate_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="stepper motor nema 14" uid="stepper motor nema 14*:*Default" version="127">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="stepper motor nema 14.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.062842151037650673</Mass>
+<CenterOfMass>0.016198014899019311 0.017499999999999998 0.012912769674349268</CenterOfMass>
+<Inertia>2.1126968435611174e-05 2.1989950663565239e-05 1.2139235941337133e-05 0 -1.6925659367167072e-06 0</Inertia>
+</MassProperties>
+<GeometryFile name="stepper motor nema 14_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
