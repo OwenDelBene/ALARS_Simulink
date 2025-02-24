@@ -1,4 +1,5 @@
 function A = Jacobian(x, w)
+% partial derivatives of df/du
 e0 = x(1);
 e1 = x(2);
 e2 = x(3);

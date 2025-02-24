@@ -1,4 +1,5 @@
 function H = observation(x, dm)
+% Jacobian matrix h, partial derivatives of dy/dx
 e0 = x(1);
 e1 = x(2);
 e2 = x(3);
