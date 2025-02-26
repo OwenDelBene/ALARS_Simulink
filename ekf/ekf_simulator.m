@@ -45,15 +45,18 @@ if seastate ~= 0
     else
         wslope = 1;
     end
-    pitch_wave = wslope * cos(freq_rad*t1); % Plot the position
-    pitch_wave_rad = pitch_wave * pi/180;
-    roll_wave = wslope * sin(freq_rad*t1);
-    roll_wave_rad = roll_wave * pi/180;
+    pitch_phase = pi/12 * 0;
+    roll_phase =  pi/12 * 0;
+    pitch_noise = 5e-3
+    pitch_wave = wslope * sin(freq_rad*t1 - pitch_phase); % Plot the position
+    pitch_wave_rad = pitch_wave * pi/180 + rand(size(pitch_wave))*pitch_noise;
+    roll_wave  = wslope * sin(freq_rad*t1 - roll_phase);
+    roll_wave_rad = roll_wave * pi/180 + rand(size(pitch_wave))*1e-4 ;
     
-    pitch_dot = -wslope*freq_rad*sin(freq_rad*t1);
-    pitch_dot_rad = pitch_dot * pi/180;
-    roll_dot = wslope * freq_rad* cos(freq_rad*t1);
-    roll_dot_rad = roll_dot * pi/180;
+    pitch_dot = wslope * freq_rad * cos(freq_rad*t1 - pitch_phase);
+    pitch_dot_rad = pitch_dot * pi/180 + rand(size(pitch_wave))*pitch_noise ;
+    roll_dot  = wslope * freq_rad * cos(freq_rad*t1 - roll_phase);
+    roll_dot_rad = roll_dot * pi/180 + rand(size(pitch_wave))*1e-4 ;
 
     
 
@@ -69,5 +72,6 @@ if seastate ~= 0
     wave = (F0 / F0_max) * 6 * sin(freq_rad*t1); % + 0.0375 * A1 * sin(omega1*t1) + 0.0125 * A2 * sin(omega2*t1) Extra noise
     % Plot the position
     %plot(t, x); hold on;
+    %states = [roll_wave_rad; pitch_wave_rad; roll_dot_rad; pitch_dot_rad];
     states = [roll_wave_rad; pitch_wave_rad; roll_dot_rad; pitch_dot_rad];
 end
