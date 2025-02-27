@@ -1,14 +1,14 @@
-function xdot = state_transition(x)
+function xdot = state_transition(t, x, ekf_data)
 % xdot = F(x)
-    e0 = x(1);
-    e1 = x(2);
-    e2 = x(3);
-    e3 = x(4);
-    xdot = 0.5*[-e1 -e2 -e3 e1 e2 e3;
-         e0 -e3  e2 -e0 e3 -e2;
-         e3  e0 -e1 -e3 -e0 e1;
-        -e2  e1  e0 e2 -e1 -e0;
-         0   0   0   0  0   0;
-         0   0   0   0  0   0;
-         0   0   0   0  0   0];
+    q = x(1:4);
+    w = x(5:7);
+
+    qdot = quat_derivative(q,w);
+    H = ekf_data.MOI * w;
+
+    cx = cross(w, H);
+    Tctrl = zeros(3,1);
+    pqrdot = ekf_data.MOI_inv * (Tctrl - cx);
+
+    xdot = [qdot; pqrdot;];
 end

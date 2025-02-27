@@ -1,9 +1,12 @@
-function [x, P ] = predict(xp,Pp,w, dt, Q)
-ip = [w(1) w(2) w(3) xp(5) xp(6) xp(7)]';
-F = state_transition(xp);
-x = xp + dt*F*ip;
-x = normalizeq(x);
-A = Jacobian(x, w);
+function [x, P ] = predict(xp,Pp,ekf_data, dt)
 
-P = Pp + dt*(A*Pp+Pp*A' + Q);
+[t, x] = ode45(@(t, y) state_transition(t, y, ekf_data), [0 dt], xp);
+x = x(end, :);
+%should below be xp?
+%[t, P] = ode45(@(t,y) covarianceTransition(t,y,x,ekf_data), [0 dt], Pp);
+%P = P.y(:,end);
+P = Pp+ covarianceTransition(0, Pp, x, ekf_data) * dt;
+
+x = normalizeq(x);
+
 end

@@ -4,10 +4,9 @@ errorTunedSea = zeros(1,nSweep);
 errorTunedUav = zeros(1,nSweep);
 for i = 1:nSweep
     ProcessNoise = Qsweep(i);
-    Rmag = ProcessNoise;
-    Qmag = 1;
-    states = simulator(Qmag, Rmag, 0);
-    errorTunedSea(i) = rms(vecnorm(states.ekf - states.true(1:2,:)));
+    Qmag = ProcessNoise;
+    states = tester(Qmag);
+    errorTunedSea(i) = rms(vecnorm(states.q_err(:, 2:4) ));
     %states = main_simulator(Rmag, Qmag);
     %errorTunedUav(i) = rms(vecnorm(states.ekf - states.true(1:2,:)));
 end

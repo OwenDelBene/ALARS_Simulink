@@ -1,15 +1,15 @@
-function [x, P] = update(xp, Pp,y, R)
+function [x, P] = update(xp, Pp,y, ekf_data)
 %y = [a3 m3]
 declination = 0;
 H = observation(xp, declination);
 
-K = Pp*H'/(H*Pp*H' + R);
+K = Pp*H'/(H*Pp*H' + ekf_data.R);
 P = (eye(7) - K*H) * Pp;
 
 m = mag_model(declination, xp);
 a = accel_model(xp);
 z = [a m]';
-x = xp + K*(y-z);
+x = xp' + K*(y-z);
 normalizeq(x);
 
 end
