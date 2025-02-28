@@ -1,0 +1,1564 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="02/27/25||19:31:28" using="Simscape Multibody Link Version 7.4" from="SolidWorks 32.2.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="ALARS_STABv2" uid="ALARS_STABv2" version="205">
+<AssemblyFile name="ALARS_STABv2.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="Spherical joint bottom -002-2" uid="Spherical joint bottom -002-2" entityUid="Spherical joint bottom -002*:*Default">
+<Transform>
+<Rotation>0.91503794484684609 -0.38950490344096855 -0.10484030563624926 0.40305427212751899 0.89314868504293266 0.19958126196072604 0.015900100949875887 -0.2248807608523278 0.97425655255084742</Rotation>
+<Translation>-0.1368925051976016 0.085353139114873841 -0.079146871124466084</Translation>
+</Transform>
+</Instance>
+<Instance name="Main fork assembly -001-2" uid="Main fork assembly -001-2" entityUid="Main fork assembly -001" rigid="true">
+<Transform>
+<Rotation>-0.50000000000000344 -0.38950490344097199 -0.77348945060384344 0 0.89314868504293154 -0.44976152170464978 0.86602540378443671 -0.22488076085232647 -0.44657434252146916</Rotation>
+<Translation>-0.086554387719678119 0.040377019501532822 -0.051375626830589327</Translation>
+</Transform>
+<Instance name="Main fork -001-2" uid="Main fork -001-2" entityUid="Main fork -001*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.039506595889199449 -0.0083756718186821372 0.034411399996304992</Translation>
+</Transform>
+</Instance>
+<Instance name="Main fork cylinder -002-2" uid="Main fork cylinder -002-2" entityUid="Main fork cylinder -002*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.035417637586374069 0.0089022985645223762 0.027807399996304993</Translation>
+</Transform>
+</Instance>
+<Instance name="Main fork cylinder -002-3" uid="Main fork cylinder -002-3" entityUid="Main fork cylinder -002*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.031521049494705654 0.027692328181317838 0.027807399996304966</Translation>
+</Transform>
+</Instance>
+<Instance name="Main fork cylinder -002-4" uid="Main fork cylinder -002-4" entityUid="Main fork cylinder -002*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.02928413812318259 0.027692328181317838 0.027807399996304993</Translation>
+</Transform>
+</Instance>
+<Instance name="Main fork pin -003-1" uid="Main fork pin -003-1" entityUid="Main fork pin -003*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.039506595889199456 -0.0083756718186821233 0.027807399996304993</Translation>
+</Transform>
+</Instance>
+<Instance name="Main fork -001-1" uid="Main fork -001-1" entityUid="Main fork -001*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.039506595889199442 -0.0083756718186821372 0.026537399996304986</Translation>
+</Transform>
+</Instance>
+<Instance name="Main fork cylinder -002-1" uid="Main fork cylinder -002-1" entityUid="Main fork cylinder -002*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.037653360146724837 0.0088963281813178585 0.027807399996304952</Translation>
+</Transform>
+</Instance>
+<Instance name="Main fork spherical receiver -004-1" uid="Main fork spherical receiver -004-1" entityUid="Main fork spherical receiver -004*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.039506595889199456 -0.0083756718186821233 0.027807399996304993</Translation>
+</Transform>
+</Instance>
+<Instance name="Main fork pin -003-2" uid="Main fork pin -003-2" entityUid="Main fork pin -003*:*Default">
+<Transform>
+<Rotation>-1 0 -2.2204460492503123e-16 0 0.99999999999999989 1.1102230246251559e-16 2.2204460492503126e-16 1.110223024625156e-16 -0.99999999999999989</Rotation>
+<Translation>0.041743507260722512 -0.008375671818682151 0.034411399996304964</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Motor arm assembly -001-3" uid="Motor arm assembly -001-3" entityUid="Motor arm assembly -001" rigid="true">
+<Transform>
+<Rotation>-0.094286163173260704 0.86087752870780587 0.50000000000000633 0.99405574587750722 0.10887228337787803 9.10784034996448e-16 -0.054436141688938913 0.49702787293875988 -0.86602540378443504</Rotation>
+<Translation>-0.13388654871445116 0.04220636343735968 -0.027334440304613791</Translation>
+</Transform>
+<Instance name="Motor arm cylinder L - 001-1" uid="Motor arm cylinder L - 001-1" entityUid="Motor arm cylinder L - 001*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.020042635684545854 0.016966060323928361 0.018750954655201456</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor arm cylinder S - 002-1" uid="Motor arm cylinder S - 002-1" entityUid="Motor arm cylinder S - 002*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.020006441065032451 0.0010053443777678361 0.018750954655201456</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor arm body - 002-2" uid="Motor arm body - 002-2" entityUid="Motor arm body - 002*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.0200424699696478 0.015903304603991739 0.024084954655201461</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor arm body - 002-1" uid="Motor arm body - 002-1" grounded="true" entityUid="Motor arm body - 002*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.0200424699696478 0.015903304603991725 0.017480954655201452</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Spherical joint top -001-2" uid="Spherical joint top -001-2" entityUid="Spherical joint top -001*:*Default">
+<Transform>
+<Rotation>-0.50045796360422656 0.27671112496212419 -0.82034918174354643 -0.01181237963161488 0.94527650596257418 0.32605642910794808 0.86568024948738975 0.17286781249666905 -0.46980253836060454</Rotation>
+<Translation>-0.12677277913843327 0.086144953249145881 -0.073105127258944219</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor arm assembly -001-4" uid="Motor arm assembly -001-4" entityUid="Motor arm assembly -001" rigid="true">
+<Transform>
+<Rotation>-0.094286163173255069 0.86087752870780787 0.50000000000000377 0.99405574587750767 0.10887228337787209 -4.3010300182499961e-16 -0.054436141688936825 0.49702787293875755 -0.86602540378443638</Rotation>
+<Translation>-0.1119335487144513 0.04220636343735959 -0.065358151683173049</Translation>
+</Transform>
+<Instance name="Motor arm cylinder L - 001-1" uid="Motor arm cylinder L - 001-1" entityUid="Motor arm cylinder L - 001*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.02004263568454584 0.016966060323928361 0.018750954655201463</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor arm cylinder S - 002-1" uid="Motor arm cylinder S - 002-1" entityUid="Motor arm cylinder S - 002*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.020006441065032438 0.0010053443777678778 0.018750954655201463</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor arm body - 002-2" uid="Motor arm body - 002-2" entityUid="Motor arm body - 002*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.020042469969647793 0.015903304603991752 0.024084954655201454</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor arm body - 002-1" uid="Motor arm body - 002-1" grounded="true" entityUid="Motor arm body - 002*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.020042469969647786 0.015903304603991752 0.017480954655201456</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Platform top-1" uid="Platform top-1" entityUid="Platform top" rigid="true">
+<Transform>
+<Rotation>0.99987469390689354 -0.015776749447570119 -0.0013002543845917482 0.015770692623944222 0.9998653107320985 -0.004543748316673802 0.0013717648330254292 0.0045226730450918465 0.9999888317825204</Rotation>
+<Translation>-0.0003292119518127607 0.09275983231609837 -0.00011751362762360378</Translation>
+</Transform>
+<Instance name="8982K112_Multipurpose 6061 Aluminum 90 Degree Angle 6.93 corner-45" uid="8982K112_Multipurpose 6061 Aluminum 90 Degree Angle 6.93 corner-45" entityUid="8982K112_Multipurpose 6061 Aluminum 90 Degree Angle 6.93 corner*:*8982K112">
+<Transform>
+<Rotation>0.49990436829582857 -1.004343906218369e-16 0.86608060973488421 0 -1 -1.6046192152785466e-16 0.86608060973488399 1.5699247457590104e-16 -0.49990436829582868</Rotation>
+<Translation>0.074660159620114366 0.0031749999999999556 0.1294723125430193</Translation>
+</Transform>
+</Instance>
+<Instance name="8982K112_Multipurpose 6061 Aluminum 90 Degree Angle 6.93 corner-46" uid="8982K112_Multipurpose 6061 Aluminum 90 Degree Angle 6.93 corner-46" entityUid="8982K112_Multipurpose 6061 Aluminum 90 Degree Angle 6.93 corner*:*8982K112">
+<Transform>
+<Rotation>-0.50009562560761367 -1.8739079298696337e-16 0.86597018727444064 0 -1 -1.5308934675495323e-16 0.86597018727444042 0 0.50009562560761334</Rotation>
+<Translation>-0.074604817957614603 0.0031749999999999834 0.12948800724559059</Translation>
+</Transform>
+</Instance>
+<Instance name="8982K112_Multipurpose 6061 Aluminum 90 Degree Angle 6.93 corner-44" uid="8982K112_Multipurpose 6061 Aluminum 90 Degree Angle 6.93 corner-44" entityUid="8982K112_Multipurpose 6061 Aluminum 90 Degree Angle 6.93 corner*:*8982K112">
+<Transform>
+<Rotation>0.99999999390344008 0 0.0001104224604399199 0 -1 -1.6132083349178559e-16 0.0001104224604399199 1.6133116408711955e-16 -0.99999999390344008</Rotation>
+<Translation>0.14927905639784692 0.0031749999999999834 0.0001972027141055271</Translation>
+</Transform>
+</Instance>
+<Instance name="8982K112_Multipurpose 6061 Aluminum 90 Degree Angle 6.93 corner-47" uid="8982K112_Multipurpose 6061 Aluminum 90 Degree Angle 6.93 corner-47" entityUid="8982K112_Multipurpose 6061 Aluminum 90 Degree Angle 6.93 corner*:*8982K112">
+<Transform>
+<Rotation>-0.99999999390344008 0 -0.0001104224604469143 0 -1 -1.5611512356771574e-16 -0.0001104224604469143 -1.5612351856117881e-16 0.99999999390344008</Rotation>
+<Translation>-0.1492508987576103 0.0031749999999999695 0.00022859211924825657</Translation>
+</Transform>
+</Instance>
+<Instance name="8982K112_Multipurpose 6061 Aluminum 90 Degree Angle 6.93 corner-48" uid="8982K112_Multipurpose 6061 Aluminum 90 Degree Angle 6.93 corner-48" entityUid="8982K112_Multipurpose 6061 Aluminum 90 Degree Angle 6.93 corner*:*8982K112">
+<Transform>
+<Rotation>-0.49990436829582241 0 -0.86608060973488776 0 -1 -1.6609977282477928e-16 -0.86608060973488743 -1.4918621893400541e-16 0.49990436829582252</Rotation>
+<Translation>-0.074632001979876891 0.0031749999999999695 -0.12904651770966494</Translation>
+</Transform>
+</Instance>
+<Instance name="8982K112_Multipurpose 6061 Aluminum 90 Degree Angle 6.93 corner-27" uid="8982K112_Multipurpose 6061 Aluminum 90 Degree Angle 6.93 corner-27" entityUid="8982K112_Multipurpose 6061 Aluminum 90 Degree Angle 6.93 corner*:*8982K112">
+<Transform>
+<Rotation>0.50009562560760767 1.7344863067515759e-16 -0.86597018727444397 0 -1 -1.6349768761081407e-16 -0.86597018727444397 0 -0.50009562560760734</Rotation>
+<Translation>0.074632975597850246 0.0031749999999999834 -0.12906221241223631</Translation>
+</Transform>
+</Instance>
+<Instance name="Platform-1" uid="Platform-1" grounded="true" entityUid="Platform*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Top brace s-10" uid="Top brace s-10" entityUid="Top brace s*:*Default">
+<Transform>
+<Rotation>0.9999997553013612 7.2343728772274185e-16 0.00069956930889218541 -7.1843089948799531e-16 1 1.2472661792273243e-15 -0.00069956930889233915 -1.2498682644412895e-15 0.9999997553013612</Rotation>
+<Translation>-0.00012185555574176568 -0.0048895000000000188 -0.13566712713594131</Translation>
+</Transform>
+</Instance>
+<Instance name="8982K112_Multipurpose 6061 Aluminum 90 Degree Angle 8.15-9" uid="8982K112_Multipurpose 6061 Aluminum 90 Degree Angle 8.15-9" entityUid="8982K112_Multipurpose 6061 Aluminum 90 Degree Angle 8.15*:*8982K112">
+<Transform>
+<Rotation>-0.86611279132302998 -1.2502938420389163e-15 0.49984860978763307 1.4428562511437089e-15 -1 0 0.49984860978763307 7.2013956744687424e-16 0.86611279132302998</Rotation>
+<Translation>-0.079250420582286332 0.0031749999999999973 0.026918623474694904</Translation>
+</Transform>
+</Instance>
+<Instance name="8982K112_Multipurpose 6061 Aluminum 90 Degree Angle 5-9" uid="8982K112_Multipurpose 6061 Aluminum 90 Degree Angle 5-9" entityUid="8982K112_Multipurpose 6061 Aluminum 90 Degree Angle 5*:*8982K112">
+<Transform>
+<Rotation>0.8659379897839411 0 0.5001513749345764 0 -1 0 0.50015137493457595 0 -0.86593798978394099</Rotation>
+<Translation>-0.045281813659668699 0.0031749999999999973 -0.023016020981595092</Translation>
+</Transform>
+</Instance>
+<Instance name="Top brace-1" uid="Top brace-1" entityUid="Top brace*:*Default">
+<Transform>
+<Rotation>0.49939403285747774 0 0.86637497652364404 0 1 0 -0.86637497652364404 0 0.49939403285747735</Rotation>
+<Translation>-0.1177294414972319 -0.004889500000000005 -0.067609392236890983</Translation>
+</Transform>
+</Instance>
+<Instance name="Top brace s-13" uid="Top brace s-13" entityUid="Top brace s*:*Default">
+<Transform>
+<Rotation>-0.49939403285746398 7.2340340640485168e-16 -0.86637497652365159 -7.32920668600201e-16 1 1.2476998600963185e-15 0.8663749765236517 1.2550724348692199e-15 -0.49939403285746381</Rotation>
+<Translation>0.11775759913747004 -0.004889500000000005 0.068035187070243239</Translation>
+</Transform>
+</Instance>
+<Instance name="8982K112_Multipurpose 6061 Aluminum 90 Degree Angle 5-12" uid="8982K112_Multipurpose 6061 Aluminum 90 Degree Angle 5-12" entityUid="8982K112_Multipurpose 6061 Aluminum 90 Degree Angle 5*:*8982K112">
+<Transform>
+<Rotation>-0.86611279132302443 0 0.49984860978764262 0 -1 0 0.49984860978764262 0 0.86611279132302443</Rotation>
+<Translation>0.0427788584953512 0.0031749999999999834 -0.027400036958770718</Translation>
+</Transform>
+</Instance>
+<Instance name="Top brace-2" uid="Top brace-2" entityUid="Top brace*:*Default">
+<Transform>
+<Rotation>-0.9999997553013612 0 -0.00069956930889027039 0 1 0 0.00069956930889057798 0 -0.99999975530136098</Rotation>
+<Translation>0.00015001319597723428 -0.004889500000000005 0.13609292196929607</Translation>
+</Transform>
+</Instance>
+<Instance name="Top brace-3" uid="Top brace-3" entityUid="Top brace*:*Default">
+<Transform>
+<Rotation>0.50060572244389145 0 -0.86567540721475367 0 1 0 0.86567540721475333 0 0.50060572244389168</Rotation>
+<Translation>0.11762166476160948 -0.004889500000000005 -0.06784483748237391</Translation>
+</Transform>
+</Instance>
+<Instance name="Top brace s-12" uid="Top brace s-12" entityUid="Top brace s*:*Default">
+<Transform>
+<Rotation>-0.50060572244389312 -1.4363247800874314e-15 0.86567540721475278 -7.3031858338623579e-16 1.0000000000000002 1.2559397966072083e-15 -0.86567540721475267 0 -0.50060572244389312</Rotation>
+<Translation>-0.1175935071213725 -0.004889500000000005 0.068270632315729732</Translation>
+</Transform>
+</Instance>
+<Instance name="8982K112_Multipurpose 6061 Aluminum 90 Degree Angle 8.15-11" uid="8982K112_Multipurpose 6061 Aluminum 90 Degree Angle 8.15-11" entityUid="8982K112_Multipurpose 6061 Aluminum 90 Degree Angle 8.15*:*8982K112">
+<Transform>
+<Rotation>0.86593798978394254 1.2499656732302238e-15 0.50015137493457384 1.4532645919995701e-15 -1 0 0.50015137493457351 7.2771649817227058e-16 -0.86593798978394243</Rotation>
+<Translation>0.062774165714072058 0.0031749999999999973 0.055505104488407196</Translation>
+</Transform>
+</Instance>
+<Instance name="8982K112_Multipurpose 6061 Aluminum 90 Degree Angle 8.15-12" uid="8982K112_Multipurpose 6061 Aluminum 90 Degree Angle 8.15-12" entityUid="8982K112_Multipurpose 6061 Aluminum 90 Degree Angle 8.15*:*8982K112">
+<Transform>
+<Rotation>0.00017480153908054782 0 -0.99999998472221097 1.4510961876545991e-15 -1 0 -0.99999998472221074 -1.4458920172266687e-15 -0.0001748015390802399</Rotation>
+<Translation>0.016518491328568634 0.0031750000000000111 -0.081785035713070331</Translation>
+</Transform>
+</Instance>
+<Instance name="8982K112_Multipurpose 6061 Aluminum 90 Degree Angle 5-11" uid="8982K112_Multipurpose 6061 Aluminum 90 Degree Angle 5-11" entityUid="8982K112_Multipurpose 6061 Aluminum 90 Degree Angle 5*:*8982K112">
+<Transform>
+<Rotation>0.00017480153908348969 0 -0.99999998472221097 0 -1 0 -0.99999998472221074 0 -0.00017480153908318199</Rotation>
+<Translation>0.002545191624672238 0.0031749999999999834 0.051054750190397624</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Spherical joint top -001-3" uid="Spherical joint top -001-3" entityUid="Spherical joint top -001*:*Default">
+<Transform>
+<Rotation>-0.49941739525276058 -0.042950794790894406 0.86529618891208493 -0.0039614878001322362 0.99887312214837454 0.047294740341477598 -0.86635245248879933 0.020191955734620251 -0.49902476190090378</Rotation>
+<Translation>0.12731945948873946 0.090360268386056944 -0.0734659376911726</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor arm assembly -001-2" uid="Motor arm assembly -001-2" entityUid="Motor arm assembly -001" rigid="true">
+<Transform>
+<Rotation>0 0 -0.99999999999999989 0.99133855984213104 0.13133110739702694 0 0.13133110739702694 -0.99133855984213104 0</Rotation>
+<Translation>-0.00063504534479887043 0.041770866104451999 0.13002040664957548</Translation>
+</Transform>
+<Instance name="Motor arm cylinder L - 001-1" uid="Motor arm cylinder L - 001-1" entityUid="Motor arm cylinder L - 001*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.020042635684545854 0.016966060323928348 0.018750954655201452</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor arm cylinder S - 002-1" uid="Motor arm cylinder S - 002-1" entityUid="Motor arm cylinder S - 002*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.020006441065032451 0.0010053443777678223 0.018750954655201452</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor arm body - 002-2" uid="Motor arm body - 002-2" entityUid="Motor arm body - 002*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.0200424699696478 0.015903304603991725 0.024084954655201451</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor arm body - 002-1" uid="Motor arm body - 002-1" grounded="true" entityUid="Motor arm body - 002*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.0200424699696478 0.015903304603991725 0.017480954655201452</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Spherical joint bottom -002-3" uid="Spherical joint bottom -002-3" entityUid="Spherical joint bottom -002*:*Default">
+<Transform>
+<Rotation>0.89215529988601217 0.33196484414877392 0.30636295979537115 -0.37340935144386384 0.92361560709296509 0.086600615405241249 -0.25421325130601058 -0.1916599921307883 0.94796733608118211</Rotation>
+<Translation>0.13301437435060764 0.089217117510386801 -0.0766839384388249</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor arm assembly -001-5" uid="Motor arm assembly -001-5" entityUid="Motor arm assembly -001" rigid="true">
+<Transform>
+<Rotation>0.0011067233651726406 -0.86602469662440551 0.49999999999999928 0.99999918344192862 0.0012779340656017769 0 -0.00063896703280093628 0.49999959172096353 0.86602540378443904</Rotation>
+<Translation>0.088835359655256865 0.044150937812123051 -0.10125411344706456</Translation>
+</Transform>
+<Instance name="Motor arm cylinder L - 001-1" uid="Motor arm cylinder L - 001-1" entityUid="Motor arm cylinder L - 001*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.02004263568454585 0.016966060323928361 0.018750954655201456</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor arm cylinder S - 002-1" uid="Motor arm cylinder S - 002-1" entityUid="Motor arm cylinder S - 002*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.020006441065032445 0.0010053443777678361 0.018750954655201463</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor arm body - 002-2" uid="Motor arm body - 002-2" entityUid="Motor arm body - 002*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.020042469969647796 0.015903304603991739 0.024084954655201461</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor arm body - 002-1" uid="Motor arm body - 002-1" grounded="true" entityUid="Motor arm body - 002*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.020042469969647793 0.015903304603991739 0.017480954655201449</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Main fork assembly -001-3" uid="Main fork assembly -001-3" entityUid="Main fork assembly -001" rigid="true">
+<Transform>
+<Rotation>-0.49999999999999645 0.33196484414877586 0.79987457907429615 -1.6935237934223584e-16 0.92361560709296475 -0.38331998426157499 -0.86602540378444071 -0.1916599921307863 -0.46180780354647905</Rotation>
+<Translation>0.086772827001445604 0.040162538433243022 -0.048694887246539184</Translation>
+</Transform>
+<Instance name="Main fork -001-2" uid="Main fork -001-2" entityUid="Main fork -001*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.039506595889199428 -0.0083756718186821372 0.034411399996304978</Translation>
+</Transform>
+</Instance>
+<Instance name="Main fork cylinder -002-2" uid="Main fork cylinder -002-2" entityUid="Main fork cylinder -002*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.035417637586374041 0.0089022985645223485 0.027807399996304952</Translation>
+</Transform>
+</Instance>
+<Instance name="Main fork cylinder -002-3" uid="Main fork cylinder -002-3" entityUid="Main fork cylinder -002*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.031521049494705668 0.027692328181317838 0.027807399996304966</Translation>
+</Transform>
+</Instance>
+<Instance name="Main fork cylinder -002-4" uid="Main fork cylinder -002-4" entityUid="Main fork cylinder -002*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.029284138123182583 0.027692328181317838 0.027807399996304966</Translation>
+</Transform>
+</Instance>
+<Instance name="Main fork pin -003-1" uid="Main fork pin -003-1" entityUid="Main fork pin -003*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.039506595889199435 -0.0083756718186821372 0.027807399996304979</Translation>
+</Transform>
+</Instance>
+<Instance name="Main fork -001-1" uid="Main fork -001-1" entityUid="Main fork -001*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.039506595889199435 -0.0083756718186821372 0.026537399996304945</Translation>
+</Transform>
+</Instance>
+<Instance name="Main fork cylinder -002-1" uid="Main fork cylinder -002-1" entityUid="Main fork cylinder -002*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.037653360146724844 0.0088963281813178446 0.027807399996304938</Translation>
+</Transform>
+</Instance>
+<Instance name="Main fork spherical receiver -004-1" uid="Main fork spherical receiver -004-1" entityUid="Main fork spherical receiver -004*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.039506595889199435 -0.0083756718186821372 0.027807399996304979</Translation>
+</Transform>
+</Instance>
+<Instance name="Main fork pin -003-2" uid="Main fork pin -003-2" entityUid="Main fork pin -003*:*Default">
+<Transform>
+<Rotation>-1 -1.3877787807814457e-16 0 -1.6653345369377348e-16 0.99999999999999989 0 0 0 -1</Rotation>
+<Translation>0.041743507260722533 -0.008375671818682151 0.034411399996304964</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Motor arm assembly -001-6" uid="Motor arm assembly -001-6" entityUid="Motor arm assembly -001" rigid="true">
+<Transform>
+<Rotation>0.0011067233651702426 -0.86602469662440751 0.49999999999999606 0.99999918344192862 0.0012779340655988832 -1.5525775109992423e-16 -0.00063896703279930206 0.49999959172096037 0.86602540378444104</Rotation>
+<Translation>0.11078835965525669 0.044150937812123106 -0.063230402068505082</Translation>
+</Transform>
+<Instance name="Motor arm cylinder L - 001-1" uid="Motor arm cylinder L - 001-1" entityUid="Motor arm cylinder L - 001*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.02004263568454585 0.016966060323928375 0.018750954655201456</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor arm cylinder S - 002-1" uid="Motor arm cylinder S - 002-1" entityUid="Motor arm cylinder S - 002*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.020006441065032441 0.0010053443777678639 0.018750954655201449</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor arm body - 002-2" uid="Motor arm body - 002-2" entityUid="Motor arm body - 002*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.020042469969647789 0.015903304603991752 0.024084954655201454</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor arm body - 002-1" uid="Motor arm body - 002-1" grounded="true" entityUid="Motor arm body - 002*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.020042469969647793 0.015903304603991766 0.017480954655201456</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Spherical joint bottom -002-1" uid="Spherical joint bottom -002-1" entityUid="Spherical joint bottom -002*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0.90939758344516231 -0.41592792070754186 0 0.41592792070754186 0.90939758344516231</Rotation>
+<Translation>-9.6948425039263436e-05 0.086139362492700655 0.1556995948672629</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor arm assembly -001-1" uid="Motor arm assembly -001-1" entityUid="Motor arm assembly -001" rigid="true">
+<Transform>
+<Rotation>0 0 -0.99999999999999989 0.99133855984213115 0.13133110739702775 0 0.13133110739702775 -0.99133855984213115 0</Rotation>
+<Translation>0.043270954655201137 0.041770866104452041 0.13002040664957543</Translation>
+</Transform>
+<Instance name="Motor arm cylinder L - 001-1" uid="Motor arm cylinder L - 001-1" entityUid="Motor arm cylinder L - 001*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.020042635684545861 0.016966060323928389 0.018750954655201452</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor arm cylinder S - 002-1" uid="Motor arm cylinder S - 002-1" entityUid="Motor arm cylinder S - 002*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.020006441065032451 0.0010053443777678639 0.018750954655201452</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor arm body - 002-2" uid="Motor arm body - 002-2" entityUid="Motor arm body - 002*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.0200424699696478 0.015903304603991752 0.024084954655201451</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor arm body - 002-1" uid="Motor arm body - 002-1" grounded="true" entityUid="Motor arm body - 002*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.0200424699696478 0.015903304603991752 0.017480954655201452</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Spherical joint top -001-1" uid="Spherical joint top -001-1" entityUid="Spherical joint top -001*:*Default">
+<Transform>
+<Rotation>0.9998753588569782 -0.015437806172073383 -0.0033077018038077453 0.015773867431746635 0.98571912460568378 0.16765736635427009 0.00067220300140849356 -0.1676886445982487 0.98583977735528971</Rotation>
+<Translation>-0.00033144648986425338 0.08729867577252251 0.14683454282304256</Translation>
+</Transform>
+</Instance>
+<Instance name="Bottom plate assembly-1" uid="Bottom plate assembly-1" entityUid="Bottom plate assembly" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0.0025400000000000002 0</Translation>
+</Transform>
+<Instance name="Bottom plate -005-1" uid="Bottom plate -005-1" entityUid="Bottom plate -005*:*Default">
+<Transform>
+<Rotation>-0.50000000000000033 -0.8660254037844386 0 0 0 1 -0.8660254037844386 0.50000000000000033 0</Rotation>
+<Translation>-0.62526799557165269 0 0.21661815816930727</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor block -001-2" uid="Motor block -001-2" entityUid="Motor block -001*:*Default">
+<Transform>
+<Rotation>-0.86602540378443649 -1.3831806892743829e-16 0.50000000000000389 5.9928081513129071e-16 1 0 -0.50000000000000389 0 -0.86602540378443638</Rotation>
+<Translation>-0.074715290878009585 0 -0.027005726779842289</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor block -001-3" uid="Motor block -001-3" entityUid="Motor block -001*:*Default">
+<Transform>
+<Rotation>0.86602540378444071 0 0.49999999999999634 0 1 0 -0.49999999999999634 0 0.86602540378444071</Rotation>
+<Translation>0.06074529087800945 0 -0.051202476561578641</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor block -001-1" uid="Motor block -001-1" entityUid="Motor block -001*:*Default">
+<Transform>
+<Rotation>0 0 -1 0 1 0 1 6.106226635438358e-16 0</Rotation>
+<Translation>0.013969999999999665 0 0.078208203341420451</Translation>
+</Transform>
+</Instance>
+<Instance name="Bottom plate 2-005-1" uid="Bottom plate 2-005-1" entityUid="Bottom plate 2-005*:*Default">
+<Transform>
+<Rotation>-1 3.9180859304621759e-15 0 0 0 -1 -3.9180859304621759e-15 -1 0</Rotation>
+<Translation>-0.13262250339392334 0 -0.6454528259752389</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Main fork assembly -001-1" uid="Main fork assembly -001-1" entityUid="Main fork assembly -001" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 0.90939758344516208 -0.41592792070754242 0 0.41592792070754242 0.90939758344516208</Rotation>
+<Translation>-0.0012154041108008334 0.039037906564230625 0.099948170467322087</Translation>
+</Transform>
+<Instance name="Main fork -001-2" uid="Main fork -001-2" entityUid="Main fork -001*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.039506595889199435 -0.0083756718186821372 0.034411399996304978</Translation>
+</Transform>
+</Instance>
+<Instance name="Main fork cylinder -002-2" uid="Main fork cylinder -002-2" entityUid="Main fork cylinder -002*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.035417637586374055 0.0089022985645223762 0.027807399996304993</Translation>
+</Transform>
+</Instance>
+<Instance name="Main fork cylinder -002-3" uid="Main fork cylinder -002-3" entityUid="Main fork cylinder -002*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.031521049494705668 0.027692328181317866 0.027807399996304993</Translation>
+</Transform>
+</Instance>
+<Instance name="Main fork cylinder -002-4" uid="Main fork cylinder -002-4" entityUid="Main fork cylinder -002*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.029284138123182576 0.027692328181317866 0.027807399996304993</Translation>
+</Transform>
+</Instance>
+<Instance name="Main fork pin -003-1" uid="Main fork pin -003-1" entityUid="Main fork pin -003*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.039506595889199435 -0.0083756718186821372 0.027807399996304966</Translation>
+</Transform>
+</Instance>
+<Instance name="Main fork -001-1" uid="Main fork -001-1" entityUid="Main fork -001*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.039506595889199435 -0.0083756718186821372 0.026537399996304986</Translation>
+</Transform>
+</Instance>
+<Instance name="Main fork cylinder -002-1" uid="Main fork cylinder -002-1" entityUid="Main fork cylinder -002*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.037653360146724844 0.0088963281813178724 0.027807399996304979</Translation>
+</Transform>
+</Instance>
+<Instance name="Main fork spherical receiver -004-1" uid="Main fork spherical receiver -004-1" entityUid="Main fork spherical receiver -004*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.039506595889199435 -0.0083756718186821233 0.027807399996304966</Translation>
+</Transform>
+</Instance>
+<Instance name="Main fork pin -003-2" uid="Main fork pin -003-2" entityUid="Main fork pin -003*:*Default">
+<Transform>
+<Rotation>-1 -1.531124689627252e-16 0 -1.5311246896272212e-16 1.0000000000000002 0 0 0 -1.0000000000000002</Rotation>
+<Translation>0.041743507260722533 -0.0083756718186821372 0.034411399996304978</Translation>
+</Transform>
+</Instance>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Coincident name="Coincident1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Bottom plate assembly-1</Uid>
+<Uid>Bottom plate 2-005-1</Uid>
+</InstancePath>
+<Position>0 0 0.0025400000000000002</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>ALARS_STABv2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Bottom plate assembly-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>ALARS_STABv2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Bottom plate assembly-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>ALARS_STABv2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric3">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Bottom plate assembly-1</Uid>
+<Uid>Motor block -001-1</Uid>
+</InstancePath>
+<Position>0.032360871960830304 0.021590000000000015 -0.010159999999999999</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Motor arm assembly -001-1</Uid>
+<Uid>Motor arm cylinder L - 001-1</Uid>
+</InstancePath>
+<Position>0 0 0.0053339999999999985</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric4">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Bottom plate assembly-1</Uid>
+<Uid>Motor block -001-1</Uid>
+</InstancePath>
+<Position>0.032360871960830304 0.021590000000000015 -0.010159999999999999</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Motor arm assembly -001-2</Uid>
+<Uid>Motor arm cylinder L - 001-1</Uid>
+</InstancePath>
+<Position>0 0 0.0053339999999999985</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Bottom plate assembly-1</Uid>
+<Uid>Motor block -001-1</Uid>
+</InstancePath>
+<Position>0.032360871960830304 0.021590000000000015 0.038100000000000009</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Motor arm assembly -001-2</Uid>
+<Uid>Motor arm body - 002-2</Uid>
+</InstancePath>
+<Position>-1.6571489805383699e-07 0.0010627557199366228 0.0012700000000000003</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Distance>
+<Distance name="Distance3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Bottom plate assembly-1</Uid>
+<Uid>Motor block -001-1</Uid>
+</InstancePath>
+<Position>0.032360871960830304 0.021590000000000015 -0.010159999999999999</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Motor arm assembly -001-1</Uid>
+<Uid>Motor arm body - 002-1</Uid>
+</InstancePath>
+<Position>-1.6571489806077588e-07 0.0010627557199366228 0</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric5">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Main fork assembly -001-1</Uid>
+<Uid>Main fork pin -003-1</Uid>
+</InstancePath>
+<Position>0.022605999999999998 0.0039453808648384492 0.0033020000000000271</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Motor arm assembly -001-2</Uid>
+<Uid>Motor arm cylinder S - 002-1</Uid>
+</InstancePath>
+<Position>0 0 0.0053339999999999985</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric6">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Main fork assembly -001-1</Uid>
+<Uid>Main fork pin -003-2</Uid>
+</InstancePath>
+<Position>0.022605999999999994 0.0039453808648384353 0.0033020000000000133</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Motor arm assembly -001-1</Uid>
+<Uid>Motor arm cylinder S - 002-1</Uid>
+</InstancePath>
+<Position>0 0 0.0053339999999999985</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident7">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Main fork assembly -001-1</Uid>
+<Uid>Main fork pin -003-1</Uid>
+</InstancePath>
+<Position>0.022605999999999998 0.0039453808648384492 0.0033020000000000271</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Motor arm assembly -001-2</Uid>
+<Uid>Motor arm body - 002-1</Uid>
+</InstancePath>
+<Position>-1.6571489805383699e-07 0.0010627557199366228 0</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric7">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Main fork assembly -001-1</Uid>
+<Uid>Main fork spherical receiver -004-1</Uid>
+</InstancePath>
+<Position>0.040625051574960984 0.034488930207926816 0.0033020000000000133</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Spherical joint bottom -002-1</Uid>
+</InstancePath>
+<Position>0 -0.039909265836005153 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident8">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Main fork assembly -001-1</Uid>
+<Uid>Main fork spherical receiver -004-1</Uid>
+</InstancePath>
+<Position>0.029957051574960987 0.034488930207926816 0.0066039999999999988</Position>
+<Axis>7.8052799818978981e-15 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Spherical joint bottom -002-1</Uid>
+</InstancePath>
+<Position>0 -0.039909265836005153 0</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric8">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Spherical joint top -001-1</Uid>
+</InstancePath>
+<Position>0 -0.015189856784780194 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Spherical joint bottom -002-1</Uid>
+</InstancePath>
+<Position>0 -0.015189856784780187 0</Position>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric9">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Spherical joint top -001-1</Uid>
+</InstancePath>
+<Position>0.0088899999999999986 -0.0035270708946446086 0</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Platform top-1</Uid>
+<Uid>Top brace-2</Uid>
+</InstancePath>
+<Position>0.015240000000000002 -0.0033806867003265823 -0.011489451652195976</Position>
+<Axis>-1 0 1.5373986805844453e-16</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Platform top-1</Uid>
+<Uid>Top brace-2</Uid>
+</InstancePath>
+<Position>0.0086344029333712841 -0.00070192139262173492 -0.020319999999999977</Position>
+<Axis>1.0000000000000002 -1.4579834125487239e-15 -1.5363144784119598e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Spherical joint top -001-1</Uid>
+</InstancePath>
+<Position>-0.0088900000000000021 -0.0035270708946446086 0</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric10">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Main fork assembly -001-2</Uid>
+<Uid>Main fork pin -003-1</Uid>
+</InstancePath>
+<Position>0.022606000000000015 0.0039453808648384214 0.0033019999999999994</Position>
+<Axis>-1 1.1102230246251565e-16 2.2204460492503131e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Motor arm assembly -001-4</Uid>
+<Uid>Motor arm cylinder S - 002-1</Uid>
+</InstancePath>
+<Position>0 0 0.0053339999999999915</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric11">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Main fork assembly -001-2</Uid>
+<Uid>Main fork pin -003-2</Uid>
+</InstancePath>
+<Position>0.022605999999999987 0.0039453808648384492 0.0033019999999999994</Position>
+<Axis>-1.0000000000000002 0 2.2204460492503131e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Motor arm assembly -001-3</Uid>
+<Uid>Motor arm cylinder S - 002-1</Uid>
+</InstancePath>
+<Position>0 0 0.0053339999999999915</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident13">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Main fork assembly -001-2</Uid>
+<Uid>Main fork pin -003-1</Uid>
+</InstancePath>
+<Position>0.022606000000000015 0.0039453808648384214 0.0033019999999999994</Position>
+<Axis>1 -1.1102230246251565e-16 -2.2204460492503131e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Motor arm assembly -001-4</Uid>
+<Uid>Motor arm body - 002-1</Uid>
+</InstancePath>
+<Position>-1.6571489805383699e-07 0.0010627557199366089 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric12">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Main fork assembly -001-2</Uid>
+<Uid>Main fork spherical receiver -004-1</Uid>
+</InstancePath>
+<Position>0.040625051574960984 0.034488930207926802 0.0033019999999999994</Position>
+<Axis>-1.1102230246251565e-16 1.0000000000000002 1.2490009027033011e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Spherical joint bottom -002-2</Uid>
+</InstancePath>
+<Position>0 -0.039909265836005126 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident14">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Main fork assembly -001-2</Uid>
+<Uid>Main fork spherical receiver -004-1</Uid>
+</InstancePath>
+<Position>0.029957051574960994 0.034488930207926802 0.0066039999999999988</Position>
+<Axis>7.9103390504542404e-15 -0.99999999999999989 -1.2490009027033011e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Spherical joint bottom -002-2</Uid>
+</InstancePath>
+<Position>0 -0.039909265836005126 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric13">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Spherical joint top -001-2</Uid>
+</InstancePath>
+<Position>0 -0.015189856784780187 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Spherical joint bottom -002-2</Uid>
+</InstancePath>
+<Position>0 -0.015189856784780187 0</Position>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric14">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Bottom plate assembly-1</Uid>
+<Uid>Motor block -001-2</Uid>
+</InstancePath>
+<Position>0.032360871960830304 0.021590000000000019 -0.010159999999999995</Position>
+<Axis>0 -3.0698732329087415e-16 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Motor arm assembly -001-3</Uid>
+<Uid>Motor arm cylinder L - 001-1</Uid>
+</InstancePath>
+<Position>0 0 0.0053339999999999985</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric15">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Bottom plate assembly-1</Uid>
+<Uid>Motor block -001-2</Uid>
+</InstancePath>
+<Position>0.032360871960830304 0.021590000000000019 -0.010159999999999995</Position>
+<Axis>0 -3.0698732329087415e-16 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Motor arm assembly -001-4</Uid>
+<Uid>Motor arm cylinder L - 001-1</Uid>
+</InstancePath>
+<Position>0 0 0.0053340000000000054</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance6">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Bottom plate assembly-1</Uid>
+<Uid>Motor block -001-2</Uid>
+</InstancePath>
+<Position>0.032360871960830304 0.021590000000000005 0.038100000000000002</Position>
+<Axis>0 -3.0698732329087415e-16 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Motor arm assembly -001-4</Uid>
+<Uid>Motor arm body - 002-2</Uid>
+</InstancePath>
+<Position>-1.657148980468981e-07 0.0010627557199366089 0.0012700000000000072</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Distance>
+<Distance name="Distance7">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Bottom plate assembly-1</Uid>
+<Uid>Motor block -001-2</Uid>
+</InstancePath>
+<Position>0.032360871960830304 0.021590000000000019 -0.010159999999999995</Position>
+<Axis>0 3.0698732329087415e-16 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Motor arm assembly -001-3</Uid>
+<Uid>Motor arm body - 002-1</Uid>
+</InstancePath>
+<Position>-1.6571489805383699e-07 0.0010627557199366228 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric16">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Platform top-1</Uid>
+<Uid>Top brace-1</Uid>
+</InstancePath>
+<Position>0.015240000000000004 -0.0033806867003265823 -0.011489451652195948</Position>
+<Axis>-1.0000000000000002 0 -1.6653345369377348e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Spherical joint top -001-2</Uid>
+</InstancePath>
+<Position>0.0088900000000000021 -0.0035270708946446017 0</Position>
+<Axis>-1 0 1.1102230246251565e-16</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance8">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Platform top-1</Uid>
+<Uid>Top brace-1</Uid>
+</InstancePath>
+<Position>0.0086344029333712616 -0.00070192139262173492 -0.020320000000000005</Position>
+<Axis>1.0000000000000002 -1.4493614641786223e-15 1.6653345369377348e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Spherical joint top -001-2</Uid>
+</InstancePath>
+<Position>-0.008890000000000009 -0.0035270708946446017 0</Position>
+<Axis>-1 0 1.1102230246251565e-16</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric17">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Main fork assembly -001-3</Uid>
+<Uid>Main fork pin -003-1</Uid>
+</InstancePath>
+<Position>0.022606000000000001 0.0039453808648384353 0.0033019999999999855</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Motor arm assembly -001-6</Uid>
+<Uid>Motor arm cylinder S - 002-1</Uid>
+</InstancePath>
+<Position>0 0 0.0053340000000000054</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric18">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Main fork assembly -001-3</Uid>
+<Uid>Main fork pin -003-2</Uid>
+</InstancePath>
+<Position>0.022606000000000001 0.0039453808648384353 0.0033019999999999994</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Motor arm assembly -001-5</Uid>
+<Uid>Motor arm cylinder S - 002-1</Uid>
+</InstancePath>
+<Position>0 0 0.0053340000000000054</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident16">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Main fork assembly -001-3</Uid>
+<Uid>Main fork pin -003-1</Uid>
+</InstancePath>
+<Position>0.022606000000000001 0.0039453808648384353 0.0033019999999999855</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Motor arm assembly -001-6</Uid>
+<Uid>Motor arm body - 002-1</Uid>
+</InstancePath>
+<Position>-1.6571489805036754e-07 0.0010627557199366228 0</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric19">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Main fork assembly -001-3</Uid>
+<Uid>Main fork spherical receiver -004-1</Uid>
+</InstancePath>
+<Position>0.040625051574960991 0.034488930207926802 0.0033019999999999994</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Spherical joint bottom -002-3</Uid>
+</InstancePath>
+<Position>0 -0.039909265836005139 0</Position>
+<Axis>1.1102230246251565e-16 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident17">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Main fork assembly -001-3</Uid>
+<Uid>Main fork spherical receiver -004-1</Uid>
+</InstancePath>
+<Position>0.029957051574960994 0.034488930207926802 0.0066039999999999849</Position>
+<Axis>7.7993167479917247e-15 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Spherical joint bottom -002-3</Uid>
+</InstancePath>
+<Position>0 -0.039909265836005139 0</Position>
+<Axis>-1.1102230246251565e-16 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric20">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Spherical joint top -001-3</Uid>
+</InstancePath>
+<Position>0 -0.015189856784780201 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Spherical joint bottom -002-3</Uid>
+</InstancePath>
+<Position>0 -0.015189856784780187 0</Position>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric21">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Bottom plate assembly-1</Uid>
+<Uid>Motor block -001-3</Uid>
+</InstancePath>
+<Position>0.03236087196083029 0.021589999999999998 -0.010159999999999995</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Motor arm assembly -001-5</Uid>
+<Uid>Motor arm cylinder L - 001-1</Uid>
+</InstancePath>
+<Position>0 0 0.0053339999999999985</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric22">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Bottom plate assembly-1</Uid>
+<Uid>Motor block -001-3</Uid>
+</InstancePath>
+<Position>0.03236087196083029 0.021589999999999998 -0.010159999999999995</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Motor arm assembly -001-6</Uid>
+<Uid>Motor arm cylinder L - 001-1</Uid>
+</InstancePath>
+<Position>0 0 0.0053340000000000019</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance9">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Bottom plate assembly-1</Uid>
+<Uid>Motor block -001-3</Uid>
+</InstancePath>
+<Position>0.03236087196083029 0.021589999999999998 0.038100000000000002</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Motor arm assembly -001-6</Uid>
+<Uid>Motor arm body - 002-2</Uid>
+</InstancePath>
+<Position>-1.6571489805730644e-07 0.0010627557199366366 0.0012700000000000003</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Distance>
+<Distance name="Distance10">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Bottom plate assembly-1</Uid>
+<Uid>Motor block -001-3</Uid>
+</InstancePath>
+<Position>0.03236087196083029 0.021589999999999998 -0.010159999999999995</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Motor arm assembly -001-5</Uid>
+<Uid>Motor arm body - 002-1</Uid>
+</InstancePath>
+<Position>-1.6571489806077588e-07 0.0010627557199366228 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric24">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Platform top-1</Uid>
+<Uid>Top brace-3</Uid>
+</InstancePath>
+<Position>0.015239999999999997 -0.0033806867003265823 -0.011489451652195948</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Spherical joint top -001-3</Uid>
+</InstancePath>
+<Position>0.0088900000000000021 -0.0035270708946446017 0</Position>
+<Axis>-1 0 1.6653345369377348e-16</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance12">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Platform top-1</Uid>
+<Uid>Top brace-3</Uid>
+</InstancePath>
+<Position>0.0086344029333712824 -0.00070192139262170716 -0.020319999999999977</Position>
+<Axis>1 -1.4519635493925875e-15 1.1102230246251565e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Spherical joint top -001-3</Uid>
+</InstancePath>
+<Position>-0.0088899999999999882 -0.0035270708946446017 0</Position>
+<Axis>-1 0 1.6653345369377348e-16</Axis>
+</ConstraintGeometry>
+</Distance>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+<Assembly name="Main fork assembly -001" uid="Main fork assembly -001" version="256">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Main fork assembly -001.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Motor arm assembly -001" uid="Motor arm assembly -001" version="121">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Motor arm assembly -001.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Platform top" uid="Platform top" version="27708">
+<ModelUnits mass="kilogram" length="inch"/>
+<AssemblyFile name="Platform top.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Bottom plate assembly" uid="Bottom plate assembly" version="141">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Bottom plate assembly.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+</Assemblies>
+<Parts>
+<Part name="8982K112_Multipurpose 6061 Aluminum 90 Degree Angle 5" uid="8982K112_Multipurpose 6061 Aluminum 90 Degree Angle 5*:*8982K112" version="781">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="8982K112_Multipurpose 6061 Aluminum 90 Degree Angle 5.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0060203893787162703</Mass>
+<CenterOfMass>0.0010815625593861692 -0.0010351701595862799 0.0025399992856871448</CenterOfMass>
+<Inertia>7.8084389182260718e-06 7.8080720634802379e-06 3.8662162528475308e-08 -3.2485684668788024e-14 -5.6550322701337903e-15 -1.0618234047046959e-08</Inertia>
+</MassProperties>
+<GeometryFile name="8982K112_Multipurpose 6061 Aluminum 90 Degree Angle 5_8982K112_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="8982K112_Multipurpose 6061 Aluminum 90 Degree Angle 6.93 corner" uid="8982K112_Multipurpose 6061 Aluminum 90 Degree Angle 6.93 corner*:*8982K112" version="762">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="8982K112_Multipurpose 6061 Aluminum 90 Degree Angle 6.93 corner.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0083437111281812557</Mass>
+<CenterOfMass>0.0010860198218071008 -0.0010323887574742528 -1.0097840090819417e-09</CenterOfMass>
+<Inertia>2.0871004659635349e-05 2.0870470656580907e-05 5.3596012365910957e-08 -5.6021080378122986e-14 -1.7153367518518904e-15 -1.4692346327091296e-08</Inertia>
+</MassProperties>
+<GeometryFile name="8982K112_Multipurpose 6061 Aluminum 90 Degree Angle 6.93 corner_8982K112_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="8982K112_Multipurpose 6061 Aluminum 90 Degree Angle 8.15" uid="8982K112_Multipurpose 6061 Aluminum 90 Degree Angle 8.15*:*8982K112" version="913">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="8982K112_Multipurpose 6061 Aluminum 90 Degree Angle 8.15.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0098951899163700098</Mass>
+<CenterOfMass>0.0010338917248918268 -0.0011237295931523035 0.016509935221642982</CenterOfMass>
+<Inertia>3.5033588449487144e-05 3.5034214564509969e-05 6.3023460497531519e-08 2.6157893065916799e-13 -1.2817683747126945e-12 -1.6893753546632229e-08</Inertia>
+</MassProperties>
+<GeometryFile name="8982K112_Multipurpose 6061 Aluminum 90 Degree Angle 8.15_8982K112_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Bottom plate -005" uid="Bottom plate -005*:*Default" version="597">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Bottom plate -005.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.1041497213433146</Mass>
+<CenterOfMass>-0.12503716989021144 -0.64980632991289244 0.0012700000000000001</CenterOfMass>
+<Inertia>0.00039259381391425387 0.00039259959578433711 0.00078508142097488774 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Bottom plate -005_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Bottom plate 2-005" uid="Bottom plate 2-005*:*Default" version="395">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Bottom plate 2-005.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.026180062970094869</Mass>
+<CenterOfMass>-0.13262250339392573 -0.64545282597523845 0.0012700000000000001</CenterOfMass>
+<Inertia>7.3531423888428574e-05 7.3531423888429062e-05 0.00014703469722781464 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Bottom plate 2-005_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Main fork -001" uid="Main fork -001*:*Default" version="147">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Main fork -001.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0016930616195716692</Mass>
+<CenterOfMass>0.040625051574960915 0.031070401738599485 0.00063500000000000015</CenterOfMass>
+<Inertia>3.2092088316355991e-07 1.2272683099504796e-06 1.5477340699330049e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Main fork -001_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Main fork cylinder -002" uid="Main fork cylinder -002*:*Default" version="108">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Main fork cylinder -002.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00014529545169894825</Mass>
+<CenterOfMass>0 0 0.0033020000000000007</CenterOfMass>
+<Inertia>8.935274592272921e-10 8.935274592272921e-10 7.3093095169073109e-10 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Main fork cylinder -002_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Main fork pin -003" uid="Main fork pin -003*:*Default" version="170">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Main fork pin -003.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00076586588541743947</Mass>
+<CenterOfMass>0.0088071567890857655 0.0039453820651400755 0.0033020000000000007</CenterOfMass>
+<Inertia>5.1329228417107095e-09 3.1671204150832254e-08 3.2330505509735194e-08 -2.278733714325477e-15 0 -1.1548740049280058e-15</Inertia>
+</MassProperties>
+<GeometryFile name="Main fork pin -003_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Main fork spherical receiver -004" uid="Main fork spherical receiver -004*:*Default" version="136">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Main fork spherical receiver -004.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0016991931722996265</Mass>
+<CenterOfMass>0.040625051574960963 0.041531654852278589 0.0033019999999999998</CenterOfMass>
+<Inertia>3.4845974865014423e-08 8.1581894565539595e-08 1.0292254041879179e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Main fork spherical receiver -004_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Motor arm body - 002" uid="Motor arm body - 002*:*Default" version="124">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Motor arm body - 002.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00037050280137419496</Mass>
+<CenterOfMass>1.5514551638530876e-05 -0.0054324548622626343 0.00063499999999999993</CenterOfMass>
+<Inertia>2.0857065393935526e-08 5.3094607792013163e-09 2.6066928845080773e-08 0 0 3.5562449830113371e-11</Inertia>
+</MassProperties>
+<GeometryFile name="Motor arm body - 002_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Motor arm cylinder L - 001" uid="Motor arm cylinder L - 001*:*Default" version="120">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Motor arm cylinder L - 001.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00073947997694325603</Mass>
+<CenterOfMass>0 0 0.0026670000000000001</CenterOfMass>
+<Inertia>1.2296811797109428e-08 1.2296811797109424e-08 2.1087064265072227e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Motor arm cylinder L - 001_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Motor arm cylinder S - 002" uid="Motor arm cylinder S - 002*:*Default" version="106">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Motor arm cylinder S - 002.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00041798389951722039</Mass>
+<CenterOfMass>0 0 0.0026670000000000001</CenterOfMass>
+<Inertia>5.0141071640991931e-09 5.0141071640991931e-09 8.0461656074962908e-09 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Motor arm cylinder S - 002_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Motor block -001" uid="Motor block -001*:*Default" version="124">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Motor block -001.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.050303850224795076</Mass>
+<CenterOfMass>0.024282896697559689 0.018480324938789667 0.013970017864024265</CenterOfMass>
+<Inertia>9.0348609930550317e-06 1.3045225143208342e-05 1.5360790629723592e-05 8.7410571071389415e-13 -2.5535348962450883e-11 -1.9775182350005537e-08</Inertia>
+</MassProperties>
+<GeometryFile name="Motor block -001_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Platform" uid="Platform*:*Default" version="317">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Platform.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>0 0 0 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Platform_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Spherical joint bottom -002" uid="Spherical joint bottom -002*:*Default" version="219">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Spherical joint bottom -002.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00056214243112873391</Mass>
+<CenterOfMass>0 -0.02642997302870401 0</CenterOfMass>
+<Inertia>3.3106213045785179e-08 3.4614188273397104e-09 3.3106213045785179e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Spherical joint bottom -002_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Spherical joint top -001" uid="Spherical joint top -001*:*Default" version="176">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Spherical joint top -001.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00052639594172827243</Mass>
+<CenterOfMass>3.7625235348470569e-09 -0.01004084120495463 -6.1754080394627828e-09</CenterOfMass>
+<Inertia>1.6324213508973703e-08 5.3065006709651272e-09 1.9665391419481986e-08 2.1760854320260259e-14 1.359828545556991e-14 -3.9930750733293006e-15</Inertia>
+</MassProperties>
+<GeometryFile name="Spherical joint top -001_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Top brace s" uid="Top brace s*:*Default" version="366">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Top brace s.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0024260282365311213</Mass>
+<CenterOfMass>0.0001421724274140453 0.0087446567673525356 -0.026359981019666155</CenterOfMass>
+<Inertia>4.2266698813300026e-08 3.5262468314615991e-07 3.116165693761473e-07 -1.9824235797562923e-10 6.7517681615084073e-13 7.9431993711444352e-13</Inertia>
+</MassProperties>
+<GeometryFile name="Top brace s_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Top brace" uid="Top brace*:*Default" version="326">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Top brace.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.023144407998755463</Mass>
+<CenterOfMass>9.4588043748836527e-05 0.007195035781726521 -0.0025494995876630885</CenterOfMass>
+<Inertia>6.726792937893628e-06 1.0485323639424127e-05 4.1884292406515468e-06 -3.2235128914296364e-07 -9.7796621542271754e-09 -3.3950691338488404e-09</Inertia>
+</MassProperties>
+<GeometryFile name="Top brace_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
