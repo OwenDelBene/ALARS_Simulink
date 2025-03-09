@@ -1,0 +1,2891 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="03/07/25||22:49:34" using="Simscape Multibody Link Version 7.4" from="SolidWorks 32.2.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="ALARS_STAB_v3" uid="ALARS_STAB_v3" version="246">
+<AssemblyFile name="ALARS_STAB_v3.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="Steel Ball Linkage Case-2" uid="Steel Ball Linkage Case-2" entityUid="Steel Ball Linkage Case" rigid="true">
+<Transform>
+<Rotation>0.69603853016218142 -0.19823967821294902 -0.69009520684590786 0.22202822196618577 0.97344818727519766 -0.055696457168886868 0.68281317589821311 -0.11445373158031123 0.72157224873683834</Rotation>
+<Translation>-0.23787081630077134 0.13308343273621118 -0.14848128523366108</Translation>
+</Transform>
+<Instance name="2913-0004-0241 housing-1" uid="2913-0004-0241 housing-1" entityUid="2913-0004-0241 housing*:*Default">
+<Transform>
+<Rotation>-0.97749421425782146 0 0.21096222669588072 0 -1 0 0.21096222669588072 0 0.97749421425782146</Rotation>
+<Translation>-0.0020028246615702017 0.044283853030569781 0.010417652343013506</Translation>
+</Transform>
+</Instance>
+<Instance name="27mm standoff M4-1" uid="27mm standoff M4-1" grounded="true" entityUid="27mm standoff M4*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.0020028246615702017 0.0064138530305697938 0.010417652343013548</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Motor arm assembly -001-3" uid="Motor arm assembly -001-3" entityUid="Motor arm assembly -001" rigid="true">
+<Transform>
+<Rotation>-0.35004999412138582 0.79212688479537108 -0.4999999999999985 -0.91466934033789338 -0.4042029166716179 -5.5511151231257827e-16 -0.20210145833580881 0.45733467016894513 0.86602540378443937</Rotation>
+<Translation>-0.18898099400625151 0.037059085408169684 -0.18810585803424767</Translation>
+</Transform>
+<Instance name="8mm Rex ball bearing-2" uid="8mm Rex ball bearing-2" entityUid="8mm Rex ball bearing*:*Default">
+<Transform>
+<Rotation>0.99999999999999989 0 0 0 0 -0.99999999999999989 0 1 0</Rotation>
+<Translation>-0.020060573090787924 0.027555161292834751 0.028593954655201412</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor arm cylinder L - 001-1" uid="Motor arm cylinder L - 001-1" entityUid="Motor arm cylinder L - 001*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.020060573090787931 0.027555161292834751 0.022052954655201448</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor arm cylinder S - 002-1" uid="Motor arm cylinder S - 002-1" entityUid="Motor arm cylinder S - 002*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.020060573090787924 -0.020704838707165218 0.022052954655201407</Translation>
+</Transform>
+</Instance>
+<Instance name="8mm Rex ball bearing-1" uid="8mm Rex ball bearing-1" entityUid="8mm Rex ball bearing*:*Default">
+<Transform>
+<Rotation>0.99999999999999989 0 0 0 0 0.99999999999999989 0 -1 0</Rotation>
+<Translation>-0.020060573090787924 0.027555161292834751 0.020845954655201421</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor arm body - 002-2" uid="Motor arm body - 002-2" entityUid="Motor arm body - 002*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.020042469969647814 0.015903304603991752 0.030688954655201425</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor arm body - 002-1" uid="Motor arm body - 002-1" grounded="true" entityUid="Motor arm body - 002*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.020042469969647807 0.015903304603991752 0.017480954655201456</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="2913-0004-0241 ball-c-2" uid="2913-0004-0241 ball-c-2" entityUid="2913-0004-0241 ball-c*:*Default">
+<Transform>
+<Rotation>0.65537581879927465 0.56536392246626199 -0.50084545651003232 -0.65319460600687484 0.7571900730223049 -2.1203261368896165e-11 0.3792352077757335 0.32714955064930007 0.86553672867952702</Rotation>
+<Translation>-0.25523284815769359 0.17516655926833924 -0.14740020370199103</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor arm assembly -001-4" uid="Motor arm assembly -001-4" entityUid="Motor arm assembly -001" rigid="true">
+<Transform>
+<Rotation>-0.35004999412138671 0.79212688479537108 -0.4999999999999985 -0.91466934033789327 -0.40420291667161834 6.106226635438361e-16 -0.20210145833580806 0.45733467016894563 0.86602540378443948</Rotation>
+<Translation>-0.23261999400625133 0.037059085408169573 -0.11252089284274933</Translation>
+</Transform>
+<Instance name="8mm Rex ball bearing-2" uid="8mm Rex ball bearing-2" entityUid="8mm Rex ball bearing*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 -1 0 1 0</Rotation>
+<Translation>-0.020060573090787903 0.027555161292834723 0.02859395465520144</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor arm cylinder L - 001-1" uid="Motor arm cylinder L - 001-1" entityUid="Motor arm cylinder L - 001*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.020060573090787917 0.027555161292834723 0.022052954655201448</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor arm cylinder S - 002-1" uid="Motor arm cylinder S - 002-1" entityUid="Motor arm cylinder S - 002*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.020060573090787903 -0.020704838707165274 0.022052954655201421</Translation>
+</Transform>
+</Instance>
+<Instance name="8mm Rex ball bearing-1" uid="8mm Rex ball bearing-1" entityUid="8mm Rex ball bearing*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 1 0 -1 0</Rotation>
+<Translation>-0.020060573090787903 0.027555161292834751 0.020845954655201449</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor arm body - 002-2" uid="Motor arm body - 002-2" entityUid="Motor arm body - 002*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.0200424699696478 0.015903304603991725 0.030688954655201439</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor arm body - 002-1" uid="Motor arm body - 002-1" grounded="true" entityUid="Motor arm body - 002*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.0200424699696478 0.015903304603991725 0.017480954655201456</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Main fork assembly v2-2" uid="Main fork assembly v2-2" entityUid="Main fork assembly v2" rigid="true">
+<Transform>
+<Rotation>-0.49999999999999833 -0.1982396782129488 -0.84303085944823397 5.5511151231257827e-16 0.97344818727519777 -0.2289074631606216 0.86602540378443948 -0.11445373158031093 -0.48672409363759717</Rotation>
+<Translation>-0.1837053927182469 0.070462758561431624 -0.13775434271589712</Translation>
+</Transform>
+<Instance name="9414T3_Set Screw Shaft Collar-6" uid="9414T3_Set Screw Shaft Collar-6" entityUid="9414T3_Set Screw Shaft Collar*:*9414T3">
+<Transform>
+<Rotation>0 0 -0.99999999999999978 -0.99814178218100336 0.060934248699153745 0 0.060934248699153745 0.99814178218100325 0</Rotation>
+<Translation>0.059979270214314706 0.0027793122692493649 0.041027243775979355</Translation>
+</Transform>
+</Instance>
+<Instance name="6mm ID Flanged Ball Bearing 12mm OD, 4mm-2" uid="6mm ID Flanged Ball Bearing 12mm OD, 4mm-2" entityUid="6mm ID Flanged Ball Bearing 12mm OD, 4mm*:*Default">
+<Transform>
+<Rotation>-0.024039075311815039 0 -0.99971101967426201 0 0.99999999999999989 0 0.99971101967426201 0 -0.02403907531181515</Rotation>
+<Translation>0.027410167064392726 0.088837309532833031 0.041027243775979272</Translation>
+</Transform>
+</Instance>
+<Instance name="9414T3_Set Screw Shaft Collar-4" uid="9414T3_Set Screw Shaft Collar-4" entityUid="9414T3_Set Screw Shaft Collar*:*9414T3">
+<Transform>
+<Rotation>0 0 1 -0.99142464527128904 0.1306796569811034 0 -0.13067965698110343 -0.99142464527128893 0</Rotation>
+<Translation>-0.027297534791341574 0.0027793122692493649 0.041027243775979355</Translation>
+</Transform>
+</Instance>
+<Instance name="9414T3_Set Screw Shaft Collar-5" uid="9414T3_Set Screw Shaft Collar-5" entityUid="9414T3_Set Screw Shaft Collar*:*9414T3">
+<Transform>
+<Rotation>-3.6082248300317597e-16 3.3306690738754696e-16 -0.99999999999999989 -0.99162159837318931 0.12917664510197369 4.0082383301540535e-16 0.12917664510197369 0.99162159837318919 2.8366650123714011e-16</Rotation>
+<Translation>0.082067868920127032 0.002779312269249351 0.041027243775979327</Translation>
+</Transform>
+</Instance>
+<Instance name="Pin_For_Bearings_Fork-1" uid="Pin_For_Bearings_Fork-1" entityUid="Pin_For_Bearings_Fork*:*Default">
+<Transform>
+<Rotation>-1.1102230246251565e-16 -1 1.3063602048745566e-16 0.61209924314952058 -1.7126114416223713e-16 -0.79078095357423972 0.79078095357423972 0 0.61209924314952058</Rotation>
+<Translation>-0.0020239360855292127 0.0027793122692493788 0.041027243775979327</Translation>
+</Transform>
+</Instance>
+<Instance name="Main fork assembly -001-1" uid="Main fork assembly -001-1" grounded="true" entityUid="Main fork assembly -001" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.042480588391824906 -0.0044269335008024352 0.014249514896529453</Translation>
+</Transform>
+<Instance name="Main fork cylinder -002-1" uid="Main fork cylinder -002-1" entityUid="Main fork cylinder -002*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.057999387594494439 0.033859484040374935 0.023475728879449848</Translation>
+</Transform>
+</Instance>
+<Instance name="Main fork cylinder -002-2" uid="Main fork cylinder -002-2" entityUid="Main fork cylinder -002*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.08814023024935877 0.033859484040374907 0.023475728879449848</Translation>
+</Transform>
+</Instance>
+<Instance name="Main fork -001-1" uid="Main fork -001-1" entityUid="Main fork -001*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.055695472902393198 0.0303858857789744 0.018268728879449858</Translation>
+</Transform>
+</Instance>
+<Instance name="Main fork -001-2" uid="Main fork -001-2" entityUid="Main fork -001*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.055695472902393225 0.0303858857789744 0.03401672887944987</Translation>
+</Transform>
+</Instance>
+<Instance name="Main fork pin -003-2" uid="Main fork pin -003-2" entityUid="Main fork pin -003*:*Default">
+<Transform>
+<Rotation>-1 -1.3877787807814459e-16 0 -1.3877787807814459e-16 0.99999999999999989 0 0 0 -0.99999999999999989</Rotation>
+<Translation>0.061555331498942878 0.0032608649052133648 0.030079728879449846</Translation>
+</Transform>
+</Instance>
+<Instance name="Main fork pin -003-1" uid="Main fork pin -003-1" entityUid="Main fork pin -003*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.091696174153807194 0.0032608649052133509 0.023475728879449875</Translation>
+</Transform>
+</Instance>
+<Instance name="Main fork cylinder -002-4" uid="Main fork cylinder -002-4" entityUid="Main fork cylinder -002*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.075875608945320416 0.071451484040374894 0.023475728879449875</Translation>
+</Transform>
+</Instance>
+<Instance name="Main fork spherical receiver -004-1" uid="Main fork spherical receiver -004-1" entityUid="Main fork spherical receiver -004*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.055695472902393156 0.040847138892653526 0.023475728879449848</Translation>
+</Transform>
+</Instance>
+<Instance name="Main fork cylinder -002-3" uid="Main fork cylinder -002-3" entityUid="Main fork cylinder -002*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.045734766290456086 0.071451484040374894 0.023475728879449848</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="57155K207_Stainless Steel Ball Bearing-1" uid="57155K207_Stainless Steel Ball Bearing-1" entityUid="57155K207_Stainless Steel Ball Bearing*:*57155K207">
+<Transform>
+<Rotation>1.1102230246251568e-16 -2.7755575615628918e-16 1.0000000000000002 -0.41506755000551016 0.90979059619916025 2.9859937195102615e-16 -0.90979059619916025 -0.41506755000551016 0</Rotation>
+<Translation>-0.052109561085529194 0.002779312269249351 0.0410272437759793</Translation>
+</Transform>
+</Instance>
+<Instance name="57155K207_Stainless Steel Ball Bearing-5" uid="57155K207_Stainless Steel Ball Bearing-5" entityUid="57155K207_Stainless Steel Ball Bearing*:*57155K207">
+<Transform>
+<Rotation>0 0 -0.99999999999999978 -0.96804455642166598 -0.25077826218071553 0 -0.25077826218071553 0.96804455642166609 0</Rotation>
+<Translation>-0.037072909791341549 0.002779312269249351 0.0410272437759793</Translation>
+</Transform>
+</Instance>
+<Instance name="57155K207_Stainless Steel Ball Bearing-7" uid="57155K207_Stainless Steel Ball Bearing-7" entityUid="57155K207_Stainless Steel Ball Bearing*:*57155K207">
+<Transform>
+<Rotation>1.2490009027033011e-16 2.2204460492503141e-16 -1 -0.99543554343541785 0.09543625550824146 -1.0313888358352698e-16 0.095436255508241447 0.99543554343541785 2.3295108889849293e-16</Rotation>
+<Translation>0.1069298952143147 0.0027793122692493649 0.041027243775979327</Translation>
+</Transform>
+</Instance>
+<Instance name="Spacers-1" uid="Spacers-1" entityUid="Spacers*:*Default">
+<Transform>
+<Rotation>1.1102230246251568e-16 -2.2204460492503131e-16 -0.99999999999999989 -2.081668171172169e-16 0.99999999999999989 -2.2204460492503131e-16 1 2.081668171172169e-16 1.110223024625156e-16</Rotation>
+<Translation>-0.030472534791341557 0.0027793122692493649 0.041027243775979327</Translation>
+</Transform>
+</Instance>
+<Instance name="9414T3_Set Screw Shaft Collar-1" uid="9414T3_Set Screw Shaft Collar-1" entityUid="9414T3_Set Screw Shaft Collar*:*9414T3">
+<Transform>
+<Rotation>-1.0547118733938987e-15 1.5543122344752192e-15 0.99999999999999978 -0.99490903252161456 0.10077706587763267 -1.2059813959955029e-15 -0.10077706587763267 -0.99490903252161456 1.4401085134913109e-15</Rotation>
+<Translation>-0.057268936085529187 0.0027793122692493649 0.0410272437759793</Translation>
+</Transform>
+</Instance>
+<Instance name="57155K207_Stainless Steel Ball Bearing-6" uid="57155K207_Stainless Steel Ball Bearing-6" entityUid="57155K207_Stainless Steel Ball Bearing*:*57155K207">
+<Transform>
+<Rotation>0 0 1 -0.14064571516434538 0.99005998949857077 0 -0.99005998949857044 -0.14064571516434538 0</Rotation>
+<Translation>0.091893243920127016 0.0027793122692493649 0.041027243775979327</Translation>
+</Transform>
+</Instance>
+<Instance name="Pin_For_Bearings_Fork-2" uid="Pin_For_Bearings_Fork-2" entityUid="Pin_For_Bearings_Fork*:*Default">
+<Transform>
+<Rotation>1.6653345369377348e-16 0.99999999999999978 -2.2204460492503131e-16 0.97936224169227248 -1.3877787807814457e-16 0.20211283865080665 0.2021128386508067 -1.6653345369377348e-16 -0.97936224169227248</Rotation>
+<Translation>0.056804270214314709 0.0027793122692493649 0.041027243775979327</Translation>
+</Transform>
+</Instance>
+<Instance name="9414T3_Set Screw Shaft Collar-2" uid="9414T3_Set Screw Shaft Collar-2" entityUid="9414T3_Set Screw Shaft Collar*:*9414T3">
+<Transform>
+<Rotation>0 2.2204460492503136e-16 -1 -0.99441621850506567 0.10552906885823186 1.0623394404110786e-16 0.10552906885823185 0.99441621850506567 2.1201769621797628e-16</Rotation>
+<Translation>0.11208927021431468 0.002779312269249351 0.041027243775979327</Translation>
+</Transform>
+</Instance>
+<Instance name="Spacers-2" uid="Spacers-2" entityUid="Spacers*:*Default">
+<Transform>
+<Rotation>2.2204460492503131e-16 2.7755575615628914e-16 0.99999999999999989 0.87467170574478759 -0.48471580041247203 0 0.48471580041247209 0.8746717057447877 -2.7755575615628914e-16</Rotation>
+<Translation>0.085242868920127016 0.002779312269249351 0.0410272437759793</Translation>
+</Transform>
+</Instance>
+<Instance name="9414T3_Set Screw Shaft Collar-3" uid="9414T3_Set Screw Shaft Collar-3" entityUid="9414T3_Set Screw Shaft Collar*:*9414T3">
+<Transform>
+<Rotation>2.2204460492503131e-16 -1.6653345369377348e-16 0.99999999999999978 -0.9548540643672816 0.29707526952151875 2.6149316412392057e-16 -0.29707526952151875 -0.9548540643672816 0</Rotation>
+<Translation>-0.0051989360855292099 0.0027793122692493649 0.041027243775979327</Translation>
+</Transform>
+</Instance>
+<Instance name="6mm ID Flanged Ball Bearing 12mm OD, 4mm-3" uid="6mm ID Flanged Ball Bearing 12mm OD, 4mm-3" entityUid="6mm ID Flanged Ball Bearing 12mm OD, 4mm*:*Default">
+<Transform>
+<Rotation>-0.82827711043470909 0 -0.56031868461611112 0 -0.99999999999999989 0 -0.56031868461611101 0 0.82827711043470909</Rotation>
+<Translation>0.027410167064392726 0.067066410955426314 0.0410272437759793</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Pin for Top Plate-2" uid="Pin for Top Plate-2" entityUid="Pin for Top Plate*:*Default">
+<Transform>
+<Rotation>0.7767891026516891 0.38177548205043343 0.50084545651003265 0.44108524732779852 -0.8974652107963712 2.1203122591018086e-11 0.44949137321127597 0.22091554204126146 -0.86553672867952702</Rotation>
+<Translation>-0.2552530871602397 0.1751665592683383 -0.14736522764335314</Translation>
+</Transform>
+</Instance>
+<Instance name="2913-0004-0241 ball-c-1" uid="2913-0004-0241 ball-c-1" entityUid="2913-0004-0241 ball-c*:*Default">
+<Transform>
+<Rotation>-0.00064988688060371182 -0.00072886684901269207 -0.99999952319996588 -0.74638878456302882 0.66551016692348486 -1.9434177682929599e-11 0.66550984960822857 0.74638842868481814 -0.00097652436793482702</Rotation>
+<Translation>-3.5896850077856194e-05 0.17516655926833538 0.2947382322358264</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor arm assembly -001-2" uid="Motor arm assembly -001-2" entityUid="Motor arm assembly -001" rigid="true">
+<Transform>
+<Rotation>-1.238697046755037e-16 -4.3292497253958315e-16 1 -0.91466934033790015 -0.40420291667160274 -2.8828935766386654e-16 0.40420291667160274 -0.91466934033790015 -3.4591470313149546e-16</Rotation>
+<Translation>0.018864045344798706 0.037059085408169129 0.25771527065897026</Translation>
+</Transform>
+<Instance name="8mm Rex ball bearing-2" uid="8mm Rex ball bearing-2" entityUid="8mm Rex ball bearing*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 -1 0 1 0</Rotation>
+<Translation>-0.02006057309078791 0.027555161292834751 0.028593954655201457</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor arm cylinder L - 001-1" uid="Motor arm cylinder L - 001-1" entityUid="Motor arm cylinder L - 001*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.02006057309078791 0.027555161292834751 0.022052954655201459</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor arm cylinder S - 002-1" uid="Motor arm cylinder S - 002-1" entityUid="Motor arm cylinder S - 002*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.02006057309078791 -0.020704838707165218 0.022052954655201459</Translation>
+</Transform>
+</Instance>
+<Instance name="8mm Rex ball bearing-1" uid="8mm Rex ball bearing-1" entityUid="8mm Rex ball bearing*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 1 0 -1 0</Rotation>
+<Translation>-0.02006057309078791 0.027555161292834751 0.020845954655201459</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor arm body - 002-2" uid="Motor arm body - 002-2" entityUid="Motor arm body - 002*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.020042469969647786 0.01590330460399178 0.030688954655201457</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor arm body - 002-1" uid="Motor arm body - 002-1" grounded="true" entityUid="Motor arm body - 002*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.020042469969647793 0.01590330460399178 0.017480954655201459</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Main fork assembly v2-1" uid="Main fork assembly v2-1" entityUid="Main fork assembly v2" rigid="true">
+<Transform>
+<Rotation>1 2.2234179539355191e-16 0 -2.0682584963718954e-16 0.97344818727517046 -0.22890746316073773 0 0.22890746316073773 0.97344818727517046</Rotation>
+<Translation>-0.027446063914470627 0.070462758561435829 0.22797070826414645</Translation>
+</Transform>
+<Instance name="9414T3_Set Screw Shaft Collar-6" uid="9414T3_Set Screw Shaft Collar-6" entityUid="9414T3_Set Screw Shaft Collar*:*9414T3">
+<Transform>
+<Rotation>0 0 -1 -0.99814178218100325 0.060934248699153759 0 0.060934248699153759 0.99814178218100325 0</Rotation>
+<Translation>0.059979270214314706 0.002779312269249351 0.041027243775979327</Translation>
+</Transform>
+</Instance>
+<Instance name="6mm ID Flanged Ball Bearing 12mm OD, 4mm-2" uid="6mm ID Flanged Ball Bearing 12mm OD, 4mm-2" entityUid="6mm ID Flanged Ball Bearing 12mm OD, 4mm*:*Default">
+<Transform>
+<Rotation>-0.024039075311815095 0 -0.99971101967426224 0 0.99999999999999989 0 0.99971101967426212 0 -0.024039075311815095</Rotation>
+<Translation>0.02741016706439274 0.088837309532833003 0.041027243775979244</Translation>
+</Transform>
+</Instance>
+<Instance name="9414T3_Set Screw Shaft Collar-4" uid="9414T3_Set Screw Shaft Collar-4" entityUid="9414T3_Set Screw Shaft Collar*:*9414T3">
+<Transform>
+<Rotation>0 0 1 -0.99142464527128882 0.13067965698110334 1.1127748976358821e-16 -0.13067965698110334 -0.99142464527128882 0</Rotation>
+<Translation>-0.02729753479134157 0.0027793122692493233 0.041027243775979272</Translation>
+</Transform>
+</Instance>
+<Instance name="9414T3_Set Screw Shaft Collar-5" uid="9414T3_Set Screw Shaft Collar-5" entityUid="9414T3_Set Screw Shaft Collar*:*9414T3">
+<Transform>
+<Rotation>-3.715000462535525e-16 2.9671130249854904e-16 -1 -0.99162159837318908 0.12917664510197369 4.06715640282287e-16 0.12917664510197369 0.99162159837318908 2.4623620640871169e-16</Rotation>
+<Translation>0.08206786892012706 0.0027793122692493372 0.041027243775979272</Translation>
+</Transform>
+</Instance>
+<Instance name="Pin_For_Bearings_Fork-1" uid="Pin_For_Bearings_Fork-1" entityUid="Pin_For_Bearings_Fork*:*Default">
+<Transform>
+<Rotation>-1.2790151243197802e-16 -1 1.726199192035256e-16 0.61209924314952047 -2.1479296327093872e-16 -0.79078095357423972 0.79078095357423972 0 0.61209924314952047</Rotation>
+<Translation>-0.0020239360855292196 0.002779312269249351 0.041027243775979327</Translation>
+</Transform>
+</Instance>
+<Instance name="Main fork assembly -001-1" uid="Main fork assembly -001-1" grounded="true" entityUid="Main fork assembly -001" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.042480588391824919 -0.004426933500802463 0.014249514896529425</Translation>
+</Transform>
+<Instance name="Main fork cylinder -002-1" uid="Main fork cylinder -002-1" entityUid="Main fork cylinder -002*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.057999387594494425 0.033859484040374935 0.023475728879449875</Translation>
+</Transform>
+</Instance>
+<Instance name="Main fork cylinder -002-2" uid="Main fork cylinder -002-2" entityUid="Main fork cylinder -002*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.088140230249358784 0.033859484040374935 0.023475728879449848</Translation>
+</Transform>
+</Instance>
+<Instance name="Main fork -001-1" uid="Main fork -001-1" entityUid="Main fork -001*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.055695472902393225 0.0303858857789744 0.01826872887944983</Translation>
+</Transform>
+</Instance>
+<Instance name="Main fork -001-2" uid="Main fork -001-2" entityUid="Main fork -001*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.055695472902393225 0.0303858857789744 0.03401672887944987</Translation>
+</Transform>
+</Instance>
+<Instance name="Main fork pin -003-2" uid="Main fork pin -003-2" entityUid="Main fork pin -003*:*Default">
+<Transform>
+<Rotation>-1 -1.5311246896273677e-16 0 -1.5311246896271054e-16 0.99999999999999989 0 0 0 -0.99999999999999989</Rotation>
+<Translation>0.061555331498942878 0.0032608649052133648 0.030079728879449846</Translation>
+</Transform>
+</Instance>
+<Instance name="Main fork pin -003-1" uid="Main fork pin -003-1" entityUid="Main fork pin -003*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.091696174153807236 0.0032608649052133648 0.023475728879449848</Translation>
+</Transform>
+</Instance>
+<Instance name="Main fork cylinder -002-4" uid="Main fork cylinder -002-4" entityUid="Main fork cylinder -002*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.075875608945320444 0.071451484040374894 0.023475728879449848</Translation>
+</Transform>
+</Instance>
+<Instance name="Main fork spherical receiver -004-1" uid="Main fork spherical receiver -004-1" entityUid="Main fork spherical receiver -004*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.055695472902393184 0.040847138892653526 0.023475728879449903</Translation>
+</Transform>
+</Instance>
+<Instance name="Main fork cylinder -002-3" uid="Main fork cylinder -002-3" entityUid="Main fork cylinder -002*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.045734766290456058 0.071451484040374894 0.023475728879449875</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="57155K207_Stainless Steel Ball Bearing-1" uid="57155K207_Stainless Steel Ball Bearing-1" entityUid="57155K207_Stainless Steel Ball Bearing*:*57155K207">
+<Transform>
+<Rotation>0 -2.479421943989998e-16 1 -0.41506755000551021 0.90979059619916036 2.6087396401673016e-16 -0.90979059619916036 -0.41506755000551021 0</Rotation>
+<Translation>-0.052109561085529207 0.0027793122692493233 0.041027243775979244</Translation>
+</Transform>
+</Instance>
+<Instance name="57155K207_Stainless Steel Ball Bearing-5" uid="57155K207_Stainless Steel Ball Bearing-5" entityUid="57155K207_Stainless Steel Ball Bearing*:*57155K207">
+<Transform>
+<Rotation>0 0 -1 -0.96804455642166587 -0.25077826218071586 0 -0.25077826218071553 0.96804455642166609 0</Rotation>
+<Translation>-0.037072909791341577 0.0027793122692493372 0.041027243775979327</Translation>
+</Transform>
+</Instance>
+<Instance name="57155K207_Stainless Steel Ball Bearing-7" uid="57155K207_Stainless Steel Ball Bearing-7" entityUid="57155K207_Stainless Steel Ball Bearing*:*57155K207">
+<Transform>
+<Rotation>1.1102230246253008e-16 1.7347234759769358e-16 -1 -0.99543554343541774 0.095436255508241669 1.1102230246252877e-16 0.095436255508241502 0.99543554343541762 2.6095580664814901e-16</Rotation>
+<Translation>0.10692989521431472 0.0027793122692493233 0.041027243775979272</Translation>
+</Transform>
+</Instance>
+<Instance name="Spacers-1" uid="Spacers-1" entityUid="Spacers*:*Default">
+<Transform>
+<Rotation>0 -2.1479296327096436e-16 -1 -2.2204460492503131e-16 0.99999999999999989 -2.147929632709381e-16 0.99999999999999989 2.2204460492503131e-16 0</Rotation>
+<Translation>-0.030472534791341568 0.0027793122692493372 0.041027243775979327</Translation>
+</Transform>
+</Instance>
+<Instance name="9414T3_Set Screw Shaft Collar-1" uid="9414T3_Set Screw Shaft Collar-1" entityUid="9414T3_Set Screw Shaft Collar*:*9414T3">
+<Transform>
+<Rotation>-1.0766075183627358e-15 1.5906446189086667e-15 1 -0.99490903252161456 0.10077706587763266 -1.2314270420474527e-15 -0.10077706587763266 -0.99490903252161456 1.4740493520817661e-15</Rotation>
+<Translation>-0.057268936085529229 0.0027793122692493233 0.041027243775979272</Translation>
+</Transform>
+</Instance>
+<Instance name="57155K207_Stainless Steel Ball Bearing-6" uid="57155K207_Stainless Steel Ball Bearing-6" entityUid="57155K207_Stainless Steel Ball Bearing*:*57155K207">
+<Transform>
+<Rotation>0 0 1.0000000000000002 -0.14064571516434538 0.99005998949857066 0 -0.99005998949857055 -0.14064571516434543 0</Rotation>
+<Translation>0.091893243920127043 0.0027793122692493233 0.041027243775979272</Translation>
+</Transform>
+</Instance>
+<Instance name="Pin_For_Bearings_Fork-2" uid="Pin_For_Bearings_Fork-2" entityUid="Pin_For_Bearings_Fork*:*Default">
+<Transform>
+<Rotation>1.808707496159908e-16 1 -1.9623972758544405e-16 0.97936224169227237 -1.3747541440214959e-16 0.20211283865080673 0.20211283865080673 -2.2874608015092027e-16 -0.97936224169227237</Rotation>
+<Translation>0.056804270214314723 0.0027793122692493233 0.041027243775979272</Translation>
+</Transform>
+</Instance>
+<Instance name="9414T3_Set Screw Shaft Collar-2" uid="9414T3_Set Screw Shaft Collar-2" entityUid="9414T3_Set Screw Shaft Collar*:*9414T3">
+<Transform>
+<Rotation>-1.0244198767160565e-16 2.0111179298448913e-16 -1 -0.99441621850506556 0.10552906885823191 1.2309311424662948e-16 0.10552906885823191 0.99441621850506556 1.8917822110540988e-16</Rotation>
+<Translation>0.11208927021431471 0.0027793122692493233 0.041027243775979272</Translation>
+</Transform>
+</Instance>
+<Instance name="Spacers-2" uid="Spacers-2" entityUid="Spacers*:*Default">
+<Transform>
+<Rotation>2.232464940214867e-16 1.8737660210705995e-16 1.0000000000000002 0.87467170574478781 -0.48471580041247214 -1.0444299205842446e-16 0.48471580041247214 0.87467170574478781 -2.7210411522054763e-16</Rotation>
+<Translation>0.085242868920127057 0.0027793122692493372 0.041027243775979272</Translation>
+</Transform>
+</Instance>
+<Instance name="9414T3_Set Screw Shaft Collar-3" uid="9414T3_Set Screw Shaft Collar-3" entityUid="9414T3_Set Screw Shaft Collar*:*9414T3">
+<Transform>
+<Rotation>2.1786187832741141e-16 0 0.99999999999999978 -0.95485406436728171 0.29707526952151869 2.3358035441118345e-16 -0.29707526952151869 -0.95485406436728171 0</Rotation>
+<Translation>-0.0051989360855292134 0.0027793122692493233 0.041027243775979327</Translation>
+</Transform>
+</Instance>
+<Instance name="6mm ID Flanged Ball Bearing 12mm OD, 4mm-3" uid="6mm ID Flanged Ball Bearing 12mm OD, 4mm-3" entityUid="6mm ID Flanged Ball Bearing 12mm OD, 4mm*:*Default">
+<Transform>
+<Rotation>-0.82827711043470897 0 -0.56031868461611101 0 -0.99999999999999989 0 -0.5603186846161109 0 0.82827711043470886</Rotation>
+<Translation>0.027410167064392723 0.067066410955426287 0.041027243775979244</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Platform top-1" uid="Platform top-1" entityUid="Platform top" rigid="true">
+<Transform>
+<Rotation>0.93038861584863675 -2.3854802736009845e-11 -0.3665747174850682 1.7155610265717769e-11 1 -2.1532942096058605e-11 0.36657471748506826 1.3745199423098597e-11 0.93038861584863675</Rotation>
+<Translation>6.4944011106257563e-05 1.3688458687042204 -0.00020323825773619492</Translation>
+</Transform>
+<Instance name="Platform-1" uid="Platform-1" grounded="true" entityUid="Platform*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Top brace s-10" uid="Top brace s-10" entityUid="Top brace s*:*Default">
+<Transform>
+<Rotation>0.93073664809699308 1.8986521007817796e-12 0.36569015831599033 -2.6405389100738015e-12 1 1.5286443535747122e-12 -0.36569015831599028 -2.3883818704665218e-12 0.93073664809699308</Rotation>
+<Translation>-0.10913650063861004 -1.1781732792647117 -0.27720708350072071</Translation>
+</Transform>
+</Instance>
+<Instance name="8982K112_Multipurpose 6061 Aluminum 90 Degree Angle 8.15-13" uid="8982K112_Multipurpose 6061 Aluminum 90 Degree Angle 8.15-13" entityUid="8982K112_Multipurpose 6061 Aluminum 90 Degree Angle 8.15*:*8982K112">
+<Transform>
+<Rotation>-0.62319368196652503 -1.8993572089749453e-12 0.78206753848820842 3.0503574521273596e-12 -1 2.0743030084787772e-15 0.78206753848820831 2.3868756932473551e-12 0.62319368196652503</Rotation>
+<Translation>-0.11574866248415007 -1.1763962064379549 0.11899089360943792</Translation>
+</Transform>
+</Instance>
+<Instance name="8982K112_Multipurpose 6061 Aluminum 90 Degree Angle 6.93 corner-27" uid="8982K112_Multipurpose 6061 Aluminum 90 Degree Angle 6.93 corner-27" entityUid="8982K112_Multipurpose 6061 Aluminum 90 Degree Angle 6.93 corner*:*8982K112">
+<Transform>
+<Rotation>0.14867700796520322 -1.8984399145703887e-12 -0.98888581105328588 -2.6426574677878625e-12 -1 1.5224261164635007e-12 -0.98888581105328588 2.3869316267726589e-12 -0.14867700796520328</Rotation>
+<Translation>0.044559640640191023 -1.1697565472749265 -0.29607317689735219</Translation>
+</Transform>
+</Instance>
+<Instance name="Top brace-1" uid="Top brace-1" entityUid="Top brace*:*Default">
+<Transform>
+<Rotation>0.14869702924780018 1.8982362686606082e-12 0.98888280068614742 -2.641552839979439e-12 1 -1.5223696960954378e-12 -0.98888280068614742 -2.3858143193330466e-12 0.14869702924780018</Rotation>
+<Translation>-0.27127432583781014 -1.1797229002494656 -0.040381630144338022</Translation>
+</Transform>
+</Instance>
+<Instance name="Top plate plexi-1" uid="Top plate plexi-1" entityUid="Top plate plexi*:*Default">
+<Transform>
+<Rotation>0.93073873779672889 1.7155598177621977e-11 0.36568483967010706 -2.3841628189414361e-11 1 1.3767944974022996e-11 -0.36568483967010706 -2.1532881709097276e-11 0.93073873779672889</Rotation>
+<Translation>-0.00037180899335271318 -1.1681504014837318 -2.4448295148736635e-05</Translation>
+</Transform>
+</Instance>
+<Instance name="8982K112_Multipurpose 6061 Aluminum 90 Degree Angle 6.93 corner-45" uid="8982K112_Multipurpose 6061 Aluminum 90 Degree Angle 6.93 corner-45" entityUid="8982K112_Multipurpose 6061 Aluminum 90 Degree Angle 6.93 corner*:*8982K112">
+<Transform>
+<Rotation>0.78206172985279365 0 0.62320097135647678 0 -1 -1.8627148461963429e-16 0.62320097135647678 1.7351874697575737e-16 -0.78206172985279365</Rotation>
+<Translation>0.23433256506172537 -1.1697565472741367 0.18693352272799135</Translation>
+</Transform>
+</Instance>
+<Instance name="8982K112_Multipurpose 6061 Aluminum 90 Degree Angle 6.93 corner-44" uid="8982K112_Multipurpose 6061 Aluminum 90 Degree Angle 6.93 corner-44" entityUid="8982K112_Multipurpose 6061 Aluminum 90 Degree Angle 6.93 corner*:*8982K112">
+<Transform>
+<Rotation>0.93073873778424299 0 -0.36568483970188587 0 -1 -1.8651727816743768e-16 -0.36568483970188576 1.5222617959007435e-16 -0.93073873778424299</Rotation>
+<Translation>0.27887812687103508 -1.1697565472741367 -0.10935255158921248</Translation>
+</Transform>
+</Instance>
+<Instance name="Top brace s-13" uid="Top brace s-13" entityUid="Top brace s*:*Default">
+<Transform>
+<Rotation>-0.14867135699912898 1.250954285407843e-15 -0.98888666064824493 -5.718861149080218e-16 1 1.3348498924099022e-15 0.98888666064824493 7.6652787175683883e-16 -0.14867135699912903</Rotation>
+<Translation>0.29484211954461814 -1.1781732792642583 0.044395713216545986</Translation>
+</Transform>
+</Instance>
+<Instance name="8982K112_Multipurpose 6061 Aluminum 90 Degree Angle 6.93 corner-46" uid="8982K112_Multipurpose 6061 Aluminum 90 Degree Angle 6.93 corner-46" entityUid="8982K112_Multipurpose 6061 Aluminum 90 Degree Angle 6.93 corner*:*8982K112">
+<Transform>
+<Rotation>-0.14867700793145261 -1.9684411134780703e-16 0.98888581105836015 0 -1 -1.6215010160578994e-16 0.98888581105836015 0 0.14867700793145266</Rotation>
+<Translation>-0.04453148298919242 -1.1697565472741369 0.2964989717338804</Translation>
+</Transform>
+</Instance>
+<Instance name="Top brace s-12" uid="Top brace s-12" entityUid="Top brace s*:*Default">
+<Transform>
+<Rotation>-0.78206529108537404 -1.2632750016937502e-15 0.62319650230047741 -5.8609655766755566e-16 1 1.3428083418358431e-15 -0.62319650230047741 6.8999722482607932e-16 -0.78206529108537404</Rotation>
+<Translation>-0.18566338243554745 -1.1781732792642585 0.23345006253215225</Translation>
+</Transform>
+</Instance>
+<Instance name="8982K112_Multipurpose 6061 Aluminum 90 Degree Angle 8.15-14" uid="8982K112_Multipurpose 6061 Aluminum 90 Degree Angle 8.15-14" entityUid="8982K112_Multipurpose 6061 Aluminum 90 Degree Angle 8.15*:*8982K112">
+<Transform>
+<Rotation>0.98888719678921588 3.0167597199260652e-12 0.14866779081686199 3.0503815733779205e-12 -1 2.0741609488584248e-15 0.14866779081686204 4.514372917033106e-13 -0.98888719678921588</Rotation>
+<Translation>0.16076021158579459 -1.1763962064379552 0.041077374101518918</Translation>
+</Transform>
+</Instance>
+<Instance name="8982K112_Multipurpose 6061 Aluminum 90 Degree Angle 6.93 corner-47" uid="8982K112_Multipurpose 6061 Aluminum 90 Degree Angle 6.93 corner-47" entityUid="8982K112_Multipurpose 6061 Aluminum 90 Degree Angle 6.93 corner*:*8982K112">
+<Transform>
+<Rotation>-0.93073873779672911 -2.4678181400643533e-11 0.36568483967010701 2.3841745169771804e-11 -1 -6.8029771119391305e-12 0.36568483967010701 2.3867704294372862e-12 0.93073873779672911</Rotation>
+<Translation>-0.27884996923343275 -1.1697565472733458 0.1097783464116566</Translation>
+</Transform>
+</Instance>
+<Instance name="8982K112_Multipurpose 6061 Aluminum 90 Degree Angle 6.93 corner-48" uid="8982K112_Multipurpose 6061 Aluminum 90 Degree Angle 6.93 corner-48" entityUid="8982K112_Multipurpose 6061 Aluminum 90 Degree Angle 6.93 corner*:*8982K112">
+<Transform>
+<Rotation>-0.78206172983151512 -1.8985336098234286e-12 -0.6232009713831792 -2.699313642369127e-15 -1 3.0497589104626973e-12 -0.62320097138317931 2.3867768572166499e-12 0.7820617298315149</Rotation>
+<Translation>-0.23430440741446493 -1.1697565472741354 -0.18650772790098286</Translation>
+</Transform>
+</Instance>
+<Instance name="Top brace-2" uid="Top brace-2" entityUid="Top brace*:*Default">
+<Transform>
+<Rotation>-0.9307461413836059 3.7991910502325071e-12 -0.3656659955472053 4.4087345696675912e-12 1 -8.3205320377159594e-13 0.36566599554720519 -2.3865495376042586e-12 -0.93074614138360579</Rotation>
+<Translation>0.10050238902081693 -1.1797229002494656 0.25545281138538656</Translation>
+</Transform>
+</Instance>
+<Instance name="Top brace-3" uid="Top brace-3" entityUid="Top brace*:*Default">
+<Transform>
+<Rotation>0.78204911213581285 1.8987237519313306e-12 -0.62321680513893929 3.4585929031632087e-15 1 3.0509648707226423e-12 0.62321680513893929 -2.3881572781491633e-12 0.78204911213581274</Rotation>
+<Translation>0.17081417327398149 -1.179722900250719 -0.21443248898679809</Translation>
+</Transform>
+</Instance>
+<Instance name="8982K112_Multipurpose 6061 Aluminum 90 Degree Angle 8.15-15" uid="8982K112_Multipurpose 6061 Aluminum 90 Degree Angle 8.15-15" entityUid="8982K112_Multipurpose 6061 Aluminum 90 Degree Angle 8.15*:*8982K112">
+<Transform>
+<Rotation>-0.36569351482269874 -1.1174424373648019e-12 -0.93073532930507175 3.0503572060728752e-12 -1 2.0743030084790044e-15 -0.93073532930507175 -2.8383192029107782e-12 0.36569351482269868</Rotation>
+<Translation>-0.044969312641291011 -1.1763962064379549 -0.15942957546092493</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Steel Ball Linkage Case-1" uid="Steel Ball Linkage Case-1" entityUid="Steel Ball Linkage Case" rigid="true">
+<Transform>
+<Rotation>-0.27211739314865779 0 -0.96226406165146727 -0.22026942524338614 0.97344818727517035 0.062289702147572672 0.93671420649466342 0.22890746316073884 -0.26489218308660578</Rotation>
+<Translation>0.0094436321805428727 0.1309684493115765 0.28923695676500449</Translation>
+</Transform>
+<Instance name="2913-0004-0241 housing-1" uid="2913-0004-0241 housing-1" entityUid="2913-0004-0241 housing*:*Default">
+<Transform>
+<Rotation>-0.97749421425782135 0 0.21096222669588069 0 -1.0000000000000002 0 0.21096222669588072 0 0.97749421425782157</Rotation>
+<Translation>-0.0020028246615702017 0.044283853030569753 0.010417652343013506</Translation>
+</Transform>
+</Instance>
+<Instance name="27mm standoff M4-1" uid="27mm standoff M4-1" grounded="true" entityUid="27mm standoff M4*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.0020028246615702294 0.0064138530305697661 0.010417652343013506</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Motor arm assembly -001-1" uid="Motor arm assembly -001-1" entityUid="Motor arm assembly -001" rigid="true">
+<Transform>
+<Rotation>0 -5.2385175331286437e-16 1 -0.91466934033790082 -0.40420291667160124 -2.2281131940691778e-16 0.40420291667160124 -0.91466934033790082 -4.7425965757296263e-16</Rotation>
+<Translation>-0.068413954655201281 0.037059085408169046 0.25771527065897004</Translation>
+</Transform>
+<Instance name="8mm Rex ball bearing-2" uid="8mm Rex ball bearing-2" entityUid="8mm Rex ball bearing*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 -1 0 1 0</Rotation>
+<Translation>-0.02006057309078791 0.027555161292834723 0.028593954655201467</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor arm cylinder L - 001-1" uid="Motor arm cylinder L - 001-1" entityUid="Motor arm cylinder L - 001*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.02006057309078791 0.027555161292834751 0.022052954655201476</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor arm cylinder S - 002-1" uid="Motor arm cylinder S - 002-1" entityUid="Motor arm cylinder S - 002*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.02006057309078791 -0.020704838707165274 0.022052954655201469</Translation>
+</Transform>
+</Instance>
+<Instance name="8mm Rex ball bearing-1" uid="8mm Rex ball bearing-1" entityUid="8mm Rex ball bearing*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 1 0 -1 0</Rotation>
+<Translation>-0.02006057309078791 0.027555161292834751 0.020845954655201476</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor arm body - 002-2" uid="Motor arm body - 002-2" entityUid="Motor arm body - 002*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.020042469969647793 0.015903304603991725 0.030688954655201467</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor arm body - 002-1" uid="Motor arm body - 002-1" grounded="true" entityUid="Motor arm body - 002*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.020042469969647793 0.015903304603991752 0.017480954655201469</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Base_Assembly-1" uid="Base_Assembly-1" entityUid="Base_Assembly" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0.0025399999999994871 0</Translation>
+</Transform>
+<Instance name="Gearbox-1" uid="Gearbox-1" entityUid="Gearbox" rigid="true">
+<Transform>
+<Rotation>0.99999980125829269 0.00043055258455046923 0.00046055167696303165 -0.00040000387334729315 0.99792468358985309 -0.064390728206729628 -0.00048731948096060381 0.064390531187151698 0.99792465748329928</Rotation>
+<Translation>-0.65063659787752015 0.1418992234105603 -1.0701213127216407</Translation>
+</Transform>
+<Instance name="8mm Rex ball bearing-2" uid="8mm Rex ball bearing-2" entityUid="8mm Rex ball bearing*:*Default">
+<Transform>
+<Rotation>0.99939127876607403 0.00048731948096033005 -0.034883154187011871 0.034842127627648267 -0.064390531187152419 0.99731634180725992 -0.0017601331455422656 -0.99792465748329928 -0.064368314551106087</Rotation>
+<Translation>0.65006830281599992 -0.019314013107942035 1.2522806545180969</Translation>
+</Transform>
+</Instance>
+<Instance name="Rex-to-servo coupler-1" uid="Rex-to-servo coupler-1" entityUid="Rex-to-servo coupler" rigid="true">
+<Transform>
+<Rotation>-0.76370079679162617 -0.00048731948095985398 0.64557017860148924 0.64420658836448697 0.064390531187152947 0.76213629424219442 -0.041940010582065868 0.99792465748329917 -0.048861165553192067</Rotation>
+<Translation>0.62361377986341859 -0.010161642478948865 1.2186924298722668</Translation>
+</Transform>
+<Instance name="4001-0025-4008 assembly.STEP-1" uid="4001-0025-4008 assembly.STEP-1" grounded="true" entityUid="4001-0025-4008 assembly.STEP" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="2800-0004-0010_90128A207.STEP-1" uid="2800-0004-0010_90128A207.STEP-1" grounded="true" entityUid="2800-0004-0010_90128A207.STEP*:*Default">
+<Transform>
+<Rotation>0.99582987600296091 -0.091229699440079984 0 0.091229699440079998 0.99582987600296102 0 0 0 0.99999999999999989</Rotation>
+<Translation>-0.03366384306265599 0.014319167115210973 0.015336737575984</Translation>
+</Transform>
+</Instance>
+<Instance name="4001-0025-4008.STEP-1" uid="4001-0025-4008.STEP-1" grounded="true" entityUid="4001-0025-4008.STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.027508048170467991 0.010319167115210998 -0.017788262424015995</Translation>
+</Transform>
+</Instance>
+</Instance>
+</Instance>
+<Instance name="Rex 120mm shaft 8mm-1" uid="Rex 120mm shaft 8mm-1" entityUid="Rex 120mm shaft 8mm" rigid="true">
+<Transform>
+<Rotation>9.1552179890036956e-06 -0.99999980125829269 0.00063039634929112432 -0.7403376245389468 -0.00043055258455008239 -0.67223509006634075 0.67223522788396883 -0.00046055167696280034 -0.74033748134478627</Rotation>
+<Translation>0.73340071349899982 -0.043703507219603192 1.3329274526215826</Translation>
+</Transform>
+<Instance name="2106-4008-1200 assembly.STEP-1" uid="2106-4008-1200 assembly.STEP-1" grounded="true" entityUid="2106-4008-1200 assembly.STEP" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="2106-4008-1200.STEP-1" uid="2106-4008-1200.STEP-1" grounded="true" entityUid="2106-4008-1200.STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.043353996165195002 0.023419035179756992 0.0069667660301890311</Translation>
+</Transform>
+</Instance>
+<Instance name="2106 Series 8mm REX e-clip.STEP-1" uid="2106 Series 8mm REX e-clip.STEP-1" grounded="true" entityUid="2106 Series 8mm REX e-clip.STEP*:*Default">
+<Transform>
+<Rotation>0 1 -2.2204460492503131e-16 -1 0 0 0 -2.2204460492503131e-16 1.0000000000000002</Rotation>
+<Translation>-0.043353996165195002 0.027069035179756992 0.0069667660301890311</Translation>
+</Transform>
+</Instance>
+</Instance>
+</Instance>
+<Instance name="Motor block -001-1" uid="Motor block -001-1" entityUid="Motor block -001*:*Default">
+<Transform>
+<Rotation>-0.000487319480960249 -0.00040000387334701039 -0.99999980125829269 0.064390531187152211 0.99792468358985309 -0.00043055258455016447 0.99792465748329928 -0.064390728206730141 -0.00046055167696269577</Rotation>
+<Translation>0.66404040250707985 -0.04280579392795323 1.2696579336116793</Translation>
+</Transform>
+</Instance>
+<Instance name="Bevel gear 8mm Rex-2" uid="Bevel gear 8mm Rex-2" entityUid="Bevel gear 8mm Rex" rigid="true">
+<Transform>
+<Rotation>-0.00048731948095978545 -0.6455701786014898 0.76370079679162572 0.064390531187152919 -0.76213629424219398 -0.64420658836448741 0.99792465748329917 0.04886116555319206 0.041940010582065819</Rotation>
+<Translation>0.64458002815202942 0.006020437793785624 1.332415096810416</Translation>
+</Transform>
+<Instance name="2317-4008-0024 assembly.STEP-1" uid="2317-4008-0024 assembly.STEP-1" grounded="true" entityUid="2317-4008-0024 assembly.STEP" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="2317-4008-0024_3.STEP-1" uid="2317-4008-0024_3.STEP-1" grounded="true" entityUid="2317-4008-0024_3.STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.061300232802774968 0.011849775712072991 0.017151180517056996</Translation>
+</Transform>
+</Instance>
+<Instance name="2806-0005-0004_91390A117_3.STEP-1" uid="2806-0005-0004_91390A117_3.STEP-1" grounded="true" entityUid="2806-0005-0004_91390A117_3.STEP*:*Default">
+<Transform>
+<Rotation>0.97827104773141305 0.20733006817749186 3.6130171306587267e-16 -0.10366503408874699 0.48913552386570996 0.86602540378443649 0.17955310601006697 -0.84720757912222067 0.50000000000000333</Rotation>
+<Translation>-0.050449241820365975 0.016969339589907994 0.020106962100057999</Translation>
+</Transform>
+</Instance>
+<Instance name="2806-0005-0004_91390A117_3.STEP-2" uid="2806-0005-0004_91390A117_3.STEP-2" grounded="true" entityUid="2806-0005-0004_91390A117_3.STEP*:*Default">
+<Transform>
+<Rotation>0.97827104773141293 0.20733006817749197 1.9970984291239299e-16 0.20733006817749197 -0.97827104773141293 -1.1263809992084469e-15 0 1.1433117755871459e-15 -0.99999999999999989</Rotation>
+<Translation>-0.050449241820365975 0.011849775712072998 0.011239617351053999</Translation>
+</Transform>
+</Instance>
+</Instance>
+</Instance>
+<Instance name="8mm Rex ball bearing-1" uid="8mm Rex ball bearing-1" entityUid="8mm Rex ball bearing*:*Default">
+<Transform>
+<Rotation>0.00043101102759140613 0.99999980125829269 -0.00046012266767741611 -0.99999941131985293 0.00043055258455015915 -0.00099598414631656379 -0.00099578584136919535 0.00046055167696270498 0.99999939815117456</Rotation>
+<Translation>0.67398568503686962 -0.016315800293335452 1.298598245577588</Translation>
+</Transform>
+</Instance>
+<Instance name="Bevel gear 8mm Rex-1" uid="Bevel gear 8mm Rex-1" entityUid="Bevel gear 8mm Rex" rigid="true">
+<Transform>
+<Rotation>0.99999980125829269 9.1552179892451999e-06 0.00063039634929105677 0.00043055258455021618 -0.74033762453894625 -0.67223509006634141 0.00046055167696258762 0.67223522788396928 -0.7403374813447855</Rotation>
+<Translation>0.6852340040789564 0.0039915075839503378 1.3033352561501919</Translation>
+</Transform>
+<Instance name="2317-4008-0024 assembly.STEP-1" uid="2317-4008-0024 assembly.STEP-1" grounded="true" entityUid="2317-4008-0024 assembly.STEP" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="2317-4008-0024_3.STEP-1" uid="2317-4008-0024_3.STEP-1" grounded="true" entityUid="2317-4008-0024_3.STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.061300232802775009 0.011849775712072991 0.017151180517057024</Translation>
+</Transform>
+</Instance>
+<Instance name="2806-0005-0004_91390A117_3.STEP-1" uid="2806-0005-0004_91390A117_3.STEP-1" grounded="true" entityUid="2806-0005-0004_91390A117_3.STEP*:*Default">
+<Transform>
+<Rotation>0.97827104773141305 0.20733006817749194 3.7518710129644761e-16 -0.10366503408874707 0.48913552386571019 0.8660254037844366 0.17955310601006705 -0.847207579122221 0.50000000000000355</Rotation>
+<Translation>-0.050449241820366003 0.016969339589907984 0.020106962100058023</Translation>
+</Transform>
+</Instance>
+<Instance name="2806-0005-0004_91390A117_3.STEP-2" uid="2806-0005-0004_91390A117_3.STEP-2" grounded="true" entityUid="2806-0005-0004_91390A117_3.STEP*:*Default">
+<Transform>
+<Rotation>0.97827104773141293 0.207330068177492 2.2279126267598421e-16 0.207330068177492 -0.97827104773141305 -1.0547118733938987e-15 0 1.3322676295501878e-15 -1</Rotation>
+<Translation>-0.05044924182036601 0.011849775712073018 0.011239617351053971</Translation>
+</Transform>
+</Instance>
+</Instance>
+</Instance>
+<Instance name="8mm Rex ball bearing-3" uid="8mm Rex ball bearing-3" entityUid="8mm Rex ball bearing*:*Default">
+<Transform>
+<Rotation>-0.00043055226308273524 -0.99999980125829269 -0.0004605519774903762 0.99999990731205224 -0.00043055258455023651 5.988591183225811e-07 -7.9715084351505983e-07 -0.00046055167696261006 0.99999989394575339</Rotation>
+<Translation>0.62610569455262255 -0.016336415151083715 1.2985761943632947</Translation>
+</Transform>
+</Instance>
+<Instance name="Rex 64mm shaft 8mm-1" uid="Rex 64mm shaft 8mm-1" entityUid="Rex 64mm shaft 8mm" rigid="true">
+<Transform>
+<Rotation>-0.64557017860148991 -0.00048731948096016606 -0.7637007967916255 -0.76213629424219387 0.064390531187152475 0.64420658836448763 0.048861165553191463 0.99792465748329906 -0.04194001058206584</Rotation>
+<Translation>0.62742369246884588 -0.059871099572920042 1.2077725743592418</Translation>
+</Transform>
+<Instance name="2106-4008-0640 assembly.STEP-1" uid="2106-4008-0640 assembly.STEP-1" grounded="true" entityUid="2106-4008-0640 assembly.STEP" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="2106-4008-0640.STEP-1" uid="2106-4008-0640.STEP-1" grounded="true" entityUid="2106-4008-0640.STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.043353996165195009 0.023419035179756992 0.0069667660301889998</Translation>
+</Transform>
+</Instance>
+<Instance name="2106 Series 8mm REX e-clip_2.STEP-1" uid="2106 Series 8mm REX e-clip_2.STEP-1" grounded="true" entityUid="2106 Series 8mm REX e-clip_2.STEP*:*Default">
+<Transform>
+<Rotation>0 -0.11442516030579397 0.99343187118644094 1 0 0 0 0.99343187118644094 0.11442516030579397</Rotation>
+<Translation>-0.043353996165195002 0.027069035179757006 0.0069667660301889998</Translation>
+</Transform>
+</Instance>
+</Instance>
+</Instance>
+</Instance>
+<Instance name="Gearbox-2" uid="Gearbox-2" entityUid="Gearbox" rigid="true">
+<Transform>
+<Rotation>-0.49957786957887435 -0.055979112063522928 -0.8644583802819038 -0.00040000387334645729 0.99792468358985298 -0.064390728206730238 0.86626889140955221 -0.031822396117691054 -0.49856347928964295</Rotation>
+<Translation>1.2520705408868511 0.14189922341056049 -0.028407166032995979</Translation>
+</Transform>
+<Instance name="8mm Rex ball bearing-2" uid="8mm Rex ball bearing-2" entityUid="8mm Rex ball bearing*:*Default">
+<Transform>
+<Rotation>0.99939127876607392 0.0004873194809603687 -0.034883154187011864 0.034842127627648267 -0.064390531187152392 0.99731634180725981 -0.001760133145542242 -0.99792465748329884 -0.064368314551106087</Rotation>
+<Translation>0.6500683028159997 -0.019314013107942 1.2522806545180967</Translation>
+</Transform>
+</Instance>
+<Instance name="Rex-to-servo coupler-1" uid="Rex-to-servo coupler-1" entityUid="Rex-to-servo coupler" rigid="true">
+<Transform>
+<Rotation>-0.76370079679162617 -0.00048731948095992461 0.64557017860148946 0.64420658836448697 0.064390531187152947 0.76213629424219431 -0.041940010582065756 0.99792465748329895 -0.048861165553192087</Rotation>
+<Translation>0.62361377986341859 -0.010161642478948837 1.2186924298722663</Translation>
+</Transform>
+<Instance name="4001-0025-4008 assembly.STEP-1" uid="4001-0025-4008 assembly.STEP-1" grounded="true" entityUid="4001-0025-4008 assembly.STEP" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="2800-0004-0010_90128A207.STEP-1" uid="2800-0004-0010_90128A207.STEP-1" grounded="true" entityUid="2800-0004-0010_90128A207.STEP*:*Default">
+<Transform>
+<Rotation>0.99582987600296136 -0.091229699440079859 0 0.091229699440080081 0.99582987600296102 0 0 0 1</Rotation>
+<Translation>-0.033663843062656004 0.014319167115211001 0.015336737575984007</Translation>
+</Transform>
+</Instance>
+<Instance name="4001-0025-4008.STEP-1" uid="4001-0025-4008.STEP-1" grounded="true" entityUid="4001-0025-4008.STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.027508048170468008 0.010319167115210998 -0.017788262424016002</Translation>
+</Transform>
+</Instance>
+</Instance>
+</Instance>
+<Instance name="Rex 120mm shaft 8mm-1" uid="Rex 120mm shaft 8mm-1" entityUid="Rex 120mm shaft 8mm" rigid="true">
+<Transform>
+<Rotation>9.155217988998654e-06 -0.99999980125829258 0.00063039634929112909 -0.74033762453894658 -0.0004305525845500896 -0.67223509006634063 0.67223522788396872 -0.00046055167696279486 -0.74033748134478605</Rotation>
+<Translation>0.73340071349899993 -0.043703507219603137 1.3329274526215822</Translation>
+</Transform>
+<Instance name="2106-4008-1200 assembly.STEP-1" uid="2106-4008-1200 assembly.STEP-1" grounded="true" entityUid="2106-4008-1200 assembly.STEP" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="2106-4008-1200.STEP-1" uid="2106-4008-1200.STEP-1" grounded="true" entityUid="2106-4008-1200.STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.043353996165195002 0.023419035179757013 0.0069667660301890311</Translation>
+</Transform>
+</Instance>
+<Instance name="2106 Series 8mm REX e-clip.STEP-1" uid="2106 Series 8mm REX e-clip.STEP-1" grounded="true" entityUid="2106 Series 8mm REX e-clip.STEP*:*Default">
+<Transform>
+<Rotation>0 1 0 -1 0 0 0 0 1</Rotation>
+<Translation>-0.043353996165194988 0.027069035179756985 0.0069667660301890033</Translation>
+</Transform>
+</Instance>
+</Instance>
+</Instance>
+<Instance name="Motor block -001-1" uid="Motor block -001-1" entityUid="Motor block -001*:*Default">
+<Transform>
+<Rotation>-0.0004873194809603133 -0.00040000387334701034 -0.9999998012582928 0.064390531187152197 0.99792468358985309 -0.00043055258455016859 0.99792465748329917 -0.064390728206730113 -0.00046055167696275974</Rotation>
+<Translation>0.66404040250707985 -0.042805793927953223 1.2696579336116787</Translation>
+</Transform>
+</Instance>
+<Instance name="Bevel gear 8mm Rex-2" uid="Bevel gear 8mm Rex-2" entityUid="Bevel gear 8mm Rex" rigid="true">
+<Transform>
+<Rotation>-0.00048731948095981359 -0.6455701786014898 0.76370079679162572 0.064390531187152905 -0.76213629424219398 -0.64420658836448752 0.99792465748329906 0.048861165553191976 0.041940010582065756</Rotation>
+<Translation>0.64458002815202931 0.0060204377937856102 1.3324150968104154</Translation>
+</Transform>
+<Instance name="2317-4008-0024 assembly.STEP-1" uid="2317-4008-0024 assembly.STEP-1" grounded="true" entityUid="2317-4008-0024 assembly.STEP" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="2317-4008-0024_3.STEP-1" uid="2317-4008-0024_3.STEP-1" grounded="true" entityUid="2317-4008-0024_3.STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.061300232802774995 0.011849775712072984 0.01715118051705701</Translation>
+</Transform>
+</Instance>
+<Instance name="2806-0005-0004_91390A117_3.STEP-1" uid="2806-0005-0004_91390A117_3.STEP-1" grounded="true" entityUid="2806-0005-0004_91390A117_3.STEP*:*Default">
+<Transform>
+<Rotation>0.97827104773141316 0.20733006817749183 2.9143354396410359e-16 -0.10366503408874703 0.48913552386570985 0.86602540378443649 0.17955310601006697 -0.84720757912222089 0.50000000000000355</Rotation>
+<Translation>-0.050449241820365975 0.01696933958990799 0.02010696210005801</Translation>
+</Transform>
+</Instance>
+<Instance name="2806-0005-0004_91390A117_3.STEP-2" uid="2806-0005-0004_91390A117_3.STEP-2" grounded="true" entityUid="2806-0005-0004_91390A117_3.STEP*:*Default">
+<Transform>
+<Rotation>0.97827104773141316 0.20733006817749203 0 0.20733006817749194 -0.97827104773141293 -9.9920072216264089e-16 0 9.9920072216264089e-16 -1</Rotation>
+<Translation>-0.050449241820365975 0.011849775712072991 0.011239617351053999</Translation>
+</Transform>
+</Instance>
+</Instance>
+</Instance>
+<Instance name="8mm Rex ball bearing-1" uid="8mm Rex ball bearing-1" entityUid="8mm Rex ball bearing*:*Default">
+<Transform>
+<Rotation>0.00043101102759139989 0.99999980125829269 -0.00046012266767747612 -0.99999941131985293 0.00043055258455016246 -0.000995984146316721 -0.00099578584136919557 0.00046055167696262833 0.99999939815117422</Rotation>
+<Translation>0.67398568503686951 -0.016315800293335431 1.2985982455775873</Translation>
+</Transform>
+</Instance>
+<Instance name="Bevel gear 8mm Rex-1" uid="Bevel gear 8mm Rex-1" entityUid="Bevel gear 8mm Rex" rigid="true">
+<Transform>
+<Rotation>0.99999980125829258 9.1552179892206986e-06 0.00063039634929107358 0.00043055258455022144 -0.74033762453894625 -0.67223509006634108 0.00046055167696257282 0.67223522788396917 -0.74033748134478561</Rotation>
+<Translation>0.68523400407895618 0.0039915075839503378 1.3033352561501912</Translation>
+</Transform>
+<Instance name="2317-4008-0024 assembly.STEP-1" uid="2317-4008-0024 assembly.STEP-1" grounded="true" entityUid="2317-4008-0024 assembly.STEP" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="2317-4008-0024_3.STEP-1" uid="2317-4008-0024_3.STEP-1" grounded="true" entityUid="2317-4008-0024_3.STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.061300232802774995 0.011849775712072963 0.017151180517056996</Translation>
+</Transform>
+</Instance>
+<Instance name="2806-0005-0004_91390A117_3.STEP-1" uid="2806-0005-0004_91390A117_3.STEP-1" grounded="true" entityUid="2806-0005-0004_91390A117_3.STEP*:*Default">
+<Transform>
+<Rotation>0.97827104773141305 0.20733006817749194 3.8857805861880479e-16 -0.10366503408874705 0.48913552386571013 0.8660254037844366 0.17955310601006699 -0.84720757912222078 0.50000000000000377</Rotation>
+<Translation>-0.050449241820365989 0.016969339589907984 0.020106962100057968</Translation>
+</Transform>
+</Instance>
+<Instance name="2806-0005-0004_91390A117_3.STEP-2" uid="2806-0005-0004_91390A117_3.STEP-2" grounded="true" entityUid="2806-0005-0004_91390A117_3.STEP*:*Default">
+<Transform>
+<Rotation>0.97827104773141282 0.20733006817749197 2.7755575615628914e-16 0.20733006817749189 -0.97827104773141305 -8.8817841970012523e-16 0 1.1379786002407855e-15 -0.99999999999999989</Rotation>
+<Translation>-0.050449241820365989 0.011849775712072991 0.011239617351053999</Translation>
+</Transform>
+</Instance>
+</Instance>
+</Instance>
+<Instance name="8mm Rex ball bearing-3" uid="8mm Rex ball bearing-3" entityUid="8mm Rex ball bearing*:*Default">
+<Transform>
+<Rotation>-0.00043055226308273339 -0.99999980125829258 -0.00046055197749045318 0.99999990731205213 -0.00043055258455024226 5.9885911831911165e-07 -7.971508435497543e-07 -0.00046055167696262833 0.99999989394575295</Rotation>
+<Translation>0.62610569455262244 -0.01633641515108368 1.2985761943632945</Translation>
+</Transform>
+</Instance>
+<Instance name="Rex 64mm shaft 8mm-1" uid="Rex 64mm shaft 8mm-1" entityUid="Rex 64mm shaft 8mm" rigid="true">
+<Transform>
+<Rotation>-0.64557017860148991 -0.00048731948096020217 -0.76370079679162561 -0.76213629424219376 0.064390531187152447 0.64420658836448763 0.048861165553191366 0.99792465748329906 -0.041940010582065812</Rotation>
+<Translation>0.62742369246884599 -0.05987109957292 1.2077725743592413</Translation>
+</Transform>
+<Instance name="2106-4008-0640 assembly.STEP-1" uid="2106-4008-0640 assembly.STEP-1" grounded="true" entityUid="2106-4008-0640 assembly.STEP" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="2106-4008-0640.STEP-1" uid="2106-4008-0640.STEP-1" grounded="true" entityUid="2106-4008-0640.STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.043353996165195002 0.023419035179756992 0.0069667660301889964</Translation>
+</Transform>
+</Instance>
+<Instance name="2106 Series 8mm REX e-clip_2.STEP-1" uid="2106 Series 8mm REX e-clip_2.STEP-1" grounded="true" entityUid="2106 Series 8mm REX e-clip_2.STEP*:*Default">
+<Transform>
+<Rotation>0 -0.11442516030579397 0.99343187118644083 1 0 0 0 0.99343187118644094 0.11442516030579403</Rotation>
+<Translation>-0.043353996165194982 0.027069035179757006 0.0069667660301889998</Translation>
+</Transform>
+</Instance>
+</Instance>
+</Instance>
+</Instance>
+<Instance name="Bottom plate -004-1" uid="Bottom plate -004-1" entityUid="Bottom plate -004*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 1 0 -1 0</Rotation>
+<Translation>0.13367866952235158 0 -0.65199728221126263</Translation>
+</Transform>
+</Instance>
+<Instance name="Gearbox-3" uid="Gearbox-3" entityUid="Gearbox" rigid="true">
+<Transform>
+<Rotation>-0.50042193167941584 0.055548559478973136 0.8639978286049409 -0.00040000387334730828 0.99792468358985298 -0.06439072820673053 -0.86578157192859173 -0.032568135069461983 -0.49936117819365367</Rotation>
+<Translation>-0.60143394300933406 0.14189922341056141 1.0985284787546319</Translation>
+</Transform>
+<Instance name="8mm Rex ball bearing-2" uid="8mm Rex ball bearing-2" entityUid="8mm Rex ball bearing*:*Default">
+<Transform>
+<Rotation>0.99939127876607381 0.00048731948096031319 -0.034883154187011871 0.034842127627648267 -0.064390531187152406 0.99731634180725981 -0.0017601331455422975 -0.99792465748329884 -0.064368314551106073</Rotation>
+<Translation>0.65006830281599981 -0.019314013107941987 1.2522806545180967</Translation>
+</Transform>
+</Instance>
+<Instance name="Rex-to-servo coupler-1" uid="Rex-to-servo coupler-1" entityUid="Rex-to-servo coupler" rigid="true">
+<Transform>
+<Rotation>-0.76370079679162606 -0.00048731948095975808 0.64557017860148935 0.64420658836448697 0.064390531187152961 0.76213629424219431 -0.041940010582065868 0.99792465748329895 -0.048861165553191976</Rotation>
+<Translation>0.62361377986341826 -0.010161642478948837 1.2186924298722663</Translation>
+</Transform>
+<Instance name="4001-0025-4008 assembly.STEP-1" uid="4001-0025-4008 assembly.STEP-1" grounded="true" entityUid="4001-0025-4008 assembly.STEP" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="2800-0004-0010_90128A207.STEP-1" uid="2800-0004-0010_90128A207.STEP-1" grounded="true" entityUid="2800-0004-0010_90128A207.STEP*:*Default">
+<Transform>
+<Rotation>0.99582987600296113 -0.09122969944007997 0 0.09122969944007997 0.99582987600296102 0 -1.1102230246251565e-16 1.1102230246251565e-16 1.0000000000000002</Rotation>
+<Translation>-0.03366384306265599 0.014319167115211001 0.015336737575984007</Translation>
+</Transform>
+</Instance>
+<Instance name="4001-0025-4008.STEP-1" uid="4001-0025-4008.STEP-1" grounded="true" entityUid="4001-0025-4008.STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.027508048170467994 0.010319167115210998 -0.017788262424015995</Translation>
+</Transform>
+</Instance>
+</Instance>
+</Instance>
+<Instance name="Rex 120mm shaft 8mm-1" uid="Rex 120mm shaft 8mm-1" entityUid="Rex 120mm shaft 8mm" rigid="true">
+<Transform>
+<Rotation>9.1552179891096763e-06 -0.99999980125829269 0.00063039634929112052 -0.7403376245389468 -0.00043055258455015829 -0.67223509006634063 0.6722352278839685 -0.0004605516769627264 -0.74033748134478605</Rotation>
+<Translation>0.73340071349899971 -0.043703507219603151 1.3329274526215822</Translation>
+</Transform>
+<Instance name="2106-4008-1200 assembly.STEP-1" uid="2106-4008-1200 assembly.STEP-1" grounded="true" entityUid="2106-4008-1200 assembly.STEP" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="2106-4008-1200.STEP-1" uid="2106-4008-1200.STEP-1" grounded="true" entityUid="2106-4008-1200.STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.04335399616519503 0.023419035179756992 0.0069667660301890311</Translation>
+</Transform>
+</Instance>
+<Instance name="2106 Series 8mm REX e-clip.STEP-1" uid="2106 Series 8mm REX e-clip.STEP-1" grounded="true" entityUid="2106 Series 8mm REX e-clip.STEP*:*Default">
+<Transform>
+<Rotation>0 1 0 -1 0 0 0 0 1</Rotation>
+<Translation>-0.043353996165195002 0.027069035179757006 0.0069667660301890033</Translation>
+</Transform>
+</Instance>
+</Instance>
+</Instance>
+<Instance name="Motor block -001-1" uid="Motor block -001-1" entityUid="Motor block -001*:*Default">
+<Transform>
+<Rotation>-0.00048731948096020217 -0.00040000387334701337 -0.99999980125829269 0.064390531187152197 0.99792468358985287 -0.00043055258455015552 0.99792465748329895 -0.0643907282067301 -0.00046055167696262833</Rotation>
+<Translation>0.66404040250707963 -0.042805793927953237 1.2696579336116787</Translation>
+</Transform>
+</Instance>
+<Instance name="Bevel gear 8mm Rex-2" uid="Bevel gear 8mm Rex-2" entityUid="Bevel gear 8mm Rex" rigid="true">
+<Transform>
+<Rotation>-0.00048731948095970278 -0.6455701786014898 0.76370079679162595 0.064390531187152933 -0.76213629424219409 -0.64420658836448752 0.99792465748329917 0.048861165553192122 0.041940010582065777</Rotation>
+<Translation>0.64458002815202908 0.0060204377937856102 1.3324150968104151</Translation>
+</Transform>
+<Instance name="2317-4008-0024 assembly.STEP-1" uid="2317-4008-0024 assembly.STEP-1" grounded="true" entityUid="2317-4008-0024 assembly.STEP" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="2317-4008-0024_3.STEP-1" uid="2317-4008-0024_3.STEP-1" grounded="true" entityUid="2317-4008-0024_3.STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.06130023280277494 0.011849775712073005 0.017151180517056996</Translation>
+</Transform>
+</Instance>
+<Instance name="2806-0005-0004_91390A117_3.STEP-1" uid="2806-0005-0004_91390A117_3.STEP-1" grounded="true" entityUid="2806-0005-0004_91390A117_3.STEP*:*Default">
+<Transform>
+<Rotation>0.97827104773141293 0.20733006817749189 3.1918911957973251e-16 -0.103665034088747 0.48913552386570991 0.86602540378443638 0.17955310601006708 -0.84720757912222067 0.50000000000000344</Rotation>
+<Translation>-0.050449241820365975 0.016969339589908004 0.02010696210005801</Translation>
+</Transform>
+</Instance>
+<Instance name="2806-0005-0004_91390A117_3.STEP-2" uid="2806-0005-0004_91390A117_3.STEP-2" grounded="true" entityUid="2806-0005-0004_91390A117_3.STEP*:*Default">
+<Transform>
+<Rotation>0.97827104773141293 0.207330068177492 3.3306690738754696e-16 0.20733006817749203 -0.97827104773141305 -9.9920072216264089e-16 0 1.0547118733938987e-15 -1</Rotation>
+<Translation>-0.050449241820365975 0.011849775712073012 0.011239617351053971</Translation>
+</Transform>
+</Instance>
+</Instance>
+</Instance>
+<Instance name="8mm Rex ball bearing-1" uid="8mm Rex ball bearing-1" entityUid="8mm Rex ball bearing*:*Default">
+<Transform>
+<Rotation>0.00043101102759141377 0.99999980125829246 -0.00046012266767736509 -0.99999941131985293 0.00043055258455015899 -0.00099598414631671059 -0.00099578584136919557 0.00046055167696268384 0.99999939815117411</Rotation>
+<Translation>0.6739856850368694 -0.01631580029333541 1.2985982455775875</Translation>
+</Transform>
+</Instance>
+<Instance name="Bevel gear 8mm Rex-1" uid="Bevel gear 8mm Rex-1" entityUid="Bevel gear 8mm Rex" rigid="true">
+<Transform>
+<Rotation>0.99999980125829269 9.1552179891845422e-06 0.00063039634929113169 0.00043055258455022155 -0.74033762453894636 -0.6722350900663413 0.00046055167696268395 0.67223522788396917 -0.74033748134478561</Rotation>
+<Translation>0.68523400407895629 0.0039915075839503517 1.3033352561501914</Translation>
+</Transform>
+<Instance name="2317-4008-0024 assembly.STEP-1" uid="2317-4008-0024 assembly.STEP-1" grounded="true" entityUid="2317-4008-0024 assembly.STEP" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="2317-4008-0024_3.STEP-1" uid="2317-4008-0024_3.STEP-1" grounded="true" entityUid="2317-4008-0024_3.STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.061300232802774995 0.011849775712072991 0.017151180517057024</Translation>
+</Transform>
+</Instance>
+<Instance name="2806-0005-0004_91390A117_3.STEP-1" uid="2806-0005-0004_91390A117_3.STEP-1" grounded="true" entityUid="2806-0005-0004_91390A117_3.STEP*:*Default">
+<Transform>
+<Rotation>0.97827104773141293 0.20733006817749175 3.3306690738754696e-16 -0.10366503408874689 0.48913552386571002 0.8660254037844366 0.17955310601006685 -0.84720757912222089 0.50000000000000355</Rotation>
+<Translation>-0.050449241820366003 0.016969339589907984 0.020106962100057996</Translation>
+</Transform>
+</Instance>
+<Instance name="2806-0005-0004_91390A117_3.STEP-2" uid="2806-0005-0004_91390A117_3.STEP-2" grounded="true" entityUid="2806-0005-0004_91390A117_3.STEP*:*Default">
+<Transform>
+<Rotation>0.97827104773141305 0.20733006817749208 0 0.20733006817749208 -0.97827104773141316 -9.3734722056799804e-16 -1.6653345369377353e-16 9.2287288921966177e-16 -1.0000000000000002</Rotation>
+<Translation>-0.050449241820366003 0.011849775712072991 0.011239617351054026</Translation>
+</Transform>
+</Instance>
+</Instance>
+</Instance>
+<Instance name="8mm Rex ball bearing-3" uid="8mm Rex ball bearing-3" entityUid="8mm Rex ball bearing*:*Default">
+<Transform>
+<Rotation>-0.0004305522630827335 -0.99999980125829269 -0.0004605519774904502 0.99999990731205235 -0.00043055258455023488 5.9885911833633395e-07 -7.9715084354628506e-07 -0.00046055167696268395 0.99999989394575317</Rotation>
+<Translation>0.62610569455262222 -0.016336415151083708 1.2985761943632943</Translation>
+</Transform>
+</Instance>
+<Instance name="Rex 64mm shaft 8mm-1" uid="Rex 64mm shaft 8mm-1" entityUid="Rex 64mm shaft 8mm" rigid="true">
+<Transform>
+<Rotation>-0.6455701786014898 -0.00048731948096014666 -0.76370079679162561 -0.76213629424219376 0.064390531187152461 0.64420658836448752 0.048861165553191477 0.99792465748329895 -0.041940010582065868</Rotation>
+<Translation>0.62742369246884577 -0.059871099572920014 1.2077725743592413</Translation>
+</Transform>
+<Instance name="2106-4008-0640 assembly.STEP-1" uid="2106-4008-0640 assembly.STEP-1" grounded="true" entityUid="2106-4008-0640 assembly.STEP" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="2106-4008-0640.STEP-1" uid="2106-4008-0640.STEP-1" grounded="true" entityUid="2106-4008-0640.STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.043353996165194988 0.023419035179756992 0.0069667660301889894</Translation>
+</Transform>
+</Instance>
+<Instance name="2106 Series 8mm REX e-clip_2.STEP-1" uid="2106 Series 8mm REX e-clip_2.STEP-1" grounded="true" entityUid="2106 Series 8mm REX e-clip_2.STEP*:*Default">
+<Transform>
+<Rotation>0 -0.11442516030579378 0.99343187118644083 0.99999999999999989 0 0 0 0.99343187118644094 0.11442516030579376</Rotation>
+<Translation>-0.043353996165194988 0.027069035179757006 0.0069667660301889894</Translation>
+</Transform>
+</Instance>
+</Instance>
+</Instance>
+</Instance>
+<Instance name="Bottom plate 2-005-1" uid="Bottom plate 2-005-1" entityUid="Bottom plate 2-005*:*Default">
+<Transform>
+<Rotation>-1 -3.9725167599868882e-15 -1.7071449992128977e-16 1.7071449992129179e-16 -4.9597306362431364e-16 -0.99999999999999967 3.9725167599868882e-15 -1 4.9597306362431433e-16</Rotation>
+<Translation>-0.13262250339392834 -0.0025399999999997942 -0.6454528259752369</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Pin for Top Plate-1" uid="Pin for Top Plate-1" entityUid="Pin for Top Plate*:*Default">
+<Transform>
+<Rotation>-0.00097056748066166529 -0.00010769682749341639 0.99999952319996577 0.11028587748943287 -0.99389990704617004 1.9432615486610058e-11 0.99389943315465845 0.11028582490514154 0.00097652436793460389</Rotation>
+<Translation>4.51280649984957e-06 0.1751665592683361 0.2947382716968594</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor arm assembly -001-6" uid="Motor arm assembly -001-6" entityUid="Motor arm assembly -001" rigid="true">
+<Transform>
+<Rotation>0.35004999436385809 -0.79212688468821957 -0.49999999999999878 -0.91466934021416624 -0.40420291695159966 -1.7208456881689926e-15 -0.20210145847579802 0.45733467010708262 -0.86602540378443926</Rotation>
+<Translation>0.21375594866336284 0.0370590854183665 -0.14519437781732586</Translation>
+</Transform>
+<Instance name="8mm Rex ball bearing-2" uid="8mm Rex ball bearing-2" entityUid="8mm Rex ball bearing*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 -0.99999999999999978 0 0.99999999999999989 0</Rotation>
+<Translation>-0.020060573090787903 0.027555161292834751 0.028593954655201453</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor arm cylinder L - 001-1" uid="Motor arm cylinder L - 001-1" entityUid="Motor arm cylinder L - 001*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.020060573090787903 0.027555161292834751 0.022052954655201476</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor arm cylinder S - 002-1" uid="Motor arm cylinder S - 002-1" entityUid="Motor arm cylinder S - 002*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.02006057309078791 -0.020704838707165218 0.022052954655201476</Translation>
+</Transform>
+</Instance>
+<Instance name="8mm Rex ball bearing-1" uid="8mm Rex ball bearing-1" entityUid="8mm Rex ball bearing*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 0.99999999999999978 0 -0.99999999999999989 0</Rotation>
+<Translation>-0.02006057309078791 0.027555161292834751 0.020845954655201449</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor arm body - 002-2" uid="Motor arm body - 002-2" entityUid="Motor arm body - 002*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.0200424699696478 0.015903304603991752 0.030688954655201481</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor arm body - 002-1" uid="Motor arm body - 002-1" grounded="true" entityUid="Motor arm body - 002*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.0200424699696478 0.01590330460399178 0.017480954655201469</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Steel Ball Linkage Case-3" uid="Steel Ball Linkage Case-3" entityUid="Steel Ball Linkage Case" rigid="true">
+<Transform>
+<Rotation>-0.8623692713866612 0.19823967829924824 -0.46585434388427621 0.22872400628787948 0.97344818725176507 -0.0091627334281139533 0.45166864925037797 -0.11445373163013603 -0.8848139773987953</Rotation>
+<Translation>0.24961586238679812 0.13261207107389031 -0.13214727879187299</Translation>
+</Transform>
+<Instance name="2913-0004-0241 housing-1" uid="2913-0004-0241 housing-1" entityUid="2913-0004-0241 housing*:*Default">
+<Transform>
+<Rotation>-0.97749421425782135 0 0.21096222669588061 0 -1 0 0.21096222669588072 0 0.97749421425782157</Rotation>
+<Translation>-0.0020028246615701739 0.044283853030569781 0.010417652343013506</Translation>
+</Transform>
+</Instance>
+<Instance name="27mm standoff M4-1" uid="27mm standoff M4-1" grounded="true" entityUid="27mm standoff M4*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.0020028246615702017 0.0064138530305697661 0.010417652343013492</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Pin for Top Plate-3" uid="Pin for Top Plate-3" entityUid="Pin for Top Plate*:*Default">
+<Transform>
+<Rotation>-0.55877378794304278 0.66228171620140419 -0.49915406668994089 0.7643065052637219 0.64485313522658483 -3.6082248300317588e-16 0.32188106486610818 -0.38150670029996353 -0.86651325304746152</Rotation>
+<Translation>0.25524857435844228 0.17516655927916969 -0.14737304405620985</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor arm assembly -001-5" uid="Motor arm assembly -001-5" entityUid="Motor arm assembly -001" rigid="true">
+<Transform>
+<Rotation>0.35004999436385759 -0.79212688468821979 -0.49999999999999922 -0.91466934021416613 -0.40420291695160016 0 -0.20210145847579958 0.45733467010708212 -0.86602540378443937</Rotation>
+<Translation>0.25739494866336271 0.037059085418366555 -0.069609412625827524</Translation>
+</Transform>
+<Instance name="8mm Rex ball bearing-2" uid="8mm Rex ball bearing-2" entityUid="8mm Rex ball bearing*:*Default">
+<Transform>
+<Rotation>1 1.3877787807814467e-16 1.1102230246251568e-16 1.1102230246251565e-16 1.1102230246251564e-16 -1 -1.3877787807814457e-16 1 1.1102230246251563e-16</Rotation>
+<Translation>-0.02006057309078791 0.027555161292834723 0.028593954655201481</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor arm cylinder L - 001-1" uid="Motor arm cylinder L - 001-1" entityUid="Motor arm cylinder L - 001*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.02006057309078791 0.027555161292834723 0.022052954655201483</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor arm cylinder S - 002-1" uid="Motor arm cylinder S - 002-1" entityUid="Motor arm cylinder S - 002*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.020060573090787917 -0.020704838707165274 0.022052954655201476</Translation>
+</Transform>
+</Instance>
+<Instance name="8mm Rex ball bearing-1" uid="8mm Rex ball bearing-1" entityUid="8mm Rex ball bearing*:*Default">
+<Transform>
+<Rotation>1 -1.3877787807814467e-16 -1.1102230246251568e-16 1.1102230246251565e-16 -1.1102230246251564e-16 1 -1.3877787807814457e-16 -1 -1.1102230246251563e-16</Rotation>
+<Translation>-0.02006057309078791 0.027555161292834696 0.020845954655201483</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor arm body - 002-2" uid="Motor arm body - 002-2" entityUid="Motor arm body - 002*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.020042469969647779 0.015903304603991697 0.030688954655201467</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor arm body - 002-1" uid="Motor arm body - 002-1" grounded="true" entityUid="Motor arm body - 002*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.020042469969647786 0.015903304603991725 0.017480954655201483</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Main fork assembly v2-3" uid="Main fork assembly v2-3" entityUid="Main fork assembly v2" rigid="true">
+<Transform>
+<Rotation>-0.49999999999999939 0.19823967829924821 0.84303085942793987 -4.7184478546569143e-16 0.97344818725176496 -0.22890746326027167 -0.86602540378443893 -0.11445373163013611 -0.48672409362588176</Rotation>
+<Translation>0.21115145662813764 0.070462758579096993 -0.090216365545606136</Translation>
+</Transform>
+<Instance name="9414T3_Set Screw Shaft Collar-6" uid="9414T3_Set Screw Shaft Collar-6" entityUid="9414T3_Set Screw Shaft Collar*:*9414T3">
+<Transform>
+<Rotation>0 0 -0.99999999999999989 -0.99814178218100347 0.060934248699153759 0 0.060934248699153731 0.99814178218100313 0</Rotation>
+<Translation>0.059979270214314734 0.0027793122692493649 0.0410272437759793</Translation>
+</Transform>
+</Instance>
+<Instance name="6mm ID Flanged Ball Bearing 12mm OD, 4mm-2" uid="6mm ID Flanged Ball Bearing 12mm OD, 4mm-2" entityUid="6mm ID Flanged Ball Bearing 12mm OD, 4mm*:*Default">
+<Transform>
+<Rotation>-0.024039075311815095 0 -0.99971101967426212 0 0.99999999999999989 0 0.99971101967426201 0 -0.024039075311815095</Rotation>
+<Translation>0.027410167064392754 0.088837309532833045 0.041027243775979272</Translation>
+</Transform>
+</Instance>
+<Instance name="9414T3_Set Screw Shaft Collar-4" uid="9414T3_Set Screw Shaft Collar-4" entityUid="9414T3_Set Screw Shaft Collar*:*9414T3">
+<Transform>
+<Rotation>1.1102230246251565e-16 0 0.99999999999999989 -0.99142464527128882 0.13067965698110343 1.1102230246251565e-16 -0.13067965698110345 -0.99142464527128871 -1.1102230246251565e-16</Rotation>
+<Translation>-0.027297534791341546 0.0027793122692493372 0.0410272437759793</Translation>
+</Transform>
+</Instance>
+<Instance name="9414T3_Set Screw Shaft Collar-5" uid="9414T3_Set Screw Shaft Collar-5" entityUid="9414T3_Set Screw Shaft Collar*:*9414T3">
+<Transform>
+<Rotation>-3.677613769070831e-16 2.7755575615628923e-16 -0.99999999999999989 -0.99162159837318919 0.12917664510197369 4.0053384579753761e-16 0.12917664510197369 0.99162159837318931 2.2772410169043922e-16</Rotation>
+<Translation>0.082067868920127088 0.0027793122692493649 0.041027243775979272</Translation>
+</Transform>
+</Instance>
+<Instance name="Pin_For_Bearings_Fork-1" uid="Pin_For_Bearings_Fork-1" entityUid="Pin_For_Bearings_Fork*:*Default">
+<Transform>
+<Rotation>-1.1102230246251568e-16 -1 1.7558864441863166e-16 0.61209924314952058 -2.0680882298019666e-16 -0.79078095357423983 0.79078095357423983 0 0.61209924314952058</Rotation>
+<Translation>-0.0020239360855291988 0.002779312269249351 0.0410272437759793</Translation>
+</Transform>
+</Instance>
+<Instance name="Main fork assembly -001-1" uid="Main fork assembly -001-1" grounded="true" entityUid="Main fork assembly -001" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.042480588391824933 -0.0044269335008024491 0.014249514896529425</Translation>
+</Transform>
+<Instance name="Main fork cylinder -002-1" uid="Main fork cylinder -002-1" entityUid="Main fork cylinder -002*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.057999387594494425 0.033859484040374907 0.023475728879449875</Translation>
+</Transform>
+</Instance>
+<Instance name="Main fork cylinder -002-2" uid="Main fork cylinder -002-2" entityUid="Main fork cylinder -002*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.088140230249358797 0.033859484040374935 0.023475728879449903</Translation>
+</Transform>
+</Instance>
+<Instance name="Main fork -001-1" uid="Main fork -001-1" entityUid="Main fork -001*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.055695472902393225 0.0303858857789744 0.018268728879449858</Translation>
+</Transform>
+</Instance>
+<Instance name="Main fork -001-2" uid="Main fork -001-2" entityUid="Main fork -001*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.055695472902393198 0.0303858857789744 0.034016728879449842</Translation>
+</Transform>
+</Instance>
+<Instance name="Main fork pin -003-2" uid="Main fork pin -003-2" entityUid="Main fork pin -003*:*Default">
+<Transform>
+<Rotation>-1 -1.5265566588595905e-16 0 -1.5265566588595905e-16 0.99999999999999989 0 0 0 -0.99999999999999989</Rotation>
+<Translation>0.061555331498942864 0.0032608649052133648 0.030079728879449874</Translation>
+</Transform>
+</Instance>
+<Instance name="Main fork pin -003-1" uid="Main fork pin -003-1" entityUid="Main fork pin -003*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.091696174153807222 0.0032608649052133509 0.023475728879449875</Translation>
+</Transform>
+</Instance>
+<Instance name="Main fork cylinder -002-4" uid="Main fork cylinder -002-4" entityUid="Main fork cylinder -002*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.075875608945320416 0.071451484040374894 0.023475728879449875</Translation>
+</Transform>
+</Instance>
+<Instance name="Main fork spherical receiver -004-1" uid="Main fork spherical receiver -004-1" entityUid="Main fork spherical receiver -004*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.05569547290239317 0.040847138892653526 0.023475728879449875</Translation>
+</Transform>
+</Instance>
+<Instance name="Main fork cylinder -002-3" uid="Main fork cylinder -002-3" entityUid="Main fork cylinder -002*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.045734766290456058 0.071451484040374866 0.023475728879449875</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="57155K207_Stainless Steel Ball Bearing-1" uid="57155K207_Stainless Steel Ball Bearing-1" entityUid="57155K207_Stainless Steel Ball Bearing*:*57155K207">
+<Transform>
+<Rotation>1.6653345369377348e-16 -2.0816681711721685e-16 0.99999999999999989 -0.4150675500055101 0.90979059619916014 2.4980018054066022e-16 -0.90979059619916003 -0.41506755000550999 0</Rotation>
+<Translation>-0.052109561085529194 0.0027793122692493372 0.041027243775979272</Translation>
+</Transform>
+</Instance>
+<Instance name="57155K207_Stainless Steel Ball Bearing-5" uid="57155K207_Stainless Steel Ball Bearing-5" entityUid="57155K207_Stainless Steel Ball Bearing*:*57155K207">
+<Transform>
+<Rotation>0 0 -1 -0.96804455642166609 -0.25077826218071558 0 -0.25077826218071558 0.9680445564216662 0</Rotation>
+<Translation>-0.037072909791341549 0.0027793122692493372 0.041027243775979272</Translation>
+</Transform>
+</Instance>
+<Instance name="57155K207_Stainless Steel Ball Bearing-7" uid="57155K207_Stainless Steel Ball Bearing-7" entityUid="57155K207_Stainless Steel Ball Bearing*:*57155K207">
+<Transform>
+<Rotation>1.3183898417423734e-16 1.6653345369377348e-16 -0.99999999999999989 -0.99543554343541774 0.09543625550824153 -1.1102230246251565e-16 0.09543625550824146 0.99543554343541762 1.6653345369377348e-16</Rotation>
+<Translation>0.10692989521431473 0.0027793122692493372 0.041027243775979272</Translation>
+</Transform>
+</Instance>
+<Instance name="Spacers-1" uid="Spacers-1" entityUid="Spacers*:*Default">
+<Transform>
+<Rotation>0 -2.0816681711721685e-16 -1 -1.8735013540549524e-16 1 -2.0816681711721685e-16 1 1.8735013540549524e-16 0</Rotation>
+<Translation>-0.030472534791341557 0.002779312269249351 0.0410272437759793</Translation>
+</Transform>
+</Instance>
+<Instance name="9414T3_Set Screw Shaft Collar-1" uid="9414T3_Set Screw Shaft Collar-1" entityUid="9414T3_Set Screw Shaft Collar*:*9414T3">
+<Transform>
+<Rotation>-1.02695629777827e-15 1.5543122344752199e-15 1 -0.99490903252161467 0.10077706587763269 -1.1783671231126775e-15 -0.1007770658776327 -0.99490903252161467 1.4429056389635997e-15</Rotation>
+<Translation>-0.057268936085529187 0.0027793122692493372 0.041027243775979272</Translation>
+</Transform>
+</Instance>
+<Instance name="57155K207_Stainless Steel Ball Bearing-6" uid="57155K207_Stainless Steel Ball Bearing-6" entityUid="57155K207_Stainless Steel Ball Bearing*:*57155K207">
+<Transform>
+<Rotation>1.1102230246251565e-16 0 0.99999999999999989 -0.14064571516434543 0.99005998949857055 0 -0.99005998949857066 -0.14064571516434538 1.1102230246251565e-16</Rotation>
+<Translation>0.091893243920127043 0.002779312269249351 0.041027243775979327</Translation>
+</Transform>
+</Instance>
+<Instance name="Pin_For_Bearings_Fork-2" uid="Pin_For_Bearings_Fork-2" entityUid="Pin_For_Bearings_Fork*:*Default">
+<Transform>
+<Rotation>1.6653345369377348e-16 0.99999999999999989 -2.2204460492503131e-16 0.97936224169227248 -1.3877787807814457e-16 0.2021128386508067 0.20211283865080665 -1.6653345369377348e-16 -0.97936224169227226</Rotation>
+<Translation>0.056804270214314723 0.0027793122692493372 0.041027243775979272</Translation>
+</Transform>
+</Instance>
+<Instance name="9414T3_Set Screw Shaft Collar-2" uid="9414T3_Set Screw Shaft Collar-2" entityUid="9414T3_Set Screw Shaft Collar*:*9414T3">
+<Transform>
+<Rotation>0 1.6653345369377356e-16 -1 -0.99441621850506556 0.10552906885823186 1.1417620121348731e-16 0.10552906885823184 0.99441621850506579 1.5535199710055526e-16</Rotation>
+<Translation>0.11208927021431472 0.0027793122692493372 0.041027243775979327</Translation>
+</Transform>
+</Instance>
+<Instance name="Spacers-2" uid="Spacers-2" entityUid="Spacers*:*Default">
+<Transform>
+<Rotation>2.2204460492503131e-16 2.2204460492503131e-16 1 0.8746717057447877 -0.48471580041247209 0 0.48471580041247198 0.87467170574478748 -2.7755575615628914e-16</Rotation>
+<Translation>0.085242868920127057 0.0027793122692493372 0.0410272437759793</Translation>
+</Transform>
+</Instance>
+<Instance name="9414T3_Set Screw Shaft Collar-3" uid="9414T3_Set Screw Shaft Collar-3" entityUid="9414T3_Set Screw Shaft Collar*:*9414T3">
+<Transform>
+<Rotation>2.4980018054066022e-16 -1.6653345369377348e-16 0.99999999999999989 -0.95485406436728171 0.29707526952151858 2.7755575615628914e-16 -0.29707526952151864 -0.95485406436728149 -1.1102230246251565e-16</Rotation>
+<Translation>-0.0051989360855292099 0.0027793122692493649 0.0410272437759793</Translation>
+</Transform>
+</Instance>
+<Instance name="6mm ID Flanged Ball Bearing 12mm OD, 4mm-3" uid="6mm ID Flanged Ball Bearing 12mm OD, 4mm-3" entityUid="6mm ID Flanged Ball Bearing 12mm OD, 4mm*:*Default">
+<Transform>
+<Rotation>-0.82827711043470897 0 -0.5603186846161109 0 -0.99999999999999989 0 -0.5603186846161109 0 0.82827711043470886</Rotation>
+<Translation>0.02741016706439274 0.0670664109554263 0.041027243775979244</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="2913-0004-0241 ball-c-3" uid="2913-0004-0241 ball-c-3" entityUid="2913-0004-0241 ball-c*:*Default">
+<Transform>
+<Rotation>0.77404895343816904 -0.38947841453432219 0.49915406668994089 0.44947773523896606 0.89329153445247111 1.6653345369377348e-16 -0.44589010216164821 0.22435863943111434 0.86651325304746152</Rotation>
+<Translation>0.25526874501247399 0.17516655927916963 -0.14733802853653868</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Coincident name="Coincident3">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>Base_Assembly-1</Uid>
+<Uid>Bottom plate 2-005-1</Uid>
+</InstancePath>
+<Position>-0.13262250339392573 -0.64545282597523745 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>ALARS_STAB_v3</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Parallel1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base_Assembly-1</Uid>
+<Uid>Bottom plate 2-005-1</Uid>
+</InstancePath>
+<Position>-0.10468250339392479 -0.89945282597523701 0.0038099999999999974</Position>
+<Axis>3.9735970816934377e-15 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>ALARS_STAB_v3</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Parallel name="Parallel2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base_Assembly-1</Uid>
+<Uid>Bottom plate 2-005-1</Uid>
+</InstancePath>
+<Position>-0.10468250339392565 -0.6615839924963951 0.0038099999999999974</Position>
+<Axis>1 3.6172155532138241e-15 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>ALARS_STAB_v3</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Base_Assembly-1</Uid>
+<Uid>Gearbox-1</Uid>
+<Uid>8mm Rex ball bearing-3</Uid>
+</InstancePath>
+<Position>0 0.031213203435596446 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Motor arm assembly -001-1</Uid>
+<Uid>Motor arm cylinder L - 001-1</Uid>
+</InstancePath>
+<Position>0 0 0.0080010000000000012</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Base_Assembly-1</Uid>
+<Uid>Gearbox-1</Uid>
+<Uid>8mm Rex ball bearing-1</Uid>
+</InstancePath>
+<Position>0 0.03121320343559645 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Motor arm assembly -001-2</Uid>
+<Uid>Motor arm cylinder L - 001-1</Uid>
+</InstancePath>
+<Position>0 0 0.0080010000000000012</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base_Assembly-1</Uid>
+<Uid>Gearbox-1</Uid>
+<Uid>Motor block -001-1</Uid>
+</InstancePath>
+<Position>-0.01982175816555265 -0.018432447397425049 0.041909985602320968</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Motor arm assembly -001-1</Uid>
+<Uid>Motor arm body - 002-2</Uid>
+</InstancePath>
+<Position>-1.8103121140117251e-05 0.011651856688842999 0.0019050000000000109</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Distance>
+<Distance name="Distance2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base_Assembly-1</Uid>
+<Uid>Gearbox-1</Uid>
+<Uid>Motor block -001-1</Uid>
+</InstancePath>
+<Position>-0.019821758165552678 -0.018432447397425049 -0.013970014397679037</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Motor arm assembly -001-2</Uid>
+<Uid>Motor arm body - 002-1</Uid>
+</InstancePath>
+<Position>-1.810312114012419e-05 0.011651856688842971 -0.00063499999999999668</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric3">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Motor arm assembly -001-1</Uid>
+<Uid>Motor arm body - 002-1</Uid>
+</InstancePath>
+<Position>-1.8103121140117251e-05 -0.036608143311156971 -0.00063499999999999668</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Main fork assembly v2-1</Uid>
+<Uid>Pin_For_Bearings_Fork-1</Uid>
+</InstancePath>
+<Position>0 0.030479999999999993 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric4">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Motor arm assembly -001-2</Uid>
+<Uid>Motor arm body - 002-2</Uid>
+</InstancePath>
+<Position>-1.810312114012419e-05 -0.036608143311156999 -0.00063499999999999668</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Main fork assembly v2-1</Uid>
+<Uid>Pin_For_Bearings_Fork-2</Uid>
+</InstancePath>
+<Position>0 0.030479999999999997 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident8">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Motor arm assembly -001-1</Uid>
+<Uid>Motor arm body - 002-2</Uid>
+</InstancePath>
+<Position>-1.8103121140117251e-05 0.011651856688842999 0.0019050000000000109</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Main fork assembly v2-1</Uid>
+<Uid>9414T3_Set Screw Shaft Collar-3</Uid>
+</InstancePath>
+<Position>0 0 -0.0031749999999999973</Position>
+<Axis>0 0 -0.99999999999999978</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric5">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Main fork assembly v2-1</Uid>
+<Uid>Main fork assembly -001-1</Uid>
+<Uid>Main fork spherical receiver -004-1</Uid>
+</InstancePath>
+<Position>0.040625051574961012 0.027446205563575077 0.0033019999999999716</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Steel Ball Linkage Case-1</Uid>
+<Uid>27mm standoff M4-1</Uid>
+</InstancePath>
+<Position>0 0.013500000000000012 0</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident10">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Main fork assembly v2-1</Uid>
+<Uid>6mm ID Flanged Ball Bearing 12mm OD, 4mm-2</Uid>
+</InstancePath>
+<Position>0 0.0040000000000000036 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Steel Ball Linkage Case-1</Uid>
+<Uid>2913-0004-0241 housing-1</Uid>
+</InstancePath>
+<Position>0 0.024369999999999975 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric6">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Steel Ball Linkage Case-1</Uid>
+<Uid>2913-0004-0241 housing-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>2913-0004-0241 ball-c-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric8">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>2913-0004-0241 ball-c-1</Uid>
+</InstancePath>
+<Position>0 0 -0.0047550000000000005</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Pin for Top Plate-1</Uid>
+</InstancePath>
+<Position>0 0 0.030000000000000002</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric9">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Platform top-1</Uid>
+<Uid>Top brace-2</Uid>
+</InstancePath>
+<Position>0.030385411956251166 -0.01395640918237967 -0.020429403716728856</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Pin for Top Plate-1</Uid>
+</InstancePath>
+<Position>0 0 0.030000000000000002</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>2913-0004-0241 ball-c-1</Uid>
+</InstancePath>
+<Position>0 -0.0047549999999999537 0.0035250000000000012</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Platform top-1</Uid>
+<Uid>Top brace-2</Uid>
+</InstancePath>
+<Position>0.010469627498838787 -0.022560621920956481 -0.038090500412336914</Position>
+<Axis>-1.0000000000000002 5.1056453209073554e-16 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Distance name="Distance4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Pin for Top Plate-1</Uid>
+</InstancePath>
+<Position>0 0 -0.030000000000000002</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Platform top-1</Uid>
+<Uid>Top brace-2</Uid>
+</InstancePath>
+<Position>0.017174217822993727 -0.0085988785669699752 -0.038090500412336914</Position>
+<Axis>1.0000000000000002 -1.4692525864855973e-15 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric10">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Motor arm assembly -001-3</Uid>
+<Uid>Motor arm body - 002-1</Uid>
+</InstancePath>
+<Position>-1.8103121140117251e-05 -0.036608143311157026 -0.00063500000000002443</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Main fork assembly v2-2</Uid>
+<Uid>Pin_For_Bearings_Fork-1</Uid>
+</InstancePath>
+<Position>0 0.030480000000000007 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric11">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Motor arm assembly -001-4</Uid>
+<Uid>Motor arm body - 002-2</Uid>
+</InstancePath>
+<Position>-1.8103121140110312e-05 -0.036608143311156999 -0.00063500000000002443</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Main fork assembly v2-2</Uid>
+<Uid>Pin_For_Bearings_Fork-2</Uid>
+</InstancePath>
+<Position>0 0.030479999999999993 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident15">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Motor arm assembly -001-3</Uid>
+<Uid>Motor arm body - 002-2</Uid>
+</InstancePath>
+<Position>-1.810312114012419e-05 0.011651856688842999 0.0019050000000000039</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Main fork assembly v2-2</Uid>
+<Uid>9414T3_Set Screw Shaft Collar-3</Uid>
+</InstancePath>
+<Position>0 0 -0.0031749999999999973</Position>
+<Axis>0 1.1102230246251565e-16 -0.99999999999999978</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric12">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Main fork assembly v2-2</Uid>
+<Uid>Main fork assembly -001-1</Uid>
+<Uid>Main fork spherical receiver -004-1</Uid>
+</InstancePath>
+<Position>0.040625051574960991 0.027446205563575021 0.0033020000000000271</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Steel Ball Linkage Case-2</Uid>
+<Uid>27mm standoff M4-1</Uid>
+</InstancePath>
+<Position>0 0.013500000000000012 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident16">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Main fork assembly v2-2</Uid>
+<Uid>6mm ID Flanged Ball Bearing 12mm OD, 4mm-2</Uid>
+</InstancePath>
+<Position>0 0.0039999999999999758 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Steel Ball Linkage Case-2</Uid>
+<Uid>2913-0004-0241 housing-1</Uid>
+</InstancePath>
+<Position>0 0.024370000000000003 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric13">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Steel Ball Linkage Case-2</Uid>
+<Uid>2913-0004-0241 housing-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>2913-0004-0241 ball-c-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric14">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>2913-0004-0241 ball-c-2</Uid>
+</InstancePath>
+<Position>0 0 -0.0047550000000000092</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Pin for Top Plate-2</Uid>
+</InstancePath>
+<Position>0 0 0.030000000000000013</Position>
+<Axis>0 -1.1102230246251565e-16 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric15">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Base_Assembly-1</Uid>
+<Uid>Gearbox-2</Uid>
+<Uid>8mm Rex ball bearing-3</Uid>
+</InstancePath>
+<Position>0 0.031213203435596415 0</Position>
+<Axis>0 -1 -1.1102230246251565e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Motor arm assembly -001-3</Uid>
+<Uid>Motor arm cylinder L - 001-1</Uid>
+</InstancePath>
+<Position>0 0 0.0080009999999999803</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric16">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Base_Assembly-1</Uid>
+<Uid>Gearbox-2</Uid>
+<Uid>8mm Rex ball bearing-1</Uid>
+</InstancePath>
+<Position>0 0.03121320343559645 0</Position>
+<Axis>0 -1 1.1102230246251565e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Motor arm assembly -001-4</Uid>
+<Uid>Motor arm cylinder L - 001-1</Uid>
+</InstancePath>
+<Position>0 0 0.0080009999999999942</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base_Assembly-1</Uid>
+<Uid>Gearbox-2</Uid>
+<Uid>Motor block -001-1</Uid>
+</InstancePath>
+<Position>-0.01982175816555265 -0.018432447397425042 0.041909985602320968</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Motor arm assembly -001-3</Uid>
+<Uid>Motor arm body - 002-2</Uid>
+</InstancePath>
+<Position>-1.810312114012419e-05 0.011651856688842999 0.0019050000000000039</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Distance>
+<Distance name="Distance6">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base_Assembly-1</Uid>
+<Uid>Gearbox-2</Uid>
+<Uid>Motor block -001-1</Uid>
+</InstancePath>
+<Position>-0.01982175816555265 -0.018432447397425042 -0.013970014397679038</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Motor arm assembly -001-4</Uid>
+<Uid>Motor arm body - 002-1</Uid>
+</InstancePath>
+<Position>-1.8103121140103373e-05 0.011651856688843026 -0.00063500000000001056</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric17">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Motor arm assembly -001-5</Uid>
+<Uid>Motor arm body - 002-1</Uid>
+</InstancePath>
+<Position>-1.8103121140131129e-05 -0.036608143311156999 -0.00063499999999999668</Position>
+<Axis>-1.3877787807814457e-16 1.1102230246251565e-16 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Main fork assembly v2-3</Uid>
+<Uid>Pin_For_Bearings_Fork-1</Uid>
+</InstancePath>
+<Position>0 0.030480000000000021 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric18">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Motor arm assembly -001-6</Uid>
+<Uid>Motor arm body - 002-2</Uid>
+</InstancePath>
+<Position>-1.8103121140110312e-05 -0.036608143311157026 -0.00063500000000001056</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Main fork assembly v2-3</Uid>
+<Uid>Pin_For_Bearings_Fork-2</Uid>
+</InstancePath>
+<Position>0 0.030479999999999965 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident17">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Motor arm assembly -001-5</Uid>
+<Uid>Motor arm body - 002-2</Uid>
+</InstancePath>
+<Position>-1.810312114012419e-05 0.011651856688842999 0.0019050000000000039</Position>
+<Axis>-1.3877787807814457e-16 1.1102230246251565e-16 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Main fork assembly v2-3</Uid>
+<Uid>9414T3_Set Screw Shaft Collar-3</Uid>
+</InstancePath>
+<Position>0 0 -0.0031749999999999973</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric19">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Main fork assembly v2-3</Uid>
+<Uid>Main fork assembly -001-1</Uid>
+<Uid>Main fork spherical receiver -004-1</Uid>
+</InstancePath>
+<Position>0.040625051574961005 0.027446205563575049 0.0033020000000000271</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Steel Ball Linkage Case-3</Uid>
+<Uid>27mm standoff M4-1</Uid>
+</InstancePath>
+<Position>0 0.01350000000000004 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident18">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Main fork assembly v2-3</Uid>
+<Uid>6mm ID Flanged Ball Bearing 12mm OD, 4mm-2</Uid>
+</InstancePath>
+<Position>0 0.0039999999999999758 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Steel Ball Linkage Case-3</Uid>
+<Uid>2913-0004-0241 housing-1</Uid>
+</InstancePath>
+<Position>0 0.024369999999999975 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric20">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Steel Ball Linkage Case-3</Uid>
+<Uid>2913-0004-0241 housing-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>2913-0004-0241 ball-c-3</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric21">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>2913-0004-0241 ball-c-3</Uid>
+</InstancePath>
+<Position>0 0 -0.0047549999999999815</Position>
+<Axis>1.1102230246251565e-16 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Pin for Top Plate-3</Uid>
+</InstancePath>
+<Position>0 1.1102230246251565e-16 0.029999999999999999</Position>
+<Axis>2.2204460492503131e-16 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric22">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Base_Assembly-1</Uid>
+<Uid>Gearbox-3</Uid>
+<Uid>8mm Rex ball bearing-3</Uid>
+</InstancePath>
+<Position>0 0.031213203435596443 0</Position>
+<Axis>0 -1 1.1102230246251565e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Motor arm assembly -001-5</Uid>
+<Uid>Motor arm cylinder L - 001-1</Uid>
+</InstancePath>
+<Position>0 0 0.0080010000000000012</Position>
+<Axis>1.3877787807814457e-16 -1.1102230246251565e-16 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric23">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Base_Assembly-1</Uid>
+<Uid>Gearbox-3</Uid>
+<Uid>8mm Rex ball bearing-1</Uid>
+</InstancePath>
+<Position>0 0.031213203435596429 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Motor arm assembly -001-6</Uid>
+<Uid>Motor arm cylinder L - 001-1</Uid>
+</InstancePath>
+<Position>0 0 0.0080009999999999942</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance7">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base_Assembly-1</Uid>
+<Uid>Gearbox-3</Uid>
+<Uid>Motor block -001-1</Uid>
+</InstancePath>
+<Position>-0.01982175816555265 -0.018432447397425042 0.041909985602320989</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Motor arm assembly -001-5</Uid>
+<Uid>Motor arm body - 002-2</Uid>
+</InstancePath>
+<Position>-1.810312114012419e-05 0.011651856688842999 0.0019050000000000039</Position>
+<Axis>-1.3877787807814457e-16 1.1102230246251565e-16 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Distance>
+<Distance name="Distance8">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base_Assembly-1</Uid>
+<Uid>Gearbox-3</Uid>
+<Uid>Motor block -001-1</Uid>
+</InstancePath>
+<Position>-0.019821758165552678 -0.018432447397425045 -0.013970014397679031</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Motor arm assembly -001-6</Uid>
+<Uid>Motor arm body - 002-1</Uid>
+</InstancePath>
+<Position>-1.8103121140110312e-05 0.011651856688843026 -0.0006349999999999828</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric24">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Platform top-1</Uid>
+<Uid>Top brace-1</Uid>
+</InstancePath>
+<Position>0.030385411956251135 -0.013956409182379642 -0.020429403716728856</Position>
+<Axis>-0.99999999999999978 0 1.1102230246251565e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Pin for Top Plate-2</Uid>
+</InstancePath>
+<Position>0 0 0.030000000000000013</Position>
+<Axis>0 -1.1102230246251565e-16 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance9">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Pin for Top Plate-2</Uid>
+</InstancePath>
+<Position>0 0 0.030000000000000013</Position>
+<Axis>0 1.1102230246251565e-16 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Platform top-1</Uid>
+<Uid>Top brace-1</Uid>
+</InstancePath>
+<Position>0.01717421782299372 -0.0085988785669699475 -0.038090500412336914</Position>
+<Axis>0.99999999999999978 -1.4554674971851672e-15 -1.1102230246251565e-16</Axis>
+</ConstraintGeometry>
+</Distance>
+<Distance name="Distance10">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Platform top-1</Uid>
+<Uid>Top brace-1</Uid>
+</InstancePath>
+<Position>0.010469627498838757 -0.022560621920956481 -0.038090500412336914</Position>
+<Axis>-0.99999999999999978 4.9677944279030541e-16 1.1102230246251565e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>2913-0004-0241 ball-c-2</Uid>
+</InstancePath>
+<Position>0 -0.0047549999999999815 -0.0035250000000000004</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric25">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Platform top-1</Uid>
+<Uid>Top brace-3</Uid>
+</InstancePath>
+<Position>0.030385411956251177 -0.01395640918237967 -0.020429403716728856</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Pin for Top Plate-3</Uid>
+</InstancePath>
+<Position>0 1.1102230246251565e-16 0.029999999999999999</Position>
+<Axis>2.2204460492503131e-16 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance11">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Platform top-1</Uid>
+<Uid>Top brace-3</Uid>
+</InstancePath>
+<Position>0.01717421782299372 -0.0085988785669699475 -0.038090500412336914</Position>
+<Axis>1.0000000000000002 -1.4553259333416541e-15 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Pin for Top Plate-3</Uid>
+</InstancePath>
+<Position>0 0 -0.029999999999999985</Position>
+<Axis>2.2204460492503131e-16 0 -1</Axis>
+</ConstraintGeometry>
+</Distance>
+<Distance name="Distance12">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Platform top-1</Uid>
+<Uid>Top brace-3</Uid>
+</InstancePath>
+<Position>0.010469627498838813 -0.022560621920956453 -0.038090500412336914</Position>
+<Axis>-1.0000000000000002 4.9663787894356113e-16 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>2913-0004-0241 ball-c-3</Uid>
+</InstancePath>
+<Position>0 -0.0047550000000000092 0.0035250000000000281</Position>
+<Axis>1.1102230246251565e-16 0 1</Axis>
+</ConstraintGeometry>
+</Distance>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+<Assembly name="Steel Ball Linkage Case" uid="Steel Ball Linkage Case" version="122">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Steel Ball Linkage Case.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Motor arm assembly -001" uid="Motor arm assembly -001" version="153">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Motor arm assembly -001.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Main fork assembly v2" uid="Main fork assembly v2" version="192">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Main fork assembly v2.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Main fork assembly -001" uid="Main fork assembly -001" version="274">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Main fork assembly -001.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Platform top" uid="Platform top" version="30187">
+<ModelUnits mass="kilogram" length="inch"/>
+<AssemblyFile name="Platform top.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Base_Assembly" uid="Base_Assembly" version="198">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Base_Assembly.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Gearbox" uid="Gearbox" version="3553">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Gearbox.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Rex-to-servo coupler" uid="Rex-to-servo coupler" version="104">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Rex-to-servo coupler.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="4001-0025-4008 assembly.STEP" uid="4001-0025-4008 assembly.STEP" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="4001-0025-4008 assembly.STEP.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Rex 120mm shaft 8mm" uid="Rex 120mm shaft 8mm" version="109">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Rex 120mm shaft 8mm.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="2106-4008-1200 assembly.STEP" uid="2106-4008-1200 assembly.STEP" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="2106-4008-1200 assembly.STEP.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Bevel gear 8mm Rex" uid="Bevel gear 8mm Rex" version="110">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Bevel gear 8mm Rex.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="2317-4008-0024 assembly.STEP" uid="2317-4008-0024 assembly.STEP" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="2317-4008-0024 assembly.STEP.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Rex 64mm shaft 8mm" uid="Rex 64mm shaft 8mm" version="106">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Rex 64mm shaft 8mm.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="2106-4008-0640 assembly.STEP" uid="2106-4008-0640 assembly.STEP" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="2106-4008-0640 assembly.STEP.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+</Assemblies>
+<Parts>
+<Part name="2106 Series 8mm REX e-clip.STEP" uid="2106 Series 8mm REX e-clip.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="2106 Series 8mm REX e-clip.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>3.9766094089199009e-05</Mass>
+<CenterOfMass>0 0 -0.0011920991091783565</CenterOfMass>
+<Inertia>9.5489516755475616e-10 3.5018546404669458e-10 6.0795726785871806e-10 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="2106 Series 8mm REX e-clip.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="2106 Series 8mm REX e-clip_2.STEP" uid="2106 Series 8mm REX e-clip_2.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="2106 Series 8mm REX e-clip_2.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>3.9766094089199016e-05</Mass>
+<CenterOfMass>0 0 -0.0011920991091783565</CenterOfMass>
+<Inertia>9.5489516755475616e-10 3.5018546404669453e-10 6.0795726785871816e-10 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="2106 Series 8mm REX e-clip_2.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="2106-4008-0640.STEP" uid="2106-4008-0640.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="2106-4008-0640.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0024176660781684489</Mass>
+<CenterOfMass>-2.0629236213174996e-07 0.032133632032021263 5.1418241339467543e-08</CenterOfMass>
+<Inertia>7.42349383168208e-07 1.7860363575834162e-08 7.4234781808892702e-07 -4.2558443526172123e-13 1.9037581498177239e-12 -2.6660601546604903e-13</Inertia>
+</MassProperties>
+<GeometryFile name="2106-4008-0640.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="2106-4008-1200.STEP" uid="2106-4008-1200.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="2106-4008-1200.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0047930266470395805</Mass>
+<CenterOfMass>-1.0100962831866595e-07 0.060134530701282503 2.4066104409912332e-08</CenterOfMass>
+<Inertia>5.280219968172806e-06 3.4016494914988128e-08 5.2802159879634885e-06 -1.1813456075503195e-12 4.0429901320270184e-12 -6.5724041364174297e-13</Inertia>
+</MassProperties>
+<GeometryFile name="2106-4008-1200.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="2317-4008-0024_3.STEP" uid="2317-4008-0024_3.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="2317-4008-0024_3.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0019119133654733114</Mass>
+<CenterOfMass>0.01365669543774419 -0.0001625908341183095 9.4021903009757965e-05</CenterOfMass>
+<Inertia>7.6180562065561156e-08 6.5690396297276915e-08 6.6653826748825274e-08 8.2973085233132496e-10 5.0483138432741693e-10 -8.7252789924298264e-10</Inertia>
+</MassProperties>
+<GeometryFile name="2317-4008-0024_3.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="27mm standoff M4" uid="27mm standoff M4*:*Default" version="105">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="27mm standoff M4.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00053528378001899688</Mass>
+<CenterOfMass>-1.6575709139523979e-07 0 1.7776389560588126e-10</CenterOfMass>
+<Inertia>3.0482696428706236e-08 2.9784099362853416e-09 3.0483998415927207e-08 -1.8653650390368803e-12 1.8691360772396879e-15 -2.6760371499546832e-15</Inertia>
+</MassProperties>
+<GeometryFile name="27mm standoff M4_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="2800-0004-0010_90128A207.STEP" uid="2800-0004-0010_90128A207.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="2800-0004-0010_90128A207.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00023221592688694423</Mass>
+<CenterOfMass>-9.2036476862043777e-07 7.340464282302811e-07 -0.0089811298851944794</CenterOfMass>
+<Inertia>4.1559776351388157e-09 4.1563732141858555e-09 1.0507393509195484e-09 9.5366562197879108e-13 1.4834741725908766e-12 -4.9130392439017452e-14</Inertia>
+</MassProperties>
+<GeometryFile name="2800-0004-0010_90128A207.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="2806-0005-0004_91390A117_3.STEP" uid="2806-0005-0004_91390A117_3.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="2806-0005-0004_91390A117_3.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>4.6714281059977491e-05</Mass>
+<CenterOfMass>-7.860654246413836e-06 -1.015852013686527e-05 -0.00042127252513069082</CenterOfMass>
+<Inertia>1.1514428191360181e-10 1.1509117129844948e-10 1.3244525291426041e-10 7.0923528551786757e-13 -2.3017131858776175e-13 -1.0529919941230813e-13</Inertia>
+</MassProperties>
+<GeometryFile name="2806-0005-0004_91390A117_3.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="2913-0004-0241 ball-c" uid="2913-0004-0241 ball-c*:*Default" version="105">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="2913-0004-0241 ball-c.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00031539792681260228</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>2.8633548893133261e-09 2.8637267227625565e-09 3.7309800628383666e-09 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="2913-0004-0241 ball-c_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="2913-0004-0241 housing" uid="2913-0004-0241 housing*:*Default" version="105">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="2913-0004-0241 housing.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00098860076050517735</Mass>
+<CenterOfMass>-3.3470699533996156e-07 0.012183571165292919 1.3915915734790343e-07</CenterOfMass>
+<Inertia>7.5493617336295348e-08 1.1601948459239243e-08 7.9761716429023973e-08 4.7489492083944785e-13 -2.2958535125399661e-14 1.4188359454503494e-12</Inertia>
+</MassProperties>
+<GeometryFile name="2913-0004-0241 housing_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="4001-0025-4008.STEP" uid="4001-0025-4008.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="4001-0025-4008.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0018612986484730421</Mass>
+<CenterOfMass>-0.00048655541204060683 -0.0005149826445743031 0.026536802444522504</CenterOfMass>
+<Inertia>7.8785459202097109e-08 6.4676219321985046e-08 8.4357239510878551e-08 -3.2165412569877783e-09 4.1568434749386875e-09 4.4403882034407132e-09</Inertia>
+</MassProperties>
+<GeometryFile name="4001-0025-4008.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="57155K207_Stainless Steel Ball Bearing" uid="57155K207_Stainless Steel Ball Bearing*:*57155K207" version="521">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="57155K207_Stainless Steel Ball Bearing.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00018284033583273538</Mass>
+<CenterOfMass>0 0 -0.00017440053170964792</CenterOfMass>
+<Inertia>1.627871294904977e-09 1.6278712949049763e-09 2.765001372369901e-09 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="57155K207_Stainless Steel Ball Bearing_57155K207_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Diffuse r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Specular r="0.22588235294117645" g="0.22588235294117645" b="0.22588235294117645" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="6mm ID Flanged Ball Bearing 12mm OD, 4mm" uid="6mm ID Flanged Ball Bearing 12mm OD, 4mm*:*Default" version="107">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="6mm ID Flanged Ball Bearing 12mm OD, 4mm.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00033235144903323165</Mass>
+<CenterOfMass>5.0588582221514574e-06 0.0021035142467729201 -1.8412738122359856e-06</CenterOfMass>
+<Inertia>4.372017106560036e-09 7.8950938340072337e-09 4.3654648213999398e-09 -6.3345545337864951e-14 -2.7490100306022954e-12 1.7404045543889609e-13</Inertia>
+</MassProperties>
+<GeometryFile name="6mm ID Flanged Ball Bearing 12mm OD- 4mm_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="8982K112_Multipurpose 6061 Aluminum 90 Degree Angle 6.93 corner" uid="8982K112_Multipurpose 6061 Aluminum 90 Degree Angle 6.93 corner*:*8982K112" version="764">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="8982K112_Multipurpose 6061 Aluminum 90 Degree Angle 6.93 corner.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.066749689025450046</Mass>
+<CenterOfMass>0.0010860198218071019 -0.001032388757474253 -1.0097840117522763e-09</CenterOfMass>
+<Inertia>0.00066787214910833117 0.00066785506101058902 1.7150723957091504e-06 -1.7926745732166294e-12 -5.4890774942566697e-14 -4.7015508246692164e-07</Inertia>
+</MassProperties>
+<GeometryFile name="8982K112_Multipurpose 6061 Aluminum 90 Degree Angle 6.93 corner_8982K112_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="8982K112_Multipurpose 6061 Aluminum 90 Degree Angle 8.15" uid="8982K112_Multipurpose 6061 Aluminum 90 Degree Angle 8.15*:*8982K112" version="915">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="8982K112_Multipurpose 6061 Aluminum 90 Degree Angle 8.15.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.079161519330960065</Mass>
+<CenterOfMass>0.0010338917248918266 -0.0011237295931523041 0.016509935221642961</CenterOfMass>
+<Inertia>0.0011210748303835886 0.0011210948660643192 2.0167507359210086e-06 8.370525782247569e-12 -4.1016587992230854e-11 -5.4060011349223133e-07</Inertia>
+</MassProperties>
+<GeometryFile name="8982K112_Multipurpose 6061 Aluminum 90 Degree Angle 8.15_8982K112_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="8mm Rex ball bearing" uid="8mm Rex ball bearing*:*Default" version="115">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="8mm Rex ball bearing.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00052400495967999401</Mass>
+<CenterOfMass>7.1041857997619184e-06 0.0025809041085672123 -2.5850953412682756e-06</CenterOfMass>
+<Inertia>9.3330920571646335e-09 1.6704753318363094e-08 9.3148108498155845e-09 -1.0947520327121024e-13 -7.6693008722652526e-12 3.0111884471301653e-13</Inertia>
+</MassProperties>
+<GeometryFile name="8mm Rex ball bearing_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="9414T3_Set Screw Shaft Collar" uid="9414T3_Set Screw Shaft Collar*:*9414T3" version="119">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="9414T3_Set Screw Shaft Collar.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00038800148999712145</Mass>
+<CenterOfMass>7.0902314958653024e-09 -7.8716182853456765e-05 1.7262305466920613e-08</CenterOfMass>
+<Inertia>3.7740492469358364e-09 3.8484520860847171e-09 4.9488392801797775e-09 -1.8617581915033585e-14 -7.5277073480474303e-15 -8.3855608388115719e-15</Inertia>
+</MassProperties>
+<GeometryFile name="9414T3_Set Screw Shaft Collar_9414T3_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Bottom plate -004" uid="Bottom plate -004*:*Default" version="624">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Bottom plate -004.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.83319777074651802</Mass>
+<CenterOfMass>-0.13367866952235219 -0.65199656470107414 0.0012699999999999999</CenterOfMass>
+<Inertia>0.012563002045256066 0.012563187065098824 0.025122605471196387 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Bottom plate -004_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Bottom plate 2-005" uid="Bottom plate 2-005*:*Default" version="406">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Bottom plate 2-005.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.20944050376075848</Mass>
+<CenterOfMass>-0.13262250339392553 -0.64545282597523779 0.0012699999999999996</CenterOfMass>
+<Inertia>0.0023530055644297651 0.0023530055644297248 0.0047051103112901154 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Bottom plate 2-005_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Main fork -001" uid="Main fork -001*:*Default" version="163">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Main fork -001.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.013544492956573359</Mass>
+<CenterOfMass>0.040625051574960921 0.031070401738599478 0.00063500000000000026</CenterOfMass>
+<Inertia>1.0269468261233917e-05 3.9272585918415341e-05 4.9527490237856151e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Main fork -001_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Main fork cylinder -002" uid="Main fork cylinder -002*:*Default" version="110">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Main fork cylinder -002.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0011623636135915858</Mass>
+<CenterOfMass>0 0 0.0033020000000000011</CenterOfMass>
+<Inertia>2.859287869527334e-08 2.859287869527334e-08 2.3389790454103395e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Main fork cylinder -002_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Main fork pin -003" uid="Main fork pin -003*:*Default" version="198">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Main fork pin -003.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0028881335532008534</Mass>
+<CenterOfMass>0.004624350323546909 0.0039453808648384379 0.0033019999999999998</CenterOfMass>
+<Inertia>1.2658077615351437e-07 1.2431967458123377e-07 1.482905925534335e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Main fork pin -003_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Main fork spherical receiver -004" uid="Main fork spherical receiver -004*:*Default" version="153">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Main fork spherical receiver -004.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.014662486985582196</Mass>
+<CenterOfMass>0.040625051574960963 0.041531654852278638 0.0032937222079047184</CenterOfMass>
+<Inertia>1.1936410536585171e-06 2.5552654784652543e-06 3.3021312596703056e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Main fork spherical receiver -004_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Motor arm body - 002" uid="Motor arm body - 002*:*Default" version="177">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Motor arm body - 002.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0040342765387617937</Mass>
+<CenterOfMass>1.7950519143431862e-05 -0.011527455263179463 0.00063499999999999982</CenterOfMass>
+<Inertia>1.5392162013836323e-06 2.2674173350332261e-07 1.761620011800709e-06 0 0 2.0017519376555071e-09</Inertia>
+</MassProperties>
+<GeometryFile name="Motor arm body - 002_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Motor arm cylinder L - 001" uid="Motor arm cylinder L - 001*:*Default" version="129">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Motor arm cylinder L - 001.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0051385176664716856</Mass>
+<CenterOfMass>0 0 0.0026670000000000001</CenterOfMass>
+<Inertia>3.7158880138622945e-07 3.7158880138622934e-07 6.4571172067605307e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Motor arm cylinder L - 001_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Motor arm cylinder S - 002" uid="Motor arm cylinder S - 002*:*Default" version="117">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Motor arm cylinder S - 002.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.003914697845006242</Mass>
+<CenterOfMass>0 0 0.0026670000000000001</CenterOfMass>
+<Inertia>1.7117282123749801e-07 1.7117282123749801e-07 2.6809281250147977e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Motor arm cylinder S - 002_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Motor block -001" uid="Motor block -001*:*Default" version="330">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Motor block -001.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.10290587617266772</Mass>
+<CenterOfMass>0.019422391342160387 0.023304172693639134 0.013970089575006584</CenterOfMass>
+<Inertia>0.00010044089103610754 0.0001224985775247591 0.00013475760169306381 1.3208718668846663e-10 -1.9589323846061977e-10 -6.0686303840150106e-07</Inertia>
+</MassProperties>
+<GeometryFile name="Motor block -001_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Pin for Top Plate" uid="Pin for Top Plate*:*Default" version="112">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Pin for Top Plate.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00079215258760266603</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>2.3847803159314981e-07 2.3847803159314981e-07 1.6645106247001016e-09 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Pin for Top Plate_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Pin_For_Bearings_Fork" uid="Pin_For_Bearings_Fork*:*Default" version="144">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Pin_For_Bearings_Fork.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00042626665337581137</Mass>
+<CenterOfMass>0 0.029210000000000003 0</CenterOfMass>
+<Inertia>1.2148116973687894e-07 4.9501834936548878e-10 1.2148116973687894e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Pin_For_Bearings_Fork_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Platform" uid="Platform*:*Default" version="317">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Platform.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>0 0 0 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Platform_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Spacers" uid="Spacers*:*Default" version="110">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Spacers.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>9.3651247079984715e-05</Mass>
+<CenterOfMass>0 0 0.0017780000000000001</CenterOfMass>
+<Inertia>4.1296466984543294e-10 4.1296466984543294e-10 6.2855721370819767e-10 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Spacers_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Top brace s" uid="Top brace s*:*Default" version="368">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Top brace s.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.019408225892248988</Mass>
+<CenterOfMass>0.00014217242741404102 0.0087446567673525339 -0.026359981019666152</CenterOfMass>
+<Inertia>1.3525343620256029e-06 1.1283989860677127e-05 9.9717302200367253e-06 -6.343755455220151e-09 2.1605658119083278e-11 2.5418237987663618e-11</Inertia>
+</MassProperties>
+<GeometryFile name="Top brace s_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Top brace" uid="Top brace*:*Default" version="328">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Top brace.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.18515524581228832</Mass>
+<CenterOfMass>9.4583682283407383e-05 0.0071950356844945025 -0.0025495024082767461</CenterOfMass>
+<Inertia>0.00021525735590080823 0.00033553029772309385 0.00013402969491811613 -1.0315241949080559e-05 -3.1292131588208145e-07 -1.0864148873306815e-07</Inertia>
+</MassProperties>
+<GeometryFile name="Top brace_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Top plate plexi" uid="Top plate plexi*:*Default" version="339">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Top plate plexi.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.7230865262478623</Mass>
+<CenterOfMass>1.4078820118273707e-05 0.0012700000000000001 0.0002128974166772986</CenterOfMass>
+<Inertia>0.040791857243747121 0.081576919935506684 0.040791857243747023 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Top plate plexi_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
